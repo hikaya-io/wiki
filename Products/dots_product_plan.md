@@ -5,9 +5,9 @@
 | **Target release**  | v0.1                   |
 | ------------------- | ---------------------- |
 | **Title**           | Dots                   |
-| **Last Updated**    | 24-May-2019            |
+| **Last Updated**    | 24-Sep-2019            |
 | **Document status** | Draft                  |
-| **Document owner**  | Andrew Pham# **Goals** |
+| **Document owner**  |  **Goals** |
 
 We would like to develop a set of analytic tools that humanitarian organizations can use to gain deeper insight into their data for reflection and learning. By researching existing enterprise-grade open source tools, our aim to select, adapt, and white label tools for use with humanitarian organizations.
 

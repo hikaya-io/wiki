@@ -7,7 +7,7 @@
 | **Title**           | Activity                |
 | **Last Updated**    | 28-Feb-2020             |
 | **Document status** | Draft                   |
-| **Document owner**  | Andrew Pham# **Goals** |
+| **Document owner**  |  **Goals** |
 
 Provide a free, hosted version of Activity that allows humanitarian organizations their own workspace to manage their projects and indicators while at the same time enabling them to design standard data collection templates to capture field data. Once data is collected, summary data can be used to report against related indicators and pre-defined reports can be used for monitoring progress.
 

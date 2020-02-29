@@ -6,8 +6,6 @@ _The tools we use for customer support._
 
 **What:** For users support (embedded in Hikaya applications) and inquiries from our Hikaya website
 
-**Request access:** contact [info@hikaya.io](mailto:info@hikaya.io)
-
 # **Handling bugs** 🐛
 
 _Our workflow & process to handle bugs._

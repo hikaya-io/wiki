@@ -3,18 +3,16 @@
 <p align="center">
   <img src="https://hikaya.io/assets/images/hikaya_logo.png" height="45" />
 </p>
+<br/>
 
 # Getting Started 🏡
 Welcome to our Company Wiki! Here you can find out more about how we work.
 
 # How we work 📚
 
-[Who are we](./Admin/team_bios.md)
+[Who are we](./Team/who_are_we.md)
 
-[How we work](./Admin/how_we_work.md)
-
-[Tools we use](./Admin/tools_we_use.md)
-
+[How we work](./Team/how_we_work.md)
 
 # Processes ⚙️
 
@@ -33,4 +31,3 @@ Welcome to our Company Wiki! Here you can find out more about how we work.
 [Dots Product Plan](./Products/dots_product_plan.md)
 
 [Circles Product Plan](./Products/circles_product_plan.md)
-# wiki
