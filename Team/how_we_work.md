@@ -15,4 +15,4 @@
     - Promote data literacy in the products we design
     - Build on open standards to enable collaboration and contribution
 
-    []](assets/agile.jpg)
+![](/assets/agile.jpg?raw=true)
