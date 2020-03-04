@@ -22,5 +22,5 @@ _Our workflow & process to handle bugs._
 
 _Our workflow & process to handle user feature requests._
 
-![](/assets/User_support_flow.png?raw=true)
+![](/assets/user_support_flow.png?raw=true)
 

@@ -16,3 +16,4 @@
     - Build on open standards to enable collaboration and contribution
 
 ![](/assets/agile.jpg?raw=true)
+Source​: [Henrik Knilberg](https://blog.crisp.se/2016/01/25/henrikkniberg/making-sense-of-mvp)
