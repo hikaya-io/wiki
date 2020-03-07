@@ -26,6 +26,8 @@ Welcome to our Company Wiki! Here you can find out more about how we work.
 
 # Roadmaps 🗺️
 
+[How our products fit together](./products/product_flow.md)
+
 [Activity Product Plan](./products/activity_product_plan.md)
 
 [Dots Product Plan](./products/dots_product_plan.md)
