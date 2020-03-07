@@ -1,5 +1,5 @@
 
-# Primary palette:
+# Primary palette
 
 |  | Color | Hex | Background | Hex |
 |--|--|--|--|--|
