@@ -20,6 +20,7 @@
 * [Jupyter](engineering/jupyter.md)
 * [R Markdown](engineering/r-markdown.md)
 * [Technology Radar](engineering/technology-radar.md)
+* [Supertset](engineering/supertset.md)
 
 ## Processes
 
