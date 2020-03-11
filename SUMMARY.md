@@ -32,11 +32,11 @@
 ## Products
 
 * [Activity Code Base](products/activity-code-base.md)
-* Activity Product Plan
-* Circles Product Plan
-* Dots Product Plan
-* Dots Use Cases
-* Product Flow
+* [Activity Product Plan](products/activity-product-plan.md)
+* [Circles Product Plan](products/circles-product-plan.md)
+* [Dots Product Plan](products/dots-product-plan.md)
+* [Dots Use Cases](products/dots-use-cases.md)
+* [Product Flow](products/product-flow.md)
 
 ## Team
 
