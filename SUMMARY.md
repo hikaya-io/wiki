@@ -41,5 +41,5 @@
 ## Team
 
 * [How we work](team/how-we-work.md)
-* Who we are
+* [Who we are](team/who-are-we.md)
 
