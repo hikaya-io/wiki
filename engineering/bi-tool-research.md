@@ -4,6 +4,9 @@
 
 ![https://storage.googleapis.com/slite-api-files-production/files/f0272f37-72fc-4126-8222-90f10953f650/null](https://storage.googleapis.com/slite-api-files-production/files/f0272f37-72fc-4126-8222-90f10953f650/null)
 
+## Example
+![](/assets/superset.png)
+
 Superset is a modern, enterprise-ready business intelligence web application
 
 Its main goal is to make it easy to slice, dice and visualize data. Its developer claims that Superset can perform analytics at the speed of thought, why don’t you check it out yourself?
@@ -260,10 +263,6 @@ col and row which are for the position of the chart in the dashboard.
 - After you have finished your edits, you can then save the dashboard on the Drop-down list “Actions” and then click on “Save”.
 
 ![https://storage.googleapis.com/slite-api-files-production/files/a234f87f-bd56-451b-8058-22545a6b8cfb/null](https://storage.googleapis.com/slite-api-files-production/files/a234f87f-bd56-451b-8058-22545a6b8cfb/null)
-
-# Example of Superset Dashboard :
-
-![https://storage.googleapis.com/slite-api-files-production/files/3bd3f449-b726-43d8-b501-2572119bb408/null](https://storage.googleapis.com/slite-api-files-production/files/3bd3f449-b726-43d8-b501-2572119bb408/null)
 
 # Tableau 
 
