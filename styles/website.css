@@ -85,7 +85,7 @@ a:hover {
 
 /* footer styling */
 .localized-footer {
-    color: #742dc8;
+    color: #742DC8;
     font-family: "Lato";
 }
 
@@ -126,7 +126,7 @@ img[alt$="-fullwidth"]{
 /* search results styling */
 #book-search-results .search-results .has-results .search-results-item a {
     font-family: "Lato", sans-serif;
-    color: #742dc8;
+    color: #25CED1;
     text-decoration: none;
     background: 0 0;
     font-size: 24px;
@@ -134,7 +134,7 @@ img[alt$="-fullwidth"]{
 
 #book-search-results .search-results .has-results .search-results-item a:hover {
     font-family: "Lato", sans-serif;
-    color: #742dc8;
+    color: #25CED1;
     text-decoration: none;
     background: 0 0;
     font-size: 24px;
@@ -169,14 +169,14 @@ img[alt$="-fullwidth"]{
 }
 
 .markdown-section h2 {
-    color: #742DC8;
+    color: #25CED1;
     font-family: "Lato", sans-serif;
     font-weight: 300;
     font-size: 36px;
 }
 
 .markdown-section h3 {
-    color: #742DC8;
+    color: #25CED1;
     font-family: "Lato", sans-serif;
     font-weight: 300;
     font-size: 24px;
