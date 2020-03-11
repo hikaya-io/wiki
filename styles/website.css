@@ -1,0 +1,264 @@
+/* CSS for website */
+/* --grey: #737581; --purple: #742DC8; #E5D8F5; ; --cyan: #25CED1; --cyan-background: #EFFBFB; --car_green: #07D7A7*/ 
+
+
+/* Header */
+[role="navigation"] > ul.summary > li:first-child > a{
+    text-indent: -9999em;
+    background-image: none;
+    background-repeat: no-repeat; 
+    background-size: 129px;
+    background-position: 9px -12px;
+}
+
+.book-header .btn:readonly {
+    display: block;
+    height: 50px;
+    padding: 0 15px;
+    border-bottom: none;
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 50px;
+    -webkit-box-shadow: none!important;
+    box-shadow: none!important;
+    position: relative;
+    font-size: 14px;
+}
+
+@font-face {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    src:url(https://fonts.googleapis.com/css?family=Lato);
+}
+
+
+/* side panel styling */
+.book-summary ul.summary li.active>a {
+    color: #25CED1;
+    background: 0 0;
+    text-decoration: none;
+    background-color: #EFFBFB;
+}
+
+.book-summary ul.summary li a, .book-summary ul.summary li span {
+    display: block;
+    padding: 10px 15px;
+    border-bottom: none;
+    color: #737581;
+    background: 0 0;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+}
+
+a {
+    color: #25CED1;
+    font-size: 18px;
+}
+
+a:link {
+    color: #25CED1;
+    text-decoration: none;
+}
+
+a:custom-link {
+    url(https://www.hikaya.io)
+}
+
+a:visited {
+    text-decoration: none;
+    color: #25CED1;
+}
+
+a.list-group-item, button.list-group-item {
+    color: #25CED1;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #25CED1;
+    text-decoration: none;
+    background-color: #EFFBFB;
+}
+
+
+/* footer styling */
+.localized-footer {
+    color: #742dc8;
+    font-family: "Lato";
+}
+
+
+/* removes 'published with Gitbook' from footer */
+.gitbook-link {
+    display: none !important;
+}
+
+@media (max-width: 1240px)
+.navigation.navigation-unique {
+    max-width: 100%;
+    width: 100%;
+    background-color: none;
+}
+
+.navigation.navigation-prev {
+    left: 0;
+    background-color: none; !important;
+}
+
+.navigation.navigation-next {
+    right: 0;
+    background-color: none; !important;
+}
+
+tr td li blockquote {
+    color: #737581;
+    font-family: "Lato", sans-serif;
+}
+
+img[alt$="-fullwidth"]{
+    width:  100%;
+    display: block;
+}
+
+
+/* search results styling */
+#book-search-results .search-results .has-results .search-results-item a {
+    font-family: "Lato", sans-serif;
+    color: #742dc8;
+    text-decoration: none;
+    background: 0 0;
+    font-size: 24px;
+}
+
+#book-search-results .search-results .has-results .search-results-item a:hover {
+    font-family: "Lato", sans-serif;
+    color: #742dc8;
+    text-decoration: none;
+    background: 0 0;
+    font-size: 24px;
+}
+
+#book-search-results .search-results .has-results .search-results-item>:last-child {
+    color: #737581;
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    margin-bottom: 0!important;
+}
+
+#book-search-results .search-results .search-results-title {
+    color: #737581;
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 35px;
+    opacity: .6;
+}
+
+/* headers and body */
+
+.markdown-section h1 {
+    color: #E1E1E1;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+}
+
+.markdown-section h2 {
+    color: #742DC8;
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-size: 36px;
+}
+
+.markdown-section h3 {
+    color: #742DC8;
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+}
+
+.markdown-section h4 {
+    color: #737581;
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.markdown-section h5 {
+    color: #737581;
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.markdown-section h6 {
+    color: #e1e1e1;
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.markdown-section body {
+    color: #737581;
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.markdown-section p {
+    color: #737581;
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+custom-link {
+    color: #742dc8;
+}
+
+li {
+    color: #737581;
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+li.header {
+    color: #737581;
+}
+
+li.chapter.expanded {
+    color: #737581;
+}
+
+li.chapter.active.expanded {
+    color: #737581;
+}
+
+li.chapter.done {
+    color: #737581;
+}
+
+li.active>a {
+    color: #737581;
+}
+
+.markdown-section table, th, td {
+      border-color: transparent;
+      background-color: transparent;
+}
+
+.markdown-section th {
+    text-align: left;
+    color: #737581;
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    border-color: transparent;
+    background-color: transparent;
+}
