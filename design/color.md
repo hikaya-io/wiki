@@ -5,7 +5,7 @@
 |--|--|--|--|--|
 | ![#25CED1](https://placehold.it/20/25CED1/000000?text=+) | Cyan | `#25CED1` | ![#EFFBFB](https://placehold.it/20/EFFBFB/000000?text=+) | `#EFFBFB`|
 | ![#FE5F55](https://placehold.it/20/FE5F55/000000?text=+) | Orange | `#FE5F55` | ![#FEE1E0](https://placehold.it/20/FEE1E0/000000?text=+)  | `#FEE1E0` |
-| ![#737581](https://placehold.it/20/737581/000000?text=+) | Gray | `737581` | ![#FAFAFA](https://placehold.it/20/FAFAFA/000000?text=+) | `#FAFAFA` |
+| ![#737581](https://placehold.it/20/737581/000000?text=+) | Gray | `#737581` | ![#FAFAFA](https://placehold.it/20/FAFAFA/000000?text=+) | `#FAFAFA` |
 
 Cyan background 2 `#D3F5F5`
 
