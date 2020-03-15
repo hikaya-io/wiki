@@ -15,12 +15,12 @@ Here we present the roadmap for our applications for the next 6-12 months. This 
 
 ## Activity
 
-#### Goals
+### Goals
  * Modernize the frontend by introducing `Vue` and replace `jQuery` implementations.
  * Ability to configure all models in directly in the `Organization Settings`.
  * Introduce an `Indicator Performance Tracking Table` for easy indicator reporting.
 
-#### Fundamentals
+### Fundamentals
 * Ensure load times for large records models are kept to a minimum.
 * Identify ways to make `user` and `organization` creation easier.
 * Continuously monitor our usage analytics to better understand the user journey.
