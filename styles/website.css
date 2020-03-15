@@ -31,6 +31,24 @@
     src:url(https://fonts.googleapis.com/css?family=Lato);
 }
 
+/* style navigation */
+.navigation-next:hover {
+    background-color: transparent;
+    color: #25CED1;
+}
+
+.navigation-prev:hover {
+    background-color: transparent;
+    color: #25CED1;
+}
+
+.fa-angle-right:hover, .fa-angle-right:focus, .fa-angle-right:active {
+    color: #188486;
+}
+
+.fa-angle-left:hover, .fa-angle-left:focus, .fa-angle-left:active {
+    color: #188486;
+}
 
 /* side panel styling */
 .book-summary ul.summary li.active>a {
