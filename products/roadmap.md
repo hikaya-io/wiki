@@ -13,32 +13,32 @@ Here we present the roadmap for our applications for the next 6-12 months. This 
 |🔵|More research required to remove uncertainty|
 |🔴|Blocked|
 
-## Activity
+#### Activity
 
-### Goals
+##### Goals
  * Modernize the frontend by introducing `Vue` and replace `jQuery` implementations.
  * Ability to configure all models in directly in the `Organization Settings`.
  * Introduce an `Indicator Performance Tracking Table` for easy indicator reporting.
 
-### Fundamentals
+##### Fundamentals
 * Ensure load times for large records models are kept to a minimum.
 * Identify ways to make `user` and `organization` creation easier.
 * Continuously monitor our usage analytics to better understand the user journey.
 * Improve developer contributor experience by streamlining documentation.
 
-### Indicators
+##### Indicators
 * Ability to define `Target Periods`.
 * Ability to capture `Disaggregations` when adding results.
 * Add quick action modals for selecting `Objectives`, `Levels`, `Sectors`, and `Disaggregations`.
 
-### Workflow
+##### Workflow
 * Add `Workflow Level 1 Type`.
 * Ability to transition field values from one `Workflow Level 1 Type` to another.
 * Add `checklist` and `checklist item`.
 * Ability to template `checklists`.
 * Ability to use `checklist` in Programs and Projects.
 
-### Form Library
+##### Form Library
 
 * Ability to enroll an `individual` in a training.
 * Ability to register an `individual` in a distribution.
@@ -46,21 +46,21 @@ Here we present the roadmap for our applications for the next 6-12 months. This 
 * Ability to see `case` view for individuals.
 * Add `household` model.
 
-### Components
+##### Components
 
 * Ability to display country polygon on all maps.
 * Ability to select your country and administrative level to display on all maps.
 
-### Reports
+##### Reports
 
 * Clean up and release MVP for `Program Dashboard`.
 * Implement the first release of the `Indicator Performance Tracking Table` for easy reporting.
 
-### Settings
+##### Settings
 
 
 
-#### UX
+##### UX
 
 #### Deployment
 
