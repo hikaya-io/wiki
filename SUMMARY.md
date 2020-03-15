@@ -32,6 +32,7 @@
 
 ## Products
 
+* [Roadmap](products/roadmap.md)
 * [Activity Code Base](products/activity-code-base.md)
 * [Activity Product Plan](products/activity-product-plan.md)
 * [Circles Product Plan](products/circles-product-plan.md)

@@ -176,14 +176,14 @@ img[alt$="-fullwidth"]{
 /* headers and body */
 
 .markdown-section h1 {
-    color: #E1E1E1;
+    color: #737581;
     font-family: "Lato", sans-serif;
-    font-weight: 400;
-    font-size: 36px;
+    font-weight: 300;
+    font-size: 40px;
 }
 
 .markdown-section h2 {
-    color: #25CED1;
+    color: #737581;
     font-family: "Lato", sans-serif;
     font-weight: 300;
     font-size: 36px;
@@ -193,28 +193,28 @@ img[alt$="-fullwidth"]{
     color: #25CED1;
     font-family: "Lato", sans-serif;
     font-weight: 300;
-    font-size: 24px;
+    font-size: 32px;
 }
 
 .markdown-section h4 {
     color: #737581;
     font-family: "Lato", sans-serif;
     font-weight: 300;
-    font-size: 20px;
+    font-size: 28px;
 }
 
 .markdown-section h5 {
     color: #737581;
     font-family: "Lato", sans-serif;
     font-weight: 300;
-    font-size: 18px;
+    font-size: 24px;
 }
 
 .markdown-section h6 {
     color: #e1e1e1;
     font-family: "Lato", sans-serif;
     font-weight: 300;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .markdown-section body {
@@ -239,7 +239,7 @@ li {
     color: #737581;
     font-family: "Lato", sans-serif;
     font-weight: 300;
-    font-size: 18px;
+    font-size: 148px;
 }
 
 li.header {
