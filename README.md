@@ -1,7 +1,7 @@
 <br/>
 <br/>
 <p align="center">
-  <img src="https://hikaya.io/assets/images/hikaya_logo.png" height="45" />
+  <img src="/assets/Hikaya_icon_color.png" height="45" />
 </p>
 <br/>
 
