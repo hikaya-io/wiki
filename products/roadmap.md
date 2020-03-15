@@ -64,15 +64,15 @@ Here we present the roadmap for our applications for the next 6-12 months. This 
 
 #### Deployment
 
-### Documentation
+##### Documentation
 
-### Testing
+##### Testing
 
-### Engineering
+##### Engineering
 
-### Explorations
+##### Explorations
 
-### Login/Sign Up
+##### Login/Sign Up
 
 
 
