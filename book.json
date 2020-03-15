@@ -1,0 +1,99 @@
+{
+    "gitbook": ">=3.2.0",
+    "plugins": [
+        "-collapsible-menu",
+        "-localized-footer",
+        "search",
+        "-links",
+        "expandable-chapters",
+        "youtubex",
+        "-downloadpdf",
+        "advanced-emoji",
+        "-sharing",
+        "-ga",
+        "-3-ba",
+        "-gtm",
+        "richquotes",
+        "-sidebar-ad",
+        "-edit-links",
+        "anchors",
+        "-header",
+        "-meta",
+        "-verifications",
+        "-quizzes",
+        "-quiz",
+        "-exercises",
+        "-page-feedback",
+        "-disqus",
+        "-language-picker",
+        "-recently-updated",
+        "-cookie-consent"
+        ],    
+    "pluginsConfig": {
+           "cookieConsent": {
+            "message": "Accept cookies and our privacy policy"
+           },
+           "disqus": {
+                "shortName": "hikaya"
+           },
+           "layout": {
+                "headerPath" : "layouts/header.html"
+           },
+           "richquotes": {
+                "default": false
+           },
+           "language-picker": {
+                "grid-columns": 3
+           },
+           "links": {
+                "sidebar": {
+                     "Contact Us": "mailto:info@hikaya.io",
+                     "home": "https://hikaya.io"
+                     },
+                    
+             "home": "https://hikaya.io"
+        
+           },
+           "edit-link": {
+                "base": "https://github.com/hikaya-io/wiki",
+                "label": "Suggest Changes to this Page"
+           },
+           "localized-footer" : {
+                "hline": true,
+                "filename": "./FOOTER.md"
+           },
+           "sharing": {
+                "facebook": false,
+                "twitter": false,
+                "google": false,
+                "weibo": false,
+                "instapaper": false,
+                "vk": false,
+                "all": []
+           },
+           "styles": {
+                "website": "styles/website.css"
+           },
+           "downloadpdf": {
+                "base": "https://www.gitbook.com/download/pdf/book/hikaya/team-wiki",
+                "label": "Download",
+                "multilingual": false
+           },
+           "autocover": {
+                "title": "",
+                "author": "",
+                "font": {
+                    "size": null,
+                    "family": "Lato",
+                    "color": "#101F74"
+                },
+                "size": {
+                    "w": 1800,
+                    "h": 2360
+                },
+                "background": {
+                    "color": "#09F"
+                }
+            }
+    }
+}
