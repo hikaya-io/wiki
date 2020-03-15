@@ -14,7 +14,7 @@ Cyan background 2 `#D3F5F5`
 |--|--|--|--|--|
 | ![#2AC27F](https://placehold.it/20/2AC27F/000000?text=+) | Green | `#2AC27F` | ![#D8F3E7](https://placehold.it/20/D8F3E7/000000?text=+) | `#D8F3E7` |
 | ![#F61067](https://placehold.it/20/F61067/000000?text=+) | Pink | `#F61067` |  |  |
-| ![#742DC8](https://placehold.it/20/742DC8/000000?text=+) | Purple | `#742DC8` | ![#E5D8F5](https://placehold.it/20/E5D8F5/000000?text=+) | `#E5D8F5` |
+| ![#742DC8](https://placehold.it/20/742DC8/000000?text=+) | Purple | `#742DC8` | ![#E5D8F5](https://placehold.it/20/E5D8F5/000000?text=+) | `#F2EBFA` |
 | ![#E52C2C](https://placehold.it/20/E52C2C/000000?text=+) | Red | `#E52C2C` | ![#FAD8D8](https://placehold.it/20/FAD8D8/000000?text=+) | `#FAD8D8` |
 | ![#F9C80E](https://placehold.it/20/F9C80E/000000?text=+) | Yellow | `#F9C80E` | ![#FDF5D3](https://placehold.it/20/FDF5D3/000000?text=+) | `#FDF5D3` |
 
