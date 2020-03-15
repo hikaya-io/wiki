@@ -75,7 +75,7 @@
                 "website": "styles/website.css"
            },
            "downloadpdf": {
-                "base": "https://www.gitbook.com/download/pdf/book/hikaya/team-wiki",
+                "base": "https://www.gitbook.com/download/pdf/book/hikaya/wiki",
                 "label": "Download",
                 "multilingual": false
            },
