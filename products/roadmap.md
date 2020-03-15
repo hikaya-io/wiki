@@ -23,7 +23,7 @@ Here we present the roadmap for our applications for the next 6-12 months. This 
 #### Fundamentals
 * Ensure load times for large records models are kept to a minimum.
 * Identify ways to make `user` and `organization` creation easier.
-* Continuously monitor our usage analytics to better ____understand the user journey.
+* Continuously monitor our usage analytics to better understand the user journey.
 * Improve developer contributor experience by streamlining documentation.
 
 ### Indicators
