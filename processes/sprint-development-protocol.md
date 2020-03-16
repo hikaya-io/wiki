@@ -74,8 +74,6 @@ The team tests the new features according to a test plan and updates the documen
 We make a pre-release available on the 'insiders' channel and invite users to help us test the pre-release.
 -->
 
-
-
 #### Triage
 Bugs and features will be assigned a milestone, and within a milestone, they will be assigned a priority. The priority dictates the order in which issues should be addressed. An important bug (something that we think is critical for the milestone) is to be addressed before the other bugs.
 
