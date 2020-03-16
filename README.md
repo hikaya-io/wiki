@@ -34,7 +34,7 @@ Welcome to our Company Wiki! Here you can find out more about what we're working
 
 [Support handbook](./processes/customer-support-handbook.md)
 
-# Products 🗺️
+# Products 🎯
 
 [Activity Product Plan](./products/activity-product-plan.md)
 
