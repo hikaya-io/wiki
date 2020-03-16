@@ -10,7 +10,7 @@ Welcome to our Company Wiki! Here you can find out more about what we're working
 
 # Roadmaps 🗺️
 
-[[How our products fit together](./start/product-flow.md)
+[How our products work together](./start/product-flow.md)
 
 [Activity Roadmap](./start/activity-roadmap.md)
 
