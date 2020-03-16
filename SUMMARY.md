@@ -39,7 +39,7 @@
 * [Sprint Development Protocol](processes/sprint-development-protocol.md)
 * [Testing Protocol](processes/testing-protocol.md)
 
-## Products
+## UX
 
 * [Activity PRD](products/activity-product-plan.md)
 * [Circles PRD](products/circles-product-plan.md)
