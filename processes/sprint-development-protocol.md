@@ -30,20 +30,20 @@ We use the following definitions to track our issues:
 
 #### Bug Report
 > **Current behavior**
-A clear and concise description of what the bug is.
+> A clear and concise description of what the bug is.
 
 > **Expected behavior**
-A clear and concise description of what you expected to happen.
+> A clear and concise description of what you expected to happen.
 
 > **To Reproduce**
-Steps to reproduce the behavior:
+> Steps to reproduce the behavior:
 1. Go to '...'
 2. Click on '....'
 3. Scroll down to '....'
 4. See error
 
 >**Screenshots**
-If applicable, add screenshots to help explain your problem.
+> If applicable, add screenshots to help explain your problem.
 
 #### Feature Request
 
@@ -51,7 +51,7 @@ If applicable, add screenshots to help explain your problem.
 > *A clear and concise description of what the problem is.*
 
 > **Acceptance Criteria**
-A clear and concise description of how to ensure the feature request is met.
+> A clear and concise description of how to ensure the feature request is met.
 
 ```
 GIVEN I am a logged in user
@@ -63,12 +63,12 @@ AND I click on the button.
 THEN I expect this to happen..
 ```
 > **Additional context**
-Add any other context or screenshots about the feature requests.
+> Add any other context or screenshots about the feature requests.
 
 </br>
 
 > **Labels**
-Labels are used to describe the task card including its priority and complexity.
+> Labels are used to describe the task card including its priority and complexity.
 
 |Label|Description|
 |--|--|
@@ -88,7 +88,7 @@ Labels are used to describe the task card including its priority and complexity.
 
 
 > **Story point estimation** 
-Story points are used to estimate the effort needed for each task. We try to avoid using time estimates and a more useful measurement for team capacity is the effort needed and then complexity of a task.
+> Story points are used to estimate the effort needed for each task. We try to avoid using time estimates and a more useful measurement for team capacity is the effort needed and then complexity of a task.
 
 | Story Point | Complexity reference  |
 |--|--|
