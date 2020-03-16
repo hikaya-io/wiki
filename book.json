@@ -27,9 +27,12 @@
         "-disqus",
         "-language-picker",
         "-recently-updated",
-        "-cookie-consent"
+        "-cookie-consent",
+        "custom-favicon"
         ],    
     "pluginsConfig": {
+           "favicon": "path/to/favicon.ico"
+           },
            "cookieConsent": {
             "message": "Accept cookies and our privacy policy"
            },
@@ -49,10 +52,7 @@
                 "sidebar": {
                      "Contact Us": "mailto:info@hikaya.io",
                      "home": "https://hikaya.io"
-                     },
-                    
-             "home": "https://hikaya.io"
-        
+                     }
            },
            "edit-link": {
                 "base": "https://github.com/hikaya-io/wiki",
