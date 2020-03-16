@@ -33,10 +33,10 @@ We use the following definitions to track our issues:
 #### Bug Report
 
 > **Current behavior**<br>
-> A clear and concise description of what the bug is.
+A clear and concise description of what the bug is.
 
 > **Expected behavior**<br>
-> A clear and concise description of what you expected to happen.
+A clear and concise description of what you expected to happen.
 
 > **To Reproduce:**
 ```
@@ -47,16 +47,16 @@ Steps to reproduce the behavior:
 4. See error
 ```
 
->**Screenshots**
-> If applicable, add screenshots to help explain your problem.
+>**Screenshots**<br>
+If applicable, add screenshots to help explain your problem.
 
 #### Feature Request
 
-> **Is your feature request related to a problem? Please describe.**
-> *A clear and concise description of what the problem is.*
+> **Is your feature request related to a problem? Please describe.**<br>
+*A clear and concise description of what the problem is.*
 
-> **Acceptance Criteria**
-> A clear and concise description of how to ensure the feature request is met.
+> **Acceptance Criteria**<br>
+A clear and concise description of how to ensure the feature request is met.
 
 ```
 GIVEN I am a logged in user
@@ -67,8 +67,8 @@ AND I click on the button.
 
 THEN I expect this to happen..
 ```
-> **Additional context**
-> Add any other context or screenshots about the feature requests.
+> **Additional context**<br>
+Add any other context or screenshots about the feature requests.
 
 <br>
 
