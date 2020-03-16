@@ -94,7 +94,7 @@ Each week we have two calls as a team to discuss our priorities and reflect:
 
 > Join calls using `skype` and follow the `#sprint-planning channel` on slack.
 
-## Task Board
+#### Task Board
 - The active milestone is used to track the progress of our tasks across the following stages: `To do`, `In Progress`, `Pull Request`, `Dev Testing`, `Staging`, `Done`.
 - At the beginning of every milestone, we include all items in the `To do` stage and move them over as we go. 
 - At the end of a milestone, any issues in `To do` or `In Progress` need to be moved over to the next sprint (if still relevant) or turned into new issues.
