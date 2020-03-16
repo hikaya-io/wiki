@@ -36,7 +36,7 @@
 * [Customer Support Handbook](processes/customer-support-handbook.md)
 * [Product Template](processes/product-template.md)
 * [Release Management](processes/release-management.md)
-* [Sprint Development Protocol](processes/sprint-development-protocol.md)
+* [Development Process](processes/sprint-development-protocol.md)
 * [Testing Protocol](processes/testing-protocol.md)
 
 ## UX
