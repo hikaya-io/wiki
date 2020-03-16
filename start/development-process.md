@@ -72,7 +72,7 @@ Add any other context or screenshots about the feature requests.
 
 <br>
 
-> **Labels**
+> **Labels**<br>
 > Labels are used to describe the task card including its priority and complexity.
 
 |Label|Description|
@@ -92,7 +92,7 @@ Add any other context or screenshots about the feature requests.
 |`level 4`|Very complex task|
 
 
-> **Story point estimation** 
+> **Story point estimation**<br> 
 > Story points are used to estimate the effort needed for each task. We try to avoid using time estimates and a more useful measurement for team capacity is the effort needed and then complexity of a task.
 
 | Story Point | Complexity reference  |
@@ -112,7 +112,7 @@ Add any other context or screenshots about the feature requests.
 ✅Issue is deployed to `staging` environment and passes user acceptance testing (UAT).<br>
 ✅Manually execute the Smoke Test on all supported platforms.<br>
 ✅Release notes updated.<br>
-✅Deploy to `production`.
+✅Deploy to `production`.<br>
 
 ## Milestones
 
@@ -164,13 +164,14 @@ During the endgame we make a build available on the insiders channel. We will mo
 
 We use 3 main branches in all our repositories :
 
-`Dev` (or `Develop) - All bug fixes, defects, and tasks
-`Feature branches` (i.e. ACT-001) - All feature branches must be named like: ACT-001 (where ACT-001 is the issue number on Jira)
-`Staging` - This is our QA testing environment
-`Master` - Clean code in production environment
+`Dev` (or `Develop) - All bug fixes, defects, and tasks.<br>
+`Feature branches` (i.e. ACT-001) - All feature branches must be named like: ACT-001 (where ACT-001 is the issue number on Jira).<br>
+`Staging` - This is our QA testing environment<br>
+`Master` - Clean code in production environment<br>
 
-- All pull requests should be based off of the Dev branch.
-- All branch names should follow the issue number such as: ACT-001. This should be the Jira or Github issue number.
+> **Note:**
+> * All pull requests should be based off of the Dev branch.
+> * All branch names should follow the issue number such as: ACT-001. This should be the Jira or Github issue number.
 
 ## Commits (Smart Commits)
 
@@ -206,6 +207,13 @@ git commit -m"ACT-001 #comment [Message]"
     - Deployment
     - We will set up a CI/CD process for deployment to all our environments
     - Any developer is allowed to deploy their changes to dev environment. To request access, contact one of the maintainers.
+    
+## Role of Maintainers
+
+- Set priorities for each sprint in coordination with the product and technical leads.
+- Maintain and ensure consistent and proper use of the sprint board.
+- Be a reviewer for many tasks. Clear communication will be done at the beginning of the sprint around which tasks will be reviewed by whom.
+- “Coach” other members as they work on their tasks.
 
 ## Burndown chart 
 
@@ -219,10 +227,3 @@ Source: [<u>Atlassian</u>](https://www.atlassian.com/agile/tutorials/burndown-ch
 - **Story point estimation**: The vertical axis represents the story point estimation.
 - **Remaining values**: The red line represents the total amount of work left in the sprint, according to your team's estimates.
 - **Guideline**: The grey line shows an approximation of where your team should be, assuming linear progress. If the red line is below this line, congratulations - your team's on track to completing all their work by the end of the sprint. This isn't foolproof though; it's just another piece of information to use while monitoring team progress.
-
-## Role of Maintainers
-
-- Set priorities for each sprint in coordination with the product and technical leads.
-- Maintain and ensure consistent and proper use of the sprint board.
-- Be a reviewer for many tasks. Clear communication will be done at the beginning of the sprint around which tasks will be reviewed by whom.
-- “Coach” other members as they work on their tasks.
