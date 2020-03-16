@@ -26,6 +26,7 @@ Here we present the **Activity** roadmap for the next 6-12 months. This includes
  * Introduce API documentation on how to use the `Activity API`.
 
 #### Fundamentals
+* 🌲Enable export to CSV functionality from all major models.
 * Ensure load times for large records models are kept to a minimum.
 * Identify ways to make `user` and `organization` creation easier.
 * 🏃Continuously monitor our usage analytics to better understand the user journey.
@@ -33,7 +34,7 @@ Here we present the **Activity** roadmap for the next 6-12 months. This includes
 
 #### Indicators
 * 🏃Ability to define `Target Periods`.
-* Ability to capture `Disaggregations` when adding results.
+* 🌲Ability to capture `Disaggregations` when adding results.
 * 🔵Add quick action modals for selecting `Objectives`, `Levels`, `Sectors`, and `Disaggregations`.
 
 #### Workflow
@@ -82,8 +83,6 @@ Here we present the **Activity** roadmap for the next 6-12 months. This includes
 * 🌲Integrate `MS OneDrive` and `Google Drive` for easy document linking.
 * Organize and group import packages together
 
-
-
 #### Login/Sign Up
 * 🌲Add social authentication support for `Microsoft` and `Google`.
 * Simplify the user creation process.
@@ -93,18 +92,5 @@ Here we present the **Activity** roadmap for the next 6-12 months. This includes
 * Evaluate the extent that the application should be `de-coupled` between the Frontend and Backend.
 * Explore ways to simplify and removed unused `models` and `fields`.
 * 🚀Explore file storage to allow users to upload their own files.
-
----
-
-## Circles
-
-## Dots
-
-## Grid
-
-## Tables
-
-## Superset
-
-## Airflow
+* 🚀🌲Explore best options for exporting template to import bulk records.
 

@@ -3,10 +3,13 @@
 ## Start
 
 * [Getting Started](README.md)
-* [Product Flow](products/product-flow.md)
-* [Activity Roadmap](products/activity-roadmap.md)
-* [Circles Roadmap](products/circles-roadmap.md)
-* [Dots Roadmap](products/dots-roadmap.md)
+* [Product Flow](start/product-flow.md)
+* [Activity Roadmap](start/activity-roadmap.md)
+* [Circles Roadmap](start/circles-roadmap.md)
+* [Dots Roadmap](start/dots-roadmap.md)
+* [Grid Roadmap](start/grid-roadmap.md)
+* [Tables Roadmap](tables-roadmap.md)
+* [Enterprise Roadmap](enterprise-roadmap.md)
 
 ## Design
 
