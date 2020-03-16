@@ -1,7 +1,6 @@
-# Development Process
-
 _UPDATED: 20200317_
 
+# Development Process
 
 ## Roadmap 
 The team has a 3-6 month high-level product roadmap ([See Activity Roadmap](https://team.hikaya.io/start/activity-roadmap.html)) which defines epics and feature sets to be addressed in this period.
