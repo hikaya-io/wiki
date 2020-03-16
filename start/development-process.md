@@ -2,10 +2,12 @@ _UPDATED: 20200317_
 
 # Development Process
 
-## Roadmap 
+## Roadmap
+
 The team has a 3-6 month high-level product roadmap ([See Activity Roadmap](https://team.hikaya.io/start/activity-roadmap.html)) which defines epics and feature sets to be addressed in this period.
 
 ## Iterations
+
 We will work in monthly **iterations** on the items on the roadmap. At the end of each iteration, we want to have a stable release of **Activity** that can be shipped to our users. The work planned during an iteration is captured in the iteration plan (see Iteration Plans). The feature sets of each iteration are highlighted in the release notes.
 
 > **A typical iteration**
@@ -20,6 +22,7 @@ monitoring the minor release and fix critical issues.
 > **Final Week**: See `Endgame`. The QA team tests the new features according to a test plan and updates our documentation. Deploy to `production` and showcase new features.
 
 ## Planning
+
 Before each Milestone, we will prioritize features to implement and bugs to fix in the upcoming iteration. `Bugs` and `Defects` are assigned to a sprint for the iteration and include steps to reproduce and `current and expected behaviors`. For new features, we create `Tasks` and include `Acceptance Criteria`.
 
 We use the following definitions to track our issues:
@@ -28,6 +31,7 @@ We use the following definitions to track our issues:
 - **<mark>Task</mark>**: An issue that is an enhancement or new feature.
 
 #### Bug Report
+
 > **Current behavior**
 > A clear and concise description of what the bug is.
 
