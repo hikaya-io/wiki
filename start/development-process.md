@@ -10,7 +10,7 @@ The team has a 3-6 month high-level product roadmap ([See Activity Roadmap](http
 
 We will work in monthly **iterations** on the items on the roadmap. At the end of each iteration, we want to have a stable release of **Activity** that can be shipped to our users. The work planned during an iteration is captured in the iteration plan (see Iteration Plans). The feature sets of each iteration are highlighted in the release notes.
 
-> **A typical iteration**
+> **A typical iteration:**
 
 > **Week 1**: Reduce debt introduced in the previous iteration, address critical issues uncovered in the previous iteration, and plan the next iteration.
 
@@ -26,9 +26,9 @@ monitoring the minor release and fix critical issues.
 Before each Milestone, we will prioritize features to implement and bugs to fix in the upcoming iteration. `Bugs` and `Defects` are assigned to a sprint for the iteration and include steps to reproduce and `current and expected behaviors`. For new features, we create `Tasks` and include `Acceptance Criteria`.
 
 We use the following definitions to track our issues:
-- **<mark>Bug</mark>**: An issue that stop the user from doing what they intended.
-- **<mark>Defect</mark>**: An issue that does not do what it was intended to do.
-- **<mark>Task</mark>**: An issue that is an enhancement or new feature.
+- **Bug**: An issue that stop the user from doing what they intended.
+- **Defect**: An issue that does not do what it was intended to do.
+- **Task**: An issue that is an enhancement or new feature.
 
 #### Bug Report
 
