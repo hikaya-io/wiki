@@ -2,7 +2,7 @@
 
 # Product Roadmap 2020 🗺️
 
-Here we present the **[application]** roadmap for the next 6-12 months. This includes high level goals and features we would like to introduce during this period.
+Here we present the **[application]** roadmap for the next 3-6 months. This includes goals and feature sets we would like to introduce during this period.
 
 **Annotation reference:**
 
