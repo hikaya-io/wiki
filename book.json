@@ -28,11 +28,12 @@
         "-language-picker",
         "-recently-updated",
         "-cookie-consent",
-        "custom-favicon"
+        "favicon"
         ],    
     "pluginsConfig": {
-           "custom-favicon": {
-                "favicon": "assets/favicon.ico"
+           "favicon": {
+                "shortcut": "assets/favicon.ico",
+                "bookmark": "assets/favicon.ico"
            },
            "cookieConsent": {
                  "message": "Accept cookies and our privacy policy"
