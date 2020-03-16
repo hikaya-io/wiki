@@ -1,6 +1,12 @@
 # Summary
 
+## Start
+
 * [Getting Started](README.md)
+* [Product Flow](products/product-flow.md)
+* [Activity Roadmap](products/activity-roadmap.md)
+* [Circles Roadmap](products/circles-roadmap.md)
+* [Dots Roadmap](products/dots-roadmap.md)
 
 ## Design
 
@@ -32,14 +38,10 @@
 
 ## Products
 
-* [Activity Roadmap](products/activity-roadmap.md)
 * [Activity PRD](products/activity-product-plan.md)
 * [Circles PRD](products/circles-product-plan.md)
 * [Dots PRD](products/dots-product-plan.md)
 * [Dots Use Cases](products/dots-use-cases.md)
-* [Product Flow](products/product-flow.md)
-* [Circles Roadmap](products/circles-roadmap.md)
-* [Dots Roadmap](products/dots-roadmap.md)
 * [Roadmap Template](products/roadmap-template.md)
 
 ## Team
