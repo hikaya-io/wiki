@@ -40,12 +40,12 @@
 
 ## UX
 
-* [Activity PRD](products/activity-product-plan.md)
-* [Circles PRD](products/circles-product-plan.md)
-* [Dots PRD](products/dots-product-plan.md)
-* [Dots Use Cases](products/dots-use-cases.md)
-* [Product Template](processes/product-template.md)
-* [Roadmap Template](products/roadmap-template.md)
+* [Activity PRD](ux/activity-product-plan.md)
+* [Circles PRD](ux/circles-product-plan.md)
+* [Dots PRD](ux/dots-product-plan.md)
+* [Dots Use Cases](ux/dots-use-cases.md)
+* [Product Template](ux/product-template.md)
+* [Roadmap Template](ux/roadmap-template.md)
 
 ## Team
 
