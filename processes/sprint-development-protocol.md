@@ -10,7 +10,8 @@ The team has a 3-6 month high-level product roadmap ([See Activity Roadmap](http
 We will work in monthly **iterations** on the items on the roadmap. At the end of each iteration, we want to have a stable release of **Activity** that can be shipped to our users. The work planned during an iteration is captured in the iteration plan (see Iteration Plans). The feature sets of each iteration are highlighted in the release notes.
 
 > **A typical iteration**
-**Week 1**: Reduce debt introduced in the previous iteration, address critical issues uncovered in the previous iteration, and plan the next iteration.
+
+> **Week 1**: Reduce debt introduced in the previous iteration, address critical issues uncovered in the previous iteration, and plan the next iteration.
 
 > **Week 2**: Work according to the milestone and minor release to `production`.
 
