@@ -101,8 +101,8 @@ THEN I expect this to happen..
 
 
 #### Definition of Done
-✅Pull Requests are reviewed and merged to `dev` branch
-✅Issue is deployed to `staging` environment and passes user acceptance testing (UAT)
+✅Pull Requests are reviewed and merged to `dev` branch.<br>
+✅Issue is deployed to `staging` environment and passes user acceptance testing (UAT).<br>
 ✅Manually execute the Smoke Test on all supported platforms.
 ✅Release notes updated.
 ✅Deploy to `production`.
