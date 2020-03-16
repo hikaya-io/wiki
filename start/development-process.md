@@ -33,10 +33,10 @@ We use the following definitions to track our issues:
 #### Bug Report
 
 > **Current behavior**<br>
-A clear and concise description of what the bug is.
+_A clear and concise description of what the bug is._
 
 > **Expected behavior**<br>
-A clear and concise description of what you expected to happen.
+_A clear and concise description of what you expected to happen._
 
 > **To Reproduce:**
 ```
@@ -48,15 +48,15 @@ Steps to reproduce the behavior:
 ```
 
 >**Screenshots**<br>
-If applicable, add screenshots to help explain your problem.
+_If applicable, add screenshots to help explain your problem._
 
 #### Feature Request
 
 > **Is your feature request related to a problem? Please describe.**<br>
-*A clear and concise description of what the problem is.*
+_A clear and concise description of what the problem is._
 
 > **Acceptance Criteria**<br>
-A clear and concise description of how to ensure the feature request is met.
+_A clear and concise description of how to ensure the feature request is met._
 
 ```
 GIVEN I am a logged in user
@@ -68,7 +68,7 @@ AND I click on the button.
 THEN I expect this to happen..
 ```
 > **Additional context**<br>
-Add any other context or screenshots about the feature requests.
+_Add any other context or screenshots about the feature requests._
 
 <br>
 
@@ -134,9 +134,9 @@ The active milestone is used to track the progress of our tasks across the follo
     - `Staging`
     - `Done`
 
-> Note:
-> At the beginning of every milestone, we include all items in the `To do` stage and move them over as we go. 
-> At the end of a milestone, any issues in `To do` or `In Progress` need to be moved over to the next sprint (if still relevant) or turned into new issues.
+> **Note:**
+> * At the beginning of every milestone, we include all items in the `To do` stage and move them over as we go. 
+> * At the end of a milestone, any issues in `To do` or `In Progress` need to be moved over to the next sprint (if still relevant) or turned into new issues.
 
 #### Triage
 
@@ -164,7 +164,7 @@ During the endgame we make a build available on the insiders channel. We will mo
 
 We use 3 main branches in all our repositories :
 
-`Dev` (or `Develop) - All bug fixes, defects, and tasks.<br>
+`Dev` (or `Develop`) - All bug fixes, defects, and tasks.<br>
 `Feature branches` (i.e. ACT-001) - All feature branches must be named like: ACT-001 (where ACT-001 is the issue number on Jira).<br>
 `Staging` - This is our QA testing environment<br>
 `Master` - Clean code in production environment<br>
@@ -187,7 +187,7 @@ When you make a commit, follow this and the `[Message]` will appear as a comment
 ```
 git commit -m"ACT-001 #comment [Message]"
 ```
-> Note: to directly comment on Jira, you must be using the same email for your Jira account as your Github account. See [Jira reference](https://confluence.atlassian.com/bitbucket/use-smart-commits-298979931.html).
+> **Note:** to directly comment on Jira, you must be using the same email for your Jira account as your Github account. See [Jira reference](https://confluence.atlassian.com/bitbucket/use-smart-commits-298979931.html).
 
 ## Pull Requests
 
