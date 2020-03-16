@@ -80,6 +80,8 @@ Here we present the roadmap for our applications for the next 6-12 months. This 
 * Re-implement all Django template views as DRF views using `serializers`.
 * Implement server-side pagination for large record models on initial page load.
 * 🌲Integrate `MS OneDrive` and `Google Drive` for easy document linking.
+* Organize and group import packages together
+
 
 
 #### Login/Sign Up
