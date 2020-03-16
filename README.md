@@ -6,30 +6,37 @@
 <br/>
 
 # Getting Started 🏡
-Welcome to our Company Wiki! Here you can find out more about how we work.
+Welcome to our Company Wiki! Here you can find out more about what we're working on and how we like to work.
+
+# Roadmaps
+[[How our products fit together](./start/product-flow.md)
+
+[Activity Roadmap](./start/activity-roadmap.md)
+
+[Circles Roadmap](./start/circles-roadmap.md)
+
+[Dots Roadmap](./start/dots-roadmap.md)
 
 # How we work 📚
 
-[Who are we](./Team/who_are_we.md)
+[Who are we](./team/who-are-we.md)
 
-[How we work](./Team/how_we_work.md)
+[How we work](./team/how-we-work.md)
 
 # Processes ⚙️
 
-[Sprint and Development Protocol](./Processes/sprint_development_protocol.md)
+[Sprint and Development Protocol](./processes/sprint-development-protocol.md)
 
-[Release Management](./Processes/release_management.md)
+[Release Management](./processes/release-management.md)
 
-[Testing Protocol](./Processes/testing_protocol.md)
+[Testing Protocol](./processes/testing-protocol.md)
 
-[Customer support handbook](./Processes/customer_support_handbook.md)
+[Support handbook](./processes/customer-support-handbook.md)
 
 # Products 🗺️
 
-[How our products fit together](./Products/product_flow.md)
+[Activity Product Plan](./products/activity-product-plan.md)
 
-[Activity Product Plan](./Products/activity_product_plan.md)
+[Dots Product Plan](./products/dots-product-plan.md)
 
-[Dots Product Plan](./Products/dots_product_plan.md)
-
-[Circles Product Plan](./Products/circles_product_plan.md)
+[Circles Product Plan](./products/circles-product-plan.md)
