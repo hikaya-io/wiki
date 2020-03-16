@@ -61,6 +61,30 @@ AND I click on the button.
 
 THEN I expect this to happen..
 ```
+> **Additional context**
+Add any other context or screenshots about the feature requests.
+
+</br>
+
+> **Labels**
+Labels are used to describe the task card including its priority and complexity.
+
+|Label|Description|
+|--|--|
+|`Good first issue`|Good for newcomers|
+|`bug`|Something isn't working|
+|`defect`| Something isn't working right|
+|`enhancement`|New feature|
+|`dependencies`|Updates dependencies|
+|`duplicate`|Issue or pull request exists|
+|`help wanted`|Extra attention is required|
+|`question`|More information is needed|
+|`level 0`|Insignificant task (minimal effort and time needed)|
+|`level 1`|Simple issues requiring minimal effort|
+|`level 2`|Not so complex, requiring a relatively good amount of effort and time to fix|
+|`level 3`|Complex task|
+|`level 4`|Very complex task|
+
 
 > **Story point estimation** 
 Story points are used to estimate the effort needed for each task. We try to avoid using time estimates and a more useful measurement for team capacity is the effort needed and then complexity of a task.
@@ -75,8 +99,6 @@ Story points are used to estimate the effort needed for each task. We try to avo
 | 13| Research task, building a proof of concept |
 | 21| Should be used sparingly|
 
-> **Additional context**
-Add any other context or screenshots about the feature requests.
 
 #### Definition of Done
 ✅Pull Requests are reviewed and merged to `dev` branch
