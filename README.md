@@ -8,7 +8,8 @@
 # Getting Started 🏡
 Welcome to our Company Wiki! Here you can find out more about what we're working on and how we like to work.
 
-# Roadmaps
+# Roadmaps 🗺️
+
 [[How our products fit together](./start/product-flow.md)
 
 [Activity Roadmap](./start/activity-roadmap.md)
