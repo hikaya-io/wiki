@@ -1,4 +1,4 @@
-*Updated: 20200307*
+_UPDATED: 20200307_
 
 # Roadmap 
 The team has a 3-6 month high-level product roadmap ([See Activity Roadmap](https://team.hikaya.io/start/activity-roadmap.html)) which includes goals and feature sets we would like to introduce during this period

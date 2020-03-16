@@ -1,4 +1,5 @@
-*Updated: 20200315*
+_UPDATED: 20200315_
+
 # Activity Product Roadmap 🗺️
 
 Here we present the **Activity** roadmap for the next 3-6 months. This includes high level goals and features we would like to introduce during this period.
