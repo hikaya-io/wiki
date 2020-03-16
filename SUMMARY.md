@@ -10,7 +10,7 @@
   * [Grid Roadmap](start/grid-roadmap.md)
   * [Tables Roadmap](tables-roadmap.md)
   * [Enterprise Roadmap](enterprise-roadmap.md)
-* [Development Process](processes/sprint-development-protocol.md)
+* [Development Process](start/development-process.md)
 
 ## Design
 
