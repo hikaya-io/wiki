@@ -91,6 +91,7 @@ _Add any other context or screenshots about the feature requests._
 |`level 3`|Complex task|
 |`level 4`|Very complex task|
 
+<br>
 
 > **Story point estimation**<br> 
 > Story points are used to estimate the effort needed for each task. We try to avoid using time estimates and a more useful measurement for team capacity is the effort needed and then complexity of a task.
@@ -105,6 +106,7 @@ _Add any other context or screenshots about the feature requests._
 | 13| Research task, building a proof of concept |
 | 21| Should be used sparingly|
 
+<br>
 
 #### Definition of Done
 
