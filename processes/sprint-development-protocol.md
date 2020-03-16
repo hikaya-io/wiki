@@ -3,16 +3,29 @@
 _UPDATED: 20200316_
 
 
-## Roadmap
-The team has a 6-12 months high level Product Roadmaps ([See Activity Roadmap](https://team.hikaya.io/start/activity-roadmap.html)) which defines high level themes and features to be addressed in this period.
+## Roadmap 
+The team has a 3-6 month high-level product roadmap ([See Activity Roadmap](https://team.hikaya.io/start/activity-roadmap.html)) which defines epics and feature sets to be addressed in this period.
 
 ## Iterations
-We will work in monthly iterations on the items on the roadmap. We will begin a sprint on a Monday and end on the following Monday, meaning that each sprint can have a different duration, depending on how the weeks align.
+We will work in monthly **iterations** on the items on the roadmap. At the end of each iteration, we want to have a stable release of **Activity** that can be shipped to our users. The work planned during an iteration is captured in the iteration plan (see Iteration Plans). The feature sets of each iteration are highlighted in the release notes.
 
-At the end of each iteration, we want to have a release of **Activity** that can be shipped to our users. The work planned during an iteration is captured in the iteration plan (see Iteration Plans). The feature highlights of each iteration are highlighted in the release notes.
+> **A typical iteration**
+**Week 1**: Reduce debt introduced in the previous iteration, address critical issues uncovered in the previous iteration, and plan the next iteration.
+
+> **Week 2**: Work according to the milestone and minor release to `production`.
+
+> **Week 3+**: Work according to the milestone and
+monitoring the minor release and fix critical issues.
+
+> **Final Week**: See `Endgame`. The QA team tests the new features according to a test plan and updates our documentation. Deploy to `production` and showcase new features.
 
 ## Planning
-Before each sprint, we will prioritize features to implement and bugs to fix in the upcoming iteration. `Bugs` and `Defects` are assigned to a sprint for the iteration and include steps to reproduce and `current and expected behaviors`. For new features, we create tasks and include `Acceptance Criteria`. The **Bugs** and **Feature Requests** assigned to a sprint covers the planned work for the upcoming month.
+Before each Milestone, we will prioritize features to implement and bugs to fix in the upcoming iteration. `Bugs` and `Defects` are assigned to a sprint for the iteration and include steps to reproduce and `current and expected behaviors`. For new features, we create `Tasks` and include `Acceptance Criteria`.
+
+We use the following definitions to track our issues:
+- **<mark>Bug</mark>**: An issue that stop the user from doing what they intended.
+- **<mark>Defect</mark>**: An issue that does not do what it was intended to do.
+- **<mark>Task</mark>**: An issue that is an enhancement or new feature.
 
 #### Bug Report
 > **Current behavior**
@@ -49,6 +62,19 @@ AND I click on the button.
 THEN I expect this to happen..
 ```
 
+> **Story point estimation** 
+Story points are used to estimate the effort needed for each task. We try to avoid using time estimates and a more useful measurement for team capacity is the effort needed and then complexity of a task.
+
+| Story Point | Complexity reference  |
+|--|--|
+| 1 | Changing a label |
+| 2 | Making a model change |
+| 3 | Implementing CRUD on the UI |
+| 5 | Implementing a new model|
+| 8 | Introducing complex logic|
+| 13| Research task, building a proof of concept |
+| 21| Should be used sparingly|
+
 > **Additional context**
 Add any other context or screenshots about the feature requests.
 
@@ -59,130 +85,32 @@ Add any other context or screenshots about the feature requests.
 ✅Release notes updated.
 ✅Deploy to `production`.
 
-## Our typical work flow
-We work in weekly sprints with the goal to release to `production` every two weeks.
+## Milestones
+We work toward weekly milestones with the goal to release to `production` every two weeks. We begin a **Milestone** on a Monday and end on the following Monday with a release to `staging`.
 
-* **Week 1**: Reduce debt introduced in the previous iteration, address critical issues uncovered in the previous iteration, plan the next iteration
-* **Week 2**: Work according to the sprint and minor release to `production`.
-* **Week 3+**: Work according to the sprint and
-monitoring the minor release and fix critical issues.
-* **Final Week**: See `Endgame`.
+Each week we have two calls as a team to discuss our priorities and reflect:
+* **Sprint Planning:** every Monday 7 PM EAT
+* **Sprint Review:** every Friday 7 PM EAT
 
-The team tests the new features according to a test plan and updates the documentation.
+> Join calls using `skype` and follow the `#sprint-planning channel` on slack.
 
-<!--
-We make a pre-release available on the 'insiders' channel and invite users to help us test the pre-release.
--->
+## Task Board
+- The active milestone is used to track the progress of our tasks across the following stages: `To do`, `In Progress`, `Pull Request`, `Dev Testing`, `Staging`, `Done`.
+- At the beginning of every milestone, we include all items in the `To do` stage and move them over as we go. 
+- At the end of a milestone, any issues in `To do` or `In Progress` need to be moved over to the next sprint (if still relevant) or turned into new issues.
 
 #### Triage
-Bugs and features will be assigned a milestone, and within a milestone, they will be assigned a priority. The priority dictates the order in which issues should be addressed. An important bug (something that we think is critical for the milestone) is to be addressed before the other bugs.
-
-To find out when a bug fix will be available in an update, then please check the milestone that is assigned to the issue.
+Bugs and features will be assigned a sprint, and within a sprint, they will be assigned a priority. The priority dictates the order in which issues should be addressed. An important bug (something that we think is critical for the milestone) is to be addressed before the other bugs.
 
 #### Weekly
 Each week we will manage work items, crossing off completed features, and triaging bugs. At the end of the milestone, we will strive for 0 bugs and 0 issues assigned to the milestone. Some bugs and features will then be either postponed to later milestones or moved back to the backlog.
 
 #### End Game
-The final week of the milestone is what we call the "end game" (see running the endgame). During this week we will wrap up any feature work, we will test using a test plan Iteration Plans, and then we will fix the critical bugs for that milestone.
+The final week of the iteration is what we call the "end game". During this week we will wrap up any feature work, we will test using a test plan and then we will fix the critical bugs for that milestone.
 
-During the endgame we make a build available on the insiders channel (see also. We will monitor incoming issues from this release, fix any critical bugs that arise, and then produce a final stable release for the milestone and the stable channel.
+During the endgame we make a build available on the insiders channel. We will monitor incoming issues from this release, fix any critical bugs that arise, and then produce a final stable release for the monthly iteration.
 
-
-
-
-
-## TL;DR
-- Two-week sprints
-- **Sprint Planning:** every Monday 7 PM EAT
-- **Sprint Review:** every Friday 7 PM EAT
-  - Join calls using `skype` and follow the `#sprint-planning channel` on slack 
-- Our current sprint boards are:
-    - `Activity (ACT)` - For Activity
-    - `Grid (GRID)` - For secure hosting platform
-    - `Maps (MAP`)` - For custom mapping and dashboard portal
-    - `Dots (DOT)` - For the analytics pipeline which includes work on the data integration tool (Airflow), data warehousing, and business intelligence tool (Superset)
-    - `Circles (CRCL)` - Single Sign-On and Workspace management
-
-## What a typical sprint looks like
-
-### Week 1 Monday
-
-- Go through tickets for upcoming sprint and start sprint (start no later than Monday end of day)
-
-### Week 1 Friday
-
-- Go through `dev testing` lane, review and comment on outstanding issues
-- Deploy to `dev` environment
-
-### Week 2 Monday
-
-- Summary of week 1 issues
-- Showcase 1-2 PRs and do code review
-- Review any added cards
-
-### Week 2 Wednesday
-
-- Final dev testing and deploy to `dev` environment
-  - If satisfied, update changes to `staging` branch
-- Deploy to `staging` environment and begin QA testing
-- If find issues, create a new card and add to this week's sprint
-
-### Week 2 Friday
-
-- Deploy to production
-- Sprint showcase (demo new features)
-- Sprint retrospective - discuss what went well and what didn't go well, and any improvements
-
-
-# How we prioritize our backlog
-
-We aim to prioritize our backlog daily. Our sprint boards uses the following issue types to track work:
-
-- **<mark>Bug</mark>**: An issue that stop the user from doing what they intended.
-- **<mark>Defect</mark>**: An issue that does not do what it was intended to do.
-- **<mark>Task</mark>**: An issue that is an enhancement or new feature.
-
-## Task cards
-- In the Backlog, you can add issues to the corresponding sprint (When adding a new issue, be sure to provide a:
-  - short description
-  - provide an estimated story point (see **Story point estimate** section)
-  - use the Epic label to tag which Epic it contributes to
-  - If adding a ticket for a new feature, create a separate user story with acceptance criteria (story, given-when-then) and link to the issue
-
-## Active Sprint
-
-- Under the Active Sprint, you can track the progress of your issues across the stages: `To do`, `In Progress`, `Pull Request`, `Dev Testing`, `UAT`, `Done`.
-- Every beginning of a sprint, we should have all items in the To-Do lane and move them over as we go. 
-- At the end of a sprint, any issues in To-Do or In-Progress need to be moved over to the next sprint (if still relevant) or turned into new issues.
-- Definitions:
-  - `to-do` -> `in progress`: ticket assignee
-  - `in progress` -> `pull request`: ticket assignee
-  - `pull request` -> `dev testing`: another engineer other than the assignee takes the ticket for testing
-  - `dev testing` -> `uat`: the testing engineer moves ticket to UAT
-  - `uat` -> `done`: either QA or project 
-  - `Done`: Acceptance criteria will help define what done means
-
-## Story point estimates
-
-- Story points are used to estimate the effort needed for each task.
-- We try to avoid using time estimates since tasks usually take longer than we anticipate and a more useful measurement for team capacity is the effort needed and complexity of a task.
-
-| Story Point | Complexity reference  |
-|--|--|
-| 1 | Changing a label |
-| 2 | Making a model change |
-| 3 | Implementing CRUD on the UI |
-| 5 | Implementing a new model|
-| 8 | Introducing complex logic|
-| 13| A task that takes a full day |
-| 21| A task that takes a few days |
-
-**Note:**
-- If you find yourself using the `13` or `21`, you might want to consider breaking down your task in to smaller cards.
-- Review tasks should also have story point estimations.
-- Estimation depends not only on the task itself, but the skill of the person doing it. The same task can have two different estimations if given to two different people. That’s fine. Use the estimation that matches your ability.
-- The first few sprints we use story points, the results will be awful. That’s fine. We’ll get better at estimation over time. Make sure to learn from each sprint and re-calibrate your estimation.
-
+---
 
 ## How we manage our code
 
