@@ -32,7 +32,7 @@
         ],    
     "pluginsConfig": {
            "custom-favicon": {
-                "favicon": "path/to/favicon.ico"
+                "favicon": "assets/favicon.ico"
            },
            "cookieConsent": {
                  "message": "Accept cookies and our privacy policy"
