@@ -30,11 +30,12 @@
         "-cookie-consent",
         "custom-favicon"
         ],    
-    "pluginsConfig": {{
-           "favicon": "path/to/favicon.ico"
+    "pluginsConfig": {
+           "custom-favicon": {
+                "favicon": "path/to/favicon.ico"
            },
            "cookieConsent": {
-            "message": "Accept cookies and our privacy policy"
+                 "message": "Accept cookies and our privacy policy"
            },
            "disqus": {
                 "shortName": "hikaya"
