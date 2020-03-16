@@ -32,13 +32,15 @@
 
 ## Products
 
-* [Roadmap](products/roadmap.md)
-* [Activity Code Base](products/activity-code-base.md)
-* [Activity Product Plan](products/activity-product-plan.md)
-* [Circles Product Plan](products/circles-product-plan.md)
-* [Dots Product Plan](products/dots-product-plan.md)
+* [Activity Roadmap](products/activity-roadmap.md)
+* [Activity PRD](products/activity-product-plan.md)
+* [Circles PRD](products/circles-product-plan.md)
+* [Dots PRD](products/dots-product-plan.md)
 * [Dots Use Cases](products/dots-use-cases.md)
 * [Product Flow](products/product-flow.md)
+* [Circles Roadmap](products/circles-roadmap.md)
+* [Dots Roadmap](products/dots-roadmap.md)
+* [Roadmap Template](products/roadmap-template.md)
 
 ## Team
 
