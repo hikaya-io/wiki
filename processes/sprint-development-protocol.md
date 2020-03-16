@@ -1,6 +1,97 @@
-# Sprint and Development Protocol
+# Development Process
 
-_UPDATED: 20200228_
+_UPDATED: 20200316_
+
+
+## Roadmap
+The team has a 6-12 months high level Product Roadmaps ([See Activity Roadmap](https://team.hikaya.io/start/activity-roadmap.html)) which defines high level themes and features to be addressed in this period.
+
+## Iterations
+We will work in monthly iterations on the items on the roadmap. We will begin a sprint on a Monday and end on the following Monday, meaning that each sprint can have a different duration, depending on how the weeks align.
+
+At the end of each iteration, we want to have a release of **Activity** that can be shipped to our users. The work planned during an iteration is captured in the iteration plan (see Iteration Plans). The feature highlights of each iteration are highlighted in the release notes.
+
+## Planning
+Before each sprint, we will prioritize features to implement and bugs to fix in the upcoming iteration. `Bugs` and `Defects` are assigned to a sprint for the iteration and include steps to reproduce and `current and expected behaviors`. For new features, we create tasks and include `Acceptance Criteria`. The **Bugs** and **Feature Requests** assigned to a sprint covers the planned work for the upcoming month.
+
+#### Bug Report
+> **Current behavior**
+A clear and concise description of what the bug is.
+
+> **Expected behavior**
+A clear and concise description of what you expected to happen.
+
+> **To Reproduce**
+Steps to reproduce the behavior:
+1. Go to '...'
+2. Click on '....'
+3. Scroll down to '....'
+4. See error
+
+>**Screenshots**
+If applicable, add screenshots to help explain your problem.
+
+#### Feature Request
+
+> **Is your feature request related to a problem? Please describe.**
+> *A clear and concise description of what the problem is.*
+
+> **Acceptance Criteria**
+A clear and concise description of how to ensure the feature request is met.
+
+```
+GIVEN I am a logged in user
+
+AND I navigate to the main page...
+
+AND I click on the button.
+
+THEN I expect this to happen..
+```
+
+> **Additional context**
+Add any other context or screenshots about the feature requests.
+
+#### Definition of Done
+✅Pull Requests are reviewed and merged to `dev` branch
+✅Issue is deployed to `staging` environment and passes user acceptance testing (UAT)
+✅Manually execute the Smoke Test on all supported platforms.
+✅Release notes updated.
+✅Deploy to `production`.
+
+## Our typical work flow
+We work in weekly sprints with the goal to release to `production` every two weeks.
+
+* **Week 1**: Reduce debt introduced in the previous iteration, address critical issues uncovered in the previous iteration, plan the next iteration
+* **Week 2**: Work according to the sprint and minor release to `production`.
+* **Week 3+**: Work according to the sprint and
+monitoring the minor release and fix critical issues.
+* **Final Week**: See `Endgame`.
+
+The team tests the new features according to a test plan and updates the documentation.
+
+<!--
+We make a pre-release available on the 'insiders' channel and invite users to help us test the pre-release.
+-->
+
+
+
+#### Triage
+Bugs and features will be assigned a milestone, and within a milestone, they will be assigned a priority. The priority dictates the order in which issues should be addressed. An important bug (something that we think is critical for the milestone) is to be addressed before the other bugs.
+
+To find out when a bug fix will be available in an update, then please check the milestone that is assigned to the issue.
+
+#### Weekly
+Each week we will manage work items, crossing off completed features, and triaging bugs. At the end of the milestone, we will strive for 0 bugs and 0 issues assigned to the milestone. Some bugs and features will then be either postponed to later milestones or moved back to the backlog.
+
+#### End Game
+The final week of the milestone is what we call the "end game" (see running the endgame). During this week we will wrap up any feature work, we will test using a test plan Iteration Plans, and then we will fix the critical bugs for that milestone.
+
+During the endgame we make a build available on the insiders channel (see also. We will monitor incoming issues from this release, fix any critical bugs that arise, and then produce a final stable release for the milestone and the stable channel.
+
+
+
+
 
 ## TL;DR
 - Two-week sprints
