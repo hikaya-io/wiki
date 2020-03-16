@@ -32,13 +32,13 @@ We use the following definitions to track our issues:
 
 #### Bug Report
 
-> **Current behavior**
+> **Current behavior**<br>
 > A clear and concise description of what the bug is.
 
-> **Expected behavior**
+> **Expected behavior**<br>
 > A clear and concise description of what you expected to happen.
 
-> **To Reproduce**
+> **To Reproduce**<br>
 > Steps to reproduce the behavior:
 1. Go to '...'
 2. Click on '....'
