@@ -139,7 +139,7 @@ During the endgame we make a build available on the insiders channel. We will mo
 
 **Source control:** Git
 
-**Source code:** All our repositories are stored on [Github](https://github.com/hikaya-io)
+**Source code:** All our repositories are stored on [Github](https://github.com/hikaya-io).
 
 **Branches:**
 
