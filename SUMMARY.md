@@ -3,8 +3,7 @@
 ## Start
 
 * [Getting Started](README.md)
-* [Product Ecosystem](start/product-flow.md)
-* [Roadmaps](roadmaps.md)
+* [Roadmap](roadmap.md)
   * [Activity Roadmap](start/activity-roadmap.md)
   * [Circles Roadmap](start/circles-roadmap.md)
   * [Dots Roadmap](start/dots-roadmap.md)
