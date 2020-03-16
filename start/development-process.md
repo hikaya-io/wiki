@@ -103,8 +103,8 @@ THEN I expect this to happen..
 #### Definition of Done
 ✅Pull Requests are reviewed and merged to `dev` branch.<br>
 ✅Issue is deployed to `staging` environment and passes user acceptance testing (UAT).<br>
-✅Manually execute the Smoke Test on all supported platforms.
-✅Release notes updated.
+✅Manually execute the Smoke Test on all supported platforms.<br>
+✅Release notes updated.<br>
 ✅Deploy to `production`.
 
 ## Milestones
@@ -117,9 +117,17 @@ Each week we have two calls as a team to discuss our priorities and reflect:
 > Join calls using `skype` and follow the `#sprint-planning channel` on slack.
 
 #### Task Board
-- The active milestone is used to track the progress of our tasks across the following stages: `To do`, `In Progress`, `Pull Request`, `Dev Testing`, `Staging`, `Done`.
-- At the beginning of every milestone, we include all items in the `To do` stage and move them over as we go. 
-- At the end of a milestone, any issues in `To do` or `In Progress` need to be moved over to the next sprint (if still relevant) or turned into new issues.
+The active milestone is used to track the progress of our tasks across the following stages: 
+    - `To do`
+    - `In Progress`
+    - `Pull Request` 
+    - `Dev Testing`
+    - `Staging`
+    - `Done`
+
+> Note:
+> At the beginning of every milestone, we include all items in the `To do` stage and move them over as we go. 
+> At the end of a milestone, any issues in `To do` or `In Progress` need to be moved over to the next sprint (if still relevant) or turned into new issues.
 
 #### Triage
 Bugs and features will be assigned a sprint, and within a sprint, they will be assigned a priority. The priority dictates the order in which issues should be addressed. An important bug (something that we think is critical for the milestone) is to be addressed before the other bugs.
