@@ -65,7 +65,7 @@ THEN I expect this to happen..
 > **Additional context**
 > Add any other context or screenshots about the feature requests.
 
-</br>
+<br>
 
 > **Labels**
 > Labels are used to describe the task card including its priority and complexity.
