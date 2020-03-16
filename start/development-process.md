@@ -101,6 +101,7 @@ THEN I expect this to happen..
 
 
 #### Definition of Done
+
 ✅Pull Requests are reviewed and merged to `dev` branch.<br>
 ✅Issue is deployed to `staging` environment and passes user acceptance testing (UAT).<br>
 ✅Manually execute the Smoke Test on all supported platforms.<br>
@@ -108,6 +109,7 @@ THEN I expect this to happen..
 ✅Deploy to `production`.
 
 ## Milestones
+
 We work toward weekly milestones with the goal to release to `production` every two weeks. We begin a **Milestone** on a Monday and end on the following Monday with a release to `staging`.
 
 Each week we have two calls as a team to discuss our priorities and reflect:
@@ -117,6 +119,7 @@ Each week we have two calls as a team to discuss our priorities and reflect:
 > Join calls using `skype` and follow the `#sprint-planning channel` on slack.
 
 #### Task Board
+
 The active milestone is used to track the progress of our tasks across the following stages: 
     - `To do`
     - `In Progress`
@@ -130,12 +133,15 @@ The active milestone is used to track the progress of our tasks across the follo
 > At the end of a milestone, any issues in `To do` or `In Progress` need to be moved over to the next sprint (if still relevant) or turned into new issues.
 
 #### Triage
+
 Bugs and features will be assigned a sprint, and within a sprint, they will be assigned a priority. The priority dictates the order in which issues should be addressed. An important bug (something that we think is critical for the milestone) is to be addressed before the other bugs.
 
 #### Weekly
+
 Each week we will manage work items, crossing off completed features, and triaging bugs. At the end of the milestone, we will strive for 0 bugs and 0 issues assigned to the milestone. Some bugs and features will then be either postponed to later milestones or moved back to the backlog.
 
 #### End Game
+
 The final week of the iteration is what we call the "end game". During this week we will wrap up any feature work, we will test using a test plan and then we will fix the critical bugs for that milestone.
 
 During the endgame we make a build available on the insiders channel. We will monitor incoming issues from this release, fix any critical bugs that arise, and then produce a final stable release for the monthly iteration.
@@ -161,14 +167,20 @@ We use 3 main branches in all our repositories :
 - All branch names should follow the issue number such as: ACT-001. This should be the Jira or Github issue number.
 
 ## Commits (Smart Commits)
-For us to be able to track and link our issues on Github, we use smart commits (This is for issues tracked in Jira). 
 
-Below is an example of smart commit:
+We use smart commits to track commits, PRs in Github within the issues tracked in Jira.
+
+Here is an example of smart commit:
 ```
 ACT-001:- Update Activity UI based on styling guide
 ACT-001:- is the issue number on Jira
-“Update Activity UI based on styling guide” Is the commit body. This should be as descriptive as possible.
 ```
+When you make a commit, follow this and the `[Message]` will appear as a comment in Jira:
+
+```
+git commit -m"ACT-001 #comment [Message]"
+```
+> Note: to directly comment on Jira, you must be using the same email for your Jira account as your Github account. See [Jira reference](https://confluence.atlassian.com/bitbucket/use-smart-commits-298979931.html).
 
 ## Pull Requests
 
