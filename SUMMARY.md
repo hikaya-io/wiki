@@ -10,6 +10,7 @@
   * [Grid Roadmap](start/grid-roadmap.md)
   * [Tables Roadmap](tables-roadmap.md)
   * [Enterprise Roadmap](enterprise-roadmap.md)
+* [Development Process](processes/sprint-development-protocol.md)
 
 ## Design
 
@@ -28,15 +29,13 @@
 * [Integration Research](engineering/integration-research.md)
 * [Jupyter](engineering/jupyter.md)
 * [R Markdown](engineering/r-markdown.md)
-* [Technology Radar](engineering/technology-radar.md)
 * [Supertset](engineering/supertset.md)
+* [Technology Radar](engineering/technology-radar.md)
 
 ## Processes
 
 * [Customer Support Handbook](processes/customer-support-handbook.md)
-* [Product Template](processes/product-template.md)
 * [Release Management](processes/release-management.md)
-* [Development Process](processes/sprint-development-protocol.md)
 * [Testing Protocol](processes/testing-protocol.md)
 
 ## UX
@@ -45,6 +44,7 @@
 * [Circles PRD](products/circles-product-plan.md)
 * [Dots PRD](products/dots-product-plan.md)
 * [Dots Use Cases](products/dots-use-cases.md)
+* [Product Template](processes/product-template.md)
 * [Roadmap Template](products/roadmap-template.md)
 
 ## Team
