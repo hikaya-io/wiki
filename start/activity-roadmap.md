@@ -33,6 +33,7 @@ Here we present the **Activity** roadmap for the next 3-6 months. This includes 
 * Identify ways to make `user` and `organization` creation easier.
 * 🏃Continuously monitor our usage analytics to better understand the user journey.
 * 🏃Improve developer contributor experience by streamlining documentation.
+* 🚀Ability to track and view historical changes on key fields for every major model.
 
 #### Indicators
 * 🏃Ability to define `Target Periods`.
