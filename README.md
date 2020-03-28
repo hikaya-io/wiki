@@ -8,36 +8,41 @@
 # Getting Started 🏡
 Welcome to our Company Wiki! Here you can find out more about what we're working on and how we like to work.
 
-# Roadmaps 🗺️
+# Summary
 
-[How our products work together](./start/roadmap.md)
+## Start
 
-[Activity Roadmap](./start/activity-roadmap.md)
+* [Getting Started](README.md)
+* [Roadmap](start/roadmap.md)
+  * [Activity Roadmap](start/activity-roadmap.md)
+  * [Circles Roadmap](start/circles-roadmap.md)
+  * [Dots Roadmap](start/dots-roadmap.md)
+  * [Grid Roadmap](start/grid-roadmap.md)
+  * [Tables Roadmap](start/tables-roadmap.md)
+  * [Enterprise Roadmap](start/enterprise-roadmap.md)
+* [Development Process](start/development-process.md)
 
-[Circles Roadmap](./start/circles-roadmap.md)
+## Design 🎨
 
-[Dots Roadmap](./start/dots-roadmap.md)
+* [Color](design/color.md)
+* [Typography](design/typography.md)
+* [Logo](design/logo.md)
 
-# How we work 📚
-
-[Who are we](./team/who-are-we.md)
-
-[How we work](./team/how-we-work.md)
 
 # Processes ⚙️
 
-[Development Process](./processes/sprint-development-protocol.md)
-
-[Release Management](./processes/release-management.md)
-
-[Testing Protocol](./processes/testing-protocol.md)
-
-[Support handbook](./processes/customer-support-handbook.md)
+* [Customer Support Handbook](processes/customer-support-handbook.md)
+* [Release Management](processes/release-management.md)
+* [Testing Protocol](processes/testing-protocol.md)
 
 # UX 🎯
 
-[Activity Product Plan](./products/activity-product-plan.md)
+* [Activity PRD](ux/activity-product-plan.md)
+* [Circles PRD](ux/circles-product-plan.md)
+* [Dots PRD](ux/dots-product-plan.md)
 
-[Dots Product Plan](./products/dots-product-plan.md)
 
-[Circles Product Plan](./products/circles-product-plan.md)
+## Team 🙌
+
+* [How we work](team/how-we-work.md)
+* [Who we are](team/who-are-we.md)

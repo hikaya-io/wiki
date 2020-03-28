@@ -3,7 +3,7 @@
 ## Start
 
 * [Getting Started](README.md)
-* [Roadmap](roadmap.md)
+* [Roadmap](start/roadmap.md)
   * [Activity Roadmap](start/activity-roadmap.md)
   * [Circles Roadmap](start/circles-roadmap.md)
   * [Dots Roadmap](start/dots-roadmap.md)
