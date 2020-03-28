@@ -1,4 +1,4 @@
-_UPDATED: 20200317_
+_UPDATED: 20200328_
 
 # Development Process
 
@@ -216,16 +216,3 @@ git commit -m"ACT-001 #comment [Message]"
 - Maintain and ensure consistent and proper use of the sprint board.
 - Be a reviewer for many tasks. Clear communication will be done at the beginning of the sprint around which tasks will be reviewed by whom.
 - “Coach” other members as they work on their tasks.
-
-## Burndown chart 
-
-- This chart is useful for keeping track of progress easily. [Here’s an example.](https://help.wrike.com/hc/en-us/community/posts/360001134729-Burn-Down-Graph)
-- Add a burndown chart to your dashboard
-
-![https://storage.googleapis.com/slite-api-files-production/files/e6d11a52-4366-49ec-8897-30e4061947b4/null](https://storage.googleapis.com/slite-api-files-production/files/e6d11a52-4366-49ec-8897-30e4061947b4/null)
-
-Source: [<u>Atlassian</u>](https://www.atlassian.com/agile/tutorials/burndown-charts)
-
-- **Story point estimation**: The vertical axis represents the story point estimation.
-- **Remaining values**: The red line represents the total amount of work left in the sprint, according to your team's estimates.
-- **Guideline**: The grey line shows an approximation of where your team should be, assuming linear progress. If the red line is below this line, congratulations - your team's on track to completing all their work by the end of the sprint. This isn't foolproof though; it's just another piece of information to use while monitoring team progress.
