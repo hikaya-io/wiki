@@ -1,4 +1,4 @@
-_UPDATED: 20200315_
+_UPDATED: 20200405_
 
 # Activity Product Roadmap 🗺️
 
@@ -55,17 +55,18 @@ Here we present the **Activity** roadmap for the next 3-6 months. This includes 
 * 🌲Add `household` model.
 
 #### Components
-* 🏃Ability to display country polygon on all maps.
-* 🚀Ability to select your country and administrative level to display on all maps.
+* 🌲Integrate `MS OneDrive` and `Google Drive` for easy document linking.
 
 #### Reports
 * Clean up and release MVP for `Program Dashboard`.
 * 🔵Implement the first release of the `Indicator Performance Tracking Table` for easy reporting.
 
 #### Settings
-* Ability to configure labels for all major models
+* 🏃Ability to configure labels for all major models
 * Enable `currency`, `date format`, `theme-color`
 * 🚀Introduce `usage` page for `Owners` to get a sense of usage analytics across their `Organization`.
+* 🏃Ability to display country polygon on all maps.
+* 🚀Ability to select and position your country and administrative level to display on all maps.
 
 #### Deployment
 * 🏃Introduce automated CI/CD process with `TravisCI` and `Github Actions` including live deployments after PRs are merged.
@@ -83,8 +84,9 @@ Here we present the **Activity** roadmap for the next 3-6 months. This includes 
 * Change all `views.py` to use `class-based` views instead of `function-based` views.
 * Re-implement all Django template views as DRF views using `serializers`.
 * Implement server-side pagination for large record models on initial page load.
-* 🌲Integrate `MS OneDrive` and `Google Drive` for easy document linking.
-* Organize and group import packages together
+* Organize and group import packages together.
+* 🌲Introduce internationalization to support multiple languages.
+* 🌲Upgrade to Django 3.
 
 #### Login/Sign Up
 * 🌲Add social authentication support for `Microsoft` and `Google`.
