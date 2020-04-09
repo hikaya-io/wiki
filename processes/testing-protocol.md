@@ -20,6 +20,6 @@ We will include all of the following tests as part of our coverage:
 We perform end-to-end testing on all our applications. The E2E automated test are written in [cypress](https://www.cypress.io/). The test are included as a check list in our CI/CD process; failure of tests results in a failure of the build. The test run also follow our dev cycle process.
 
 -   [Activity ATCs](https://github.com/hikaya-io/cypress-tests-activity):
--   -   **NB: We use mailsurp to test mail notification. Update the `mailslurp_inbox` env variable with our inbox id**
+    -   _NB: We use mailsurp to test mail notification. Update the `mailslurp_inbox` env variable with our inbox id_
 -   Dots ATCs
 -   Circles ATCs
