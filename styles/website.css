@@ -197,7 +197,7 @@ img[alt$="-fullwidth"]{
     color: #737581;
     font-family: "Lato", sans-serif;
     font-weight: 300;
-    font-size: 40px;
+    font-size: 42px;
 }
 
 .markdown-section h2 {
@@ -239,14 +239,14 @@ img[alt$="-fullwidth"]{
     color: #737581;
     font-family: "Lato", sans-serif;
     font-weight: 300;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .markdown-section p {
     color: #737581;
     font-family: "Lato", sans-serif;
     font-weight: 300;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 custom-link {
@@ -257,7 +257,7 @@ li {
     color: #737581;
     font-family: "Lato", sans-serif;
     font-weight: 300;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 li.header {
@@ -290,7 +290,7 @@ li.active>a {
     color: #737581;
     font-family: "Lato", sans-serif;
     font-weight: 300;
-    font-size: 18px;
+    font-size: 16px;
     border-color: transparent;
     background-color: transparent;
 }
