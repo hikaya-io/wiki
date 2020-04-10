@@ -5,14 +5,21 @@
 ## Test Coverage
 
 We aim to maintain a high level of test coverage for all our source code. Our standards are:
-- Over 95% for all backend code
-- Over 90% for all frontend code
+
+-   Over 95% for all backend code
+-   Over 90% for all frontend code
 
 We will include all of the following tests as part of our coverage:
-- Unit testing
-- Integration testing
-- Periodic load testing
+
+-   Unit testing
+-   Integration testing
+-   Periodic load testing
 
 ## Automated Test Cases
 
-We perform end-to-end testing on all our applications. We use the `robot framework` to built automated test cases for UI testing. These automated test cases will be included as part of our CI/CD process and run on our `staging` and `dev` environments.
+We perform end-to-end testing on all our applications. The E2E automated test are written in [cypress](https://www.cypress.io/). The test are included as a check list in our CI/CD process; failure of tests results in a failure of the build. The test run also follow our dev cycle process.
+
+-   [Activity ATCs](https://github.com/hikaya-io/cypress-tests-activity):
+    -   _NB: We use mailsurp to test mail notification. Update the `mailslurp_inbox` env variable with our inbox id_
+-   Dots ATCs
+-   Circles ATCs
