@@ -85,11 +85,11 @@ _Add any other context or screenshots about the feature requests._
 |`duplicate`|Issue or pull request exists|
 |`help wanted`|Extra attention is required|
 |`question`|More information is needed|
-|`level 0`|Insignificant task (minimal effort and time needed)|
-|`level 1`|Simple issues requiring minimal effort|
-|`level 2`|Not so complex, requiring a relatively good amount of effort and time to fix|
-|`level 3`|Complex task|
-|`level 4`|Very complex task|
+|`0`|Insignificant task (minimal effort and time needed)|
+|`1`|Simple issues requiring minimal effort|
+|`2`|Not so complex, requiring a relatively good amount of effort and time to fix|
+|`5`|Complex task|
+|`8`|Very complex task|
 
 <br>
 
@@ -160,24 +160,24 @@ During the endgame we make a build available on the insiders channel. We will mo
 
 **Source control:** Git
 
-**Source code:** All our repositories are stored on [Github](https://github.com/hikaya-io).
+**Source code:** All our repositories are stored on [GitHub](https://github.com/hikaya-io).
 
 **Branches:**
 
 We use 3 main branches in all our repositories :
 
 `Dev` (or `Develop`) - All bug fixes, defects, and tasks.<br>
-`Feature branches` (i.e. ACT-001) - All feature branches must be named like: ACT-001 (where ACT-001 is the issue number on Jira).<br>
+`Feature branches` (i.e. ACT-001) - All feature branches must be named like: ACT-001 (where ACT-001 is the issue number on GitHub).<br>
 `Staging` - This is our QA testing environment<br>
 `Master` - Clean code in production environment<br>
 
 > **Note:**
 > * All pull requests should be based off of the Dev branch.
-> * All branch names should follow the issue number such as: ACT-001. This should be the Jira or Github issue number.
+> * All branch names should follow the issue number such as: ACT-001. This should be the Jira or GitHub issue number.
 
-## Commits (Smart Commits)
+## Commits (Smart Commits, only applicable for Jira)
 
-We use smart commits to track commits, PRs in Github within the issues tracked in Jira.
+We use smart commits to track commits, PRs in GitHub within the issues tracked in Jira.
 
 Here is an example of smart commit:
 ```
@@ -189,7 +189,7 @@ When you make a commit, follow this and the `[Message]` will appear as a comment
 ```
 git commit -m"ACT-001 #comment [Message]"
 ```
-> **Note:** to directly comment on Jira, you must be using the same email for your Jira account as your Github account. See [Jira reference](https://confluence.atlassian.com/bitbucket/use-smart-commits-298979931.html).
+> **Note:** to directly comment on Jira, you must be using the same email for your Jira account as your GitHub account. See [Jira reference](https://confluence.atlassian.com/bitbucket/use-smart-commits-298979931.html).
 
 ## Pull Requests
 
