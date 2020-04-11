@@ -53,6 +53,7 @@ Cyan background 2 `#D3F5F5`
 | ![#E1E1E1](https://placehold.it/20/E1E1E1/000000?text=+) | $gray-very-light | `#E1E1E1` |
 | ![#EEEEF0](https://placehold.it/20/EEEEF0/000000?text=+) | $gray-lightest-1 | `#EEEEF0` |
 | ![#F4F5F7](https://placehold.it/20/F4F5F7/000000?text=+) | $gray-lightest-2 | `#F4F5F7` |
+| ![#F4F5FA](https://placehold.it/20/F4F5FA/000000?text=+) | $gray-lightest-3 | `#F4F5FA` |
 
 <br>
 
@@ -96,7 +97,7 @@ Cyan background 2 `#D3F5F5`
 | ![#921D1D](https://placehold.it/20/921D1D/000000?text=+) | $red-darker | `#921D1D` |
 | ![#BC2525](https://placehold.it/20/BC2525/000000?text=+) | $red-dark | `#BC2525` |
 | ![#E95252](https://placehold.it/20/E95252/000000?text=+) | $red-light | `#E95252` |
-| ![#EE7878](https://placehold.it/20/EE7878/000000?text=+) | $red-lighter | `#EE7878` |
+| ![#F56C6C](https://placehold.it/20/EE7878/000000?text=+) | $red-lighter | `#F56C6C` |
 | ![#F39F9F](https://placehold.it/20/F39F9F/000000?text=+) | $red-very-light | `#F39F9F` |
 
 <br>
