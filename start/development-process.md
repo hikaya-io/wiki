@@ -1,4 +1,4 @@
-_UPDATED: 20200328_
+_UPDATED: 20200428_
 
 # Development Process
 
@@ -19,7 +19,7 @@ We will work in monthly **iterations** on the items on the roadmap. At the end o
 > **Week 3+**: Work according to the milestone and
 monitoring the minor release and fix critical issues.
 
-> **Final Week**: See `Endgame`. The QA team tests the new features according to a test plan and updates our documentation. Deploy to `production` and showcase new features.
+> **Final Week**: See `Hardening Sprint`. The team improves test coverage by building tests and cleaning up unused code and templates. Deploy to `production` and showcase new features.
 
 ## Planning
 
@@ -148,11 +148,14 @@ Bugs and features will be assigned a sprint, and within a sprint, they will be a
 
 Each week we will manage work items, crossing off completed features, and triaging bugs. At the end of the milestone, we will strive for 0 bugs and 0 issues assigned to the milestone. Some bugs and features will then be either postponed to later milestones or moved back to the backlog.
 
-#### End Game
+#### Hardening Sprint
 
-The final week of the iteration is what we call the "end game". During this week we will wrap up any feature work, we will test using a test plan and then we will fix the critical bugs for that milestone.
+The final week of the iteration is what we call the "Hardening Sprint". During this week we will fix the critical bugs and focus the entire week on improve test coverage by building unit and integration tests for any new features. 
 
-During the endgame we make a build available on the insiders channel. We will monitor incoming issues from this release, fix any critical bugs that arise, and then produce a final stable release for the monthly iteration.
+Note:
+> Currently since we have been refactoring the app, the upcoming hardening sprints will be focused on adding tests to existing features. Our plan is to go app by app and build test
+
+During this period we make a build available on the insiders channel. We will monitor incoming issues from this release, fix any critical bugs that arise, and then produce a final stable release for the monthly iteration.
 
 ---
 

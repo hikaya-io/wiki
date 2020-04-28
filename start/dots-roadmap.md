@@ -2,7 +2,9 @@ _UPDATED: 20200409_
 
 # Dots Product Roadmap 2020 🗺️
 
-Here we present the **Dots** roadmap for the next 3-6 months. This includes high level goals and features we would like to introduce during this period.
+**Dots** is a modern visualization and reporting tool to help nonprofits connect their data from various sources to visualize and make results reporting easier.
+
+Here we present the **Dots** roadmap for the next 6-12 months. This includes high level goals and features we would like to introduce during this period.
 
 **Annotation reference:**
 

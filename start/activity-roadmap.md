@@ -2,7 +2,9 @@ _UPDATED: 20200405_
 
 # Activity Product Roadmap 🗺️
 
-Here we present the **Activity** roadmap for the next 3-6 months. This includes high level goals and features we would like to introduce during this period.
+**Activity** is a tool that makes it easier for nonprofits to manage their project activities and indicator results. Activity is hosted and maintained by Hikaya and can be used any nonprofit.
+
+Here we present the **Activity** roadmap for the next 6-12 months. This includes high level goals and features we would like to introduce during this period.
 
 **Annotation reference:**
 
