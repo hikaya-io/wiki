@@ -1,21 +1,23 @@
 
 # Primary palette
 
-|  | Color | Hex | Background | Hex |
+|  | Color | Hex | Fill | Hex |
 |--|--|--|--|--|
-| ![#25CED1](https://placehold.it/20/25CED1/000000?text=+) | Cyan | `#25CED1` | ![#EFFBFB](https://placehold.it/20/EFFBFB/000000?text=+) | `#EFFBFB`|
-| ![#FE5F55](https://placehold.it/20/FE5F55/000000?text=+) | Orange | `#FE5F55` | ![#FEE1E0](https://placehold.it/20/FEE1E0/000000?text=+)  | `#FEE1E0` |
-| ![#737581](https://placehold.it/20/737581/000000?text=+) | Gray | `#737581` | ![#FAFAFA](https://placehold.it/20/FAFAFA/000000?text=+) | `#FAFAFA` |
+| ![#33CCCC](https://placehold.it/20/33CCCC/000000?text=+) | Primary Blue | `33CCCC` | ![#EFFBFB](https://placehold.it/20/EFFBFB/000000?text=+) | `#EFFBFB`|
+| ![#FF6633](https://placehold.it/20/FF6633/000000?text=+) | Secondary Orange | `#FF6633` | ![#FEE1E0](https://placehold.it/20/FEE1E0/000000?text=+)  | `#FEE1E0` |
+| ![#737581](https://placehold.it/20/737581/000000?text=+) | Header Grey | `#737581` | ![#F8F8F8](https://placehold.it/20/F8F8F8/000000?text=+) | `#F8F8F8` |
+![#333333](https://placehold.it/20/333333/000000?text=+) | Body Grey | `#333333` | ![#CCCCCC](https://placehold.it/20/CCCCCC/000000?text=+) | `#CCCCCC` |
 
-Cyan background 2 `#D3F5F5`
+![#D3F5F5](https://placehold.it/20/D3F5F5/000000?text=+) Primary Blue background 2 `#D3F5F5`
 
 # Secondary palette
-|  | Color | Hex | Background | Hex |
+|  | Color | Hex | Fill | Hex |
 |--|--|--|--|--|
 | ![#2AC27F](https://placehold.it/20/2AC27F/000000?text=+) | Green | `#2AC27F` | ![#D8F3E7](https://placehold.it/20/D8F3E7/000000?text=+) | `#D8F3E7` |
+| ![#00CC66](https://placehold.it/20/00CC66/000000?text=+) | Green (New) | `#00CC66` | ![#E5FAF0](https://placehold.it/20/E5FAF0/000000?text=+) | `#E5FAF0` |
 | ![#F61067](https://placehold.it/20/F61067/000000?text=+) | Pink | `#F61067` |  |  |
-| ![#742DC8](https://placehold.it/20/742DC8/000000?text=+) | Purple | `#742DC8` | ![#E5D8F5](https://placehold.it/20/E5D8F5/000000?text=+) | `#F2EBFA` |
-| ![#E52C2C](https://placehold.it/20/E52C2C/000000?text=+) | Red | `#E52C2C` | ![#FAD8D8](https://placehold.it/20/FAD8D8/000000?text=+) | `#FAD8D8` |
+| ![#6633CC](https://placehold.it/20/6633CC/000000?text=+) | Purple | `#6633CC` | ![#E5D8F5](https://placehold.it/20/E5D8F5/000000?text=+) | `#F2EBFA` |
+| ![#FF3333](https://placehold.it/20/FF3333/000000?text=+) | Red | `#FF3333` | ![#FFEBEB](https://placehold.it/20/FFEBEB/000000?text=+) | `#FFEBEB` |
 | ![#F9C80E](https://placehold.it/20/F9C80E/000000?text=+) | Yellow | `#F9C80E` | ![#FDF5D3](https://placehold.it/20/FDF5D3/000000?text=+) | `#FDF5D3` |
 
 # Extended palette
