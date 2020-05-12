@@ -1,16 +1,20 @@
 
 # Primary palette
 
-|  | Color | Hex | Fill | Hex |
-|--|--|--|--|--|
-| ![#33CCCC](https://placehold.it/20/33CCCC/000000?text=+) | Primary Blue | `33CCCC` | ![#EFFBFB](https://placehold.it/20/EFFBFB/000000?text=+) | `#EFFBFB`|
-| ![#FF6633](https://placehold.it/20/FF6633/000000?text=+) | Secondary Orange | `#FF6633` | ![#FEE1E0](https://placehold.it/20/FEE1E0/000000?text=+)  | `#FEE1E0` |
-| ![#737581](https://placehold.it/20/737581/000000?text=+) | Header Grey | `#737581` | ![#F8F8F8](https://placehold.it/20/F8F8F8/000000?text=+) | `#F8F8F8` |
-![#333333](https://placehold.it/20/333333/000000?text=+) | Body Grey | `#333333` | ![#CCCCCC](https://placehold.it/20/CCCCCC/000000?text=+) | `#CCCCCC` |
+|  | Color | Hex | Fill | | Hex |
+|--|--|--|--|--|--|
+| ![#3333FF](https://placehold.it/20/3333FF/000000?text=+) | $primary-color | `#3333FF` | ![#EBEBFF](https://placehold.it/20/EBEBFF/000000?text=+) | $primary-fill |`#EBEBFF`|
+| ![#6666FF](https://placehold.it/20/6666FF/000000?text=+) | $primary-color-sub | `#6666FF` | ![#F0EBFA](https://placehold.it/20/F0EBFA/000000?text=+)  | $primary-color-sub-fill |`#F0EBFA` |
+| ![#33CCCC](https://placehold.it/20/33CCCC/000000?text=+) | $secondary-color | `#33CCCC` | ![#E9FAFA](https://placehold.it/20/E9FAFA/000000?text=+) | $secondary-color-fill |`#E9FAFA` | 
+![#00CC66](https://placehold.it/20/00CC66/000000?text=+) | $success-color | `#00CC66` | ![#E5FAF0](https://placehold.it/20/E5FAF0/000000?text=+) | $success-fill | `#E5FAF0` | 
+![#FF3333](https://placehold.it/20/FF3333/000000?text=+) | $danger-color| `#FF3333` | ![#FFEBEB](https://placehold.it/20/FFEBEB/000000?text=+) | $danger-fill | `#FFEBEB` |
+![#F9C80E](https://placehold.it/20/F9C80E/000000?text=+) | $warning-color| `#F9C80E` | ![#FEF9E7](https://placehold.it/20/FEF9E7/000000?text=+) | $warning-fill | `#FEF9E7` |
+![#6633CC](https://placehold.it/20/6633CC/000000?text=+) | $guest-color| `#6633CC` | ![#F5EBFA](https://placehold.it/20/F5EBFA/000000?text=+) | $guest-color-fill | `#F5EBFA` |
+![#666666](https://placehold.it/20/666666/000000?text=+) | $heading-grey| `#666666` | ![#F4F5FC](https://placehold.it/20/F4F5FC/000000?text=+) | $background-color | `#F4F5FC` |
+![#333333](https://placehold.it/20/333333/000000?text=+) | $dark-body-grey| `#333333` | ![#CCCCCC](https://placehold.it/20/CCCCCC/000000?text=+) | $light-body-grey | `#CCCCCC` |
+![#737581](https://placehold.it/20/737581/000000?text=+) | $info-color | `#737581` | 
 
-![#D3F5F5](https://placehold.it/20/D3F5F5/000000?text=+) Primary Blue background 2 `#D3F5F5`
-
-# Secondary palette
+# Secondary palette (DEP)
 |  | Color | Hex | Fill | Hex |
 |--|--|--|--|--|
 | ![#2AC27F](https://placehold.it/20/2AC27F/000000?text=+) | Green | `#2AC27F` | ![#D8F3E7](https://placehold.it/20/D8F3E7/000000?text=+) | `#D8F3E7` |
