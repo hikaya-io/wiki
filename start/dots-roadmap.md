@@ -1,4 +1,37 @@
-_UPDATED: 20200409_
+_UPDATED: 20200530_
+
+# Dots MVP (June 2020)
+
+## Maps
+* 🌲Ability to walk through a stepper to configure your data layer
+    * ✅Ability to support geopoint data (lat/long)
+    * 🏃Ability to join non-geo data with admin boundaries for heat maps
+    * 🏃Ability to define columns to display in tooltip
+* 🌲Ability to organize your data layers into folders (Indicator, Demographics, etc)
+* 🏃Ability to filter by your data layers
+* ⚫️Ability to dynamically display the map legend when data layer is displayed
+* 🚀Ability to search data layers to focus the map zoom
+
+## Data (formerly Tables)
+* 🏃Ability to import static files from your local machine (CSV, XLSX)
+* 🏃Ability to import data from Kobo Toolbox via API
+* 🌲Ability define the metadata (data type for each column, assign a column as unique)
+* 🚀Ability to select columns and export data in CSV
+* ⚫️Ability to search table to filter rows
+
+## General app
+* 🏃Ability to register and login (with email confirmation and welcome email sent)
+* ⚫️Ability to invite user via email to join a workspace (with user invite email sent)
+* ⚫️Ability to reset your password (with reset password email sent)
+* 🏃Ability to create a workspace
+* 🌲Ability to select your country(s) for map display to default on
+* 🏃Ability to add admin details in your workspace settings
+* ⚫️Ability to add user details in your user profile settings
+* ⚫️Ability to be able to toggle between your workspaces you are part of
+* ⚫️Ability to switch languages across the app
+* 🚀Ability to define main app labels to allow users to rename
+
+---
 
 # Dots Product Roadmap 2020 🗺️
 
