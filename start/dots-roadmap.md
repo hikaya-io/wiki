@@ -3,6 +3,11 @@ _UPDATED: 20200530_
 # Dots MVP (June 2020)
 
 ## Maps
+Leads:
+* BE: Peter
+* FE: Anas, Ronald
+* Product: Amos
+
 * 🌲Ability to walk through a stepper to configure your data layer
     * ✅Ability to support geopoint data (lat/long)
     * 🏃Ability to join non-geo data with admin boundaries for heat maps
@@ -11,8 +16,14 @@ _UPDATED: 20200530_
 * 🏃Ability to filter by your data layers
 * ⚫️Ability to dynamically display the map legend when data layer is displayed
 * 🚀Ability to search data layers to focus the map zoom
+* 🌲Ability to add multiple map layers
 
 ## Data (formerly Tables)
+Leads:
+* BE: Isaac
+* FE: Michael
+* Product: Ninette
+
 * 🏃Ability to import static files from your local machine (CSV, XLSX)
 * 🏃Ability to import data from Kobo Toolbox via API
 * 🌲Ability define the metadata (data type for each column, assign a column as unique)
@@ -20,6 +31,11 @@ _UPDATED: 20200530_
 * ⚫️Ability to search table to filter rows
 
 ## General app
+Leads:
+* BE: Nasir
+* FE: Michael, Lupyana
+* Product: Andrew
+
 * 🏃Ability to register and login (with email confirmation and welcome email sent)
 * ⚫️Ability to invite user via email to join a workspace (with user invite email sent)
 * ⚫️Ability to reset your password (with reset password email sent)
