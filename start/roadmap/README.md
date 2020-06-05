@@ -15,5 +15,7 @@ The team has a 6-12 month high-level product roadmaps, which includes goals and 
 
 Our product goal is to make it easier for data collected from various sources across an organization to be integrated and streamlined for timely analysis and visualization.
 
-Here's is how we see our applications working together to support this. ![](../../.gitbook/assets/product_flow.png)
+Here's is how we see our applications working together to support this. 
+
+![Last updated: 20200605](../../.gitbook/assets/product_flow.png)
 
