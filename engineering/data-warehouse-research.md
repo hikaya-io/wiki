@@ -1,10 +1,10 @@
-# Data warehouse research
+# Data Warehouse Research
 
 _Updated: 20190601_
 
 A data warehouse is an electronic system that gathers data from a wide range of sources within a company and uses the data to support management decision-making.
 
-Hikaya Data Warehouse (HDW) gathers data from various sources that are used by our clients, prepares, transforms and store this data in a form that is compatible with our Pipeline tools and processes. HDW is used as centralized data repository for **Hikaya Dots **(a set of analytical and reporting tools).
+Hikaya Data Warehouse \(HDW\) gathers data from various sources that are used by our clients, prepares, transforms and store this data in a form that is compatible with our Pipeline tools and processes. HDW is used as centralized data repository for **Hikaya Dots** \(a set of analytical and reporting tools\).
 
 Some of these sources include:
 
@@ -21,28 +21,31 @@ Some of these sources include:
 
 1. Saves the cost of setting up a physical hardware.
 2. Cost effective and quicker to set up and scale.
-3. Due to their adoption of massively parallel processing (MPP) and columnar storage, cloud-based data warehouse architectures can perform complex analytical queries much faster.
+3. Due to their adoption of massively parallel processing \(MPP\) and columnar storage, cloud-based data warehouse architectures can perform complex analytical queries much faster.
 
 ## The Data warehouse has 3 basic functional units:
 
-1. ETL (Extraction, Transform, and Load) Unit
+1. ETL \(Extraction, Transform, and Load\) Unit
 
 This is the unit where all data importation from the external sources takes place. At this point there are 3 basic operations that takes place:
 
-- Data is loading by our ETL applications (Pipeline: Apache NiFi workflow and/or Tables).
-- Data cleaning, cleaning the data to conform to our BigQuery instance schema
-- Data staging: This is where data is staged for pushing to BigQuery. We use relational DB or other forms like exporting the data as CSV to SFTP servers where BigQuery can pull in the data via scheduled tasks.
+* Data is loading by our ETL applications \(Pipeline: Apache NiFi workflow and/or Tables\).
+* Data cleaning, cleaning the data to conform to our BigQuery instance schema
+* Data staging: This is where data is staged for pushing to BigQuery. We use relational DB or other forms like exporting the data as CSV to SFTP servers where BigQuery can pull in the data via scheduled tasks.
+* Data Store
 
-2. Data Store
+  ```text
+   This is the Hikaya BigQuery instance, where all cleaned data is stored and replicated. From this point, our analytics pipeline receives the data
+  ```
 
-        This is the Hikaya BigQuery instance, where all cleaned data is stored and replicated. From this point, our analytics pipeline receives the data
+* Hikaya Dots
 
-3. Hikaya Dots
-
-        Dots is Hikaya’s analytics pipeline that acts as the UI for our data warehouse solution. Here we use various options, including:
-        - Google Cloud Platform Supported Analytical and Reporting tools
-        - Apache Superset
-        - RMarkdown
+  ```text
+   Dots is Hikaya’s analytics pipeline that acts as the UI for our data warehouse solution. Here we use various options, including:
+   - Google Cloud Platform Supported Analytical and Reporting tools
+   - Apache Superset
+   - RMarkdown
+  ```
 
 ## What is and why BigQuery?
 
@@ -50,7 +53,7 @@ At Hikaya, we acknowledge the fact that storing and querying massive datasets ca
 
 ## Loading data
 
-Before data can be loaded into BigQuery for analytical workloads, it is typically stored in a Cloud Storage product and in a format that is native to its origin. During the early stages of migration to GCP, the common pattern is to use existing extract, transform, and load (ETL) tools to transform data into the ideal schema for BigQuery. After data is transformed, it is transferred to Cloud Storage as CSV, JSON, or Avro files, and from there loaded into BigQuery by using load jobs or streaming. Alternatively, you can transfer files to Cloud Storage in the schema that is native to the existing on-premises data storage, loaded into a set of staging tables in BigQuery and then transformed into the ideal schema for BigQuery by using BigQuery SQL commands. These two approaches are visualized here:
+Before data can be loaded into BigQuery for analytical workloads, it is typically stored in a Cloud Storage product and in a format that is native to its origin. During the early stages of migration to GCP, the common pattern is to use existing extract, transform, and load \(ETL\) tools to transform data into the ideal schema for BigQuery. After data is transformed, it is transferred to Cloud Storage as CSV, JSON, or Avro files, and from there loaded into BigQuery by using load jobs or streaming. Alternatively, you can transfer files to Cloud Storage in the schema that is native to the existing on-premises data storage, loaded into a set of staging tables in BigQuery and then transformed into the ideal schema for BigQuery by using BigQuery SQL commands. These two approaches are visualized here:
 
 ## Data Warehouse Monitoring
 
@@ -64,11 +67,11 @@ BigQuery automatically sends audit logs of user actions to Stackdriver Logging. 
 
 There are various ways to access your data from HDW as we support all the access features that are supported by BigQuery. These includes:
 
-1. Google Cloud Platform (GCP) Console (read more here GCP Console)
-2. Classic web UI (read more classic web UI)
-3. Using the command-line-tool (read more command-line tool)
-4. Finally, third party tools such as visualising or loading the data (third-party tools)
-5. BigQuery REST API (Read more BigQuery REST API) by using some of the client libraries such as Java, Python or .NET
+1. Google Cloud Platform \(GCP\) Console \(read more here GCP Console\)
+2. Classic web UI \(read more classic web UI\)
+3. Using the command-line-tool \(read more command-line tool\)
+4. Finally, third party tools such as visualising or loading the data \(third-party tools\)
+5. BigQuery REST API \(Read more BigQuery REST API\) by using some of the client libraries such as Java, Python or .NET
 
 ## Backup and recovery
 
@@ -86,4 +89,5 @@ BigQuery provides predefined roles for controlling access to resources. You can 
 
 ## References:
 
-https://cloud.google.com/solutions/bigquery-data-warehouse
+[https://cloud.google.com/solutions/bigquery-data-warehouse](https://cloud.google.com/solutions/bigquery-data-warehouse)
+

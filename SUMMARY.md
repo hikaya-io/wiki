@@ -1,15 +1,17 @@
-# Summary
+# Table of contents
+
+* [Introduction](README.md)
 
 ## Start
 
-* [Getting Started](README.md)
-* [Roadmap](start/roadmap.md)
-  * [Activity Roadmap](start/activity-roadmap.md)
-  * [Circles Roadmap](start/circles-roadmap.md)
-  * [Dots Roadmap](start/dots-roadmap.md)
-  * [Grid Roadmap](start/grid-roadmap.md)
-  * [Tables Roadmap](tables-roadmap.md)
-  * [Enterprise Roadmap](enterprise-roadmap.md)
+* [Getting Started](start/readme.md)
+* [Roadmap](start/roadmap/README.md)
+  * [Activity Roadmap](start/roadmap/activity-roadmap.md)
+  * [Circles Roadmap](start/roadmap/circles-roadmap.md)
+  * [Dots Roadmap](start/roadmap/dots-roadmap.md)
+  * [Grid Roadmap](start/roadmap/grid-roadmap.md)
+  * [Tables Roadmap](start/roadmap/tables-roadmap.md)
+  * [Enterprise Roadmap](start/roadmap/enterprise-roadmap.md)
 * [Development Process](start/development-process.md)
 
 ## Design

@@ -1,4 +1,6 @@
-# Django tutorials
+# Django Tutorials
+
+## Django tutorials
 
 Django app with micro react apps: [https://tech.gadventures.com/integrating-react-into-django-5e6591097b9e](https://tech.gadventures.com/integrating-react-into-django-5e6591097b9e)
 
@@ -10,44 +12,26 @@ python manage.py runserver
 
 python manage.py migrate
 
-# List of updates for Django 2
+## List of updates for Django 2
 
-1. The `base_name` argument is pending deprecation in favor of `basename` (to be changed in urls)
+1. The `base_name` argument is pending deprecation in favor of `basename` \(to be changed in urls\)
+   * Done
+2. Add `on_delete` property to every model
+   * Done for foreign-key attribute
+3. Conform the codebase to Pep8 standards 1. `Change 1. if conditions : if value == (!=) None to`if value is None\`\(is not\) 1. If conditions with brackets, clean True/verification 1. Reduce lines length 1. Change functions/variables names 1. Change dictionaries declaration
+   * Done 
+4. Add python interpreter and format tags in all scripts
+   * Done 
+5. Changes : 1. Simplify conditions 1. Indicators sql prob \(Cast value to decimal\) 1. Change **unicode** methods to **str** 1. Change tola\_user to activity\_user in views
+   * Done
 
-    - Done
+     Change forms fields \(key errors when fields set to **all**\)
 
-1. Add `on_delete` property to every model
+     Change Javascript + html \(tola related attributes/objects etc.\)
 
-    - Done for foreign-key attribute
-
-1. Conform the codebase to Pep8 standards
-   1. `Change
-      1. if conditions : if value == (!=)  None to `if value is None`(is not)
-      1. If conditions with brackets, clean True/verification
-   1. Reduce lines length
-   1. Change functions/variables names
-   1. Change dictionaries declaration
-
-    - Done 
-
-1. Add python interpreter and format tags in all scripts
-
-    - Done 
-
-1. Changes :
-   1. Simplify conditions
-   1. Indicators sql prob (Cast value to decimal)
-   1. Change **unicode** methods to **str**
-   1. Change tola_user to activity_user in views
-
-        - Done 
-
-          Change forms fields (key errors when fields set to __all__)
-
-          Change Javascript + html (tola related attributes/objects etc.)
-
-Change documentation (tola to activity)
+Change documentation \(tola to activity\)
 
 1. Identify and remove all unused methods, models, signals etc
-   1. Deleted cosign app (djangocosign)
-1. Add unit tests and end to end tests
+   1. Deleted cosign app \(djangocosign\)
+2. Add unit tests and end to end tests
+
