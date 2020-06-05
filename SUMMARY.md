@@ -4,7 +4,7 @@
 
 ## Start
 
-* [Getting Started](start/readme.md)
+* [Getting Started](start/start.md)
 * [Roadmap](start/roadmap/README.md)
   * [Activity Roadmap](start/roadmap/activity-roadmap.md)
   * [Circles Roadmap](start/roadmap/circles-roadmap.md)

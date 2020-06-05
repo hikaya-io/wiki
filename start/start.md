@@ -10,7 +10,7 @@ Welcome to our Company Wiki! Here you can find out more about what we're working
 
 ### Start
 
-* [Getting Started](readme.md)
+* [Getting Started](start.md)
 * [Roadmap](roadmap/)
   * [Activity Roadmap](roadmap/activity-roadmap.md)
   * [Circles Roadmap](https://github.com/hikaya/wiki/tree/ccc5bc2a36efd74ec633eff4a9812768a0f2950f/start/circles-roadmap.md)
