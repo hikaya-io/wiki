@@ -17,5 +17,7 @@ Our product goal is to make it easier for data collected from various sources ac
 
 Here's is how we see our applications working together to support this. 
 
-![Last updated: 20200605](../../.gitbook/assets/product_flow.png)
+![Last updated: 20200605](../../.gitbook/assets/dev-docs-product-flow.png)
+
+
 
