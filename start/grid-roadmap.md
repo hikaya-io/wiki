@@ -15,10 +15,10 @@ Here we present the **Grid** roadmap for the next 6-12 months. This includes hig
 |🔴|Blocked|
 
 #### Goals
-Provide a secure IT environment for organizations to deploy and host their applications on.
+Provide a secure environment for organizations to deploy and host their applications on.
 
 - Ensure best practices in IT application security is being followed
-- Make hosting easy and manageable
+- Make hosting easy to manage and transparent
 - Monitor deployments and run periodic health checks
 - Offer an app library for pre-configured deployments to your own environment
 
@@ -28,7 +28,7 @@ Provide a secure IT environment for organizations to deploy and host their appli
 - Research how closely can we integrate with various cloud providers (e.g. user account set up, billing, etc.)
 
 #### Configuring and deploying a secure environment
-- POC: Set up a secure environment with 3 client apps running
+- Ability to deploy apps securely to an organization's cloud provider
 - Ensure SSL encryption at transit, AES encryption at rest
 
 #### Hosting and deployment monitoring
@@ -36,3 +36,9 @@ Provide a secure IT environment for organizations to deploy and host their appli
 #### App library
 
 #### Explorations
+
+#### POC
+- Set up a secure environment
+- Deploy 3 client apps on hosted environment
+- Add simple monitoring on environment
+- User portal with login and simple monitoring dashboard
