@@ -11,13 +11,10 @@ Welcome to our Company Wiki! Here you can find out more about what we're working
 ### Start
 
 * [Getting Started](start/start.md)
-* [Roadmap](start/roadmap/)
+* [Roadmap](start/roadmap/index.md)
   * [Activity Roadmap](start/roadmap/activity-roadmap.md)
-  * [Circles Roadmap](https://github.com/hikaya/wiki/tree/ccc5bc2a36efd74ec633eff4a9812768a0f2950f/start/circles-roadmap.md)
   * [Dots Roadmap](start/roadmap/dots-roadmap.md)
   * [Grid Roadmap](start/roadmap/grid-roadmap.md)
-  * [Tables Roadmap](https://github.com/hikaya/wiki/tree/ccc5bc2a36efd74ec633eff4a9812768a0f2950f/start/tables-roadmap.md)
-  * [Enterprise Roadmap](https://github.com/hikaya/wiki/tree/ccc5bc2a36efd74ec633eff4a9812768a0f2950f/start/enterprise-roadmap.md)
 * [Development Process](start/development-process.md)
 
 ### Design 🎨
