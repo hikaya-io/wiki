@@ -26,10 +26,10 @@ Provide a secure environment for organizations to deploy and host their applicat
 - Research all the steps needed to deploy a secure environment
 - Research which applications to pre-configure for hosting in an organization's environment
 - Research how closely can we integrate with various cloud providers (e.g. user account set up, billing, etc.)
- - [DigitalOcean API](https://developers.digitalocean.com/documentation/v2/#introduction)
- - [Azure](https://docs.microsoft.com/en-us/azure/cloud-services/)
- - [AWS](https://docs.aws.amazon.com/)
- - [GCP](https://cloud.google.com/docs)
+    - [DigitalOcean API](https://developers.digitalocean.com/documentation/v2/#introduction)
+    - [Azure](https://docs.microsoft.com/en-us/azure/cloud-services/)
+    - [AWS](https://docs.aws.amazon.com/)
+    - [GCP](https://cloud.google.com/docs)
 
 #### General app
 - 🏃Ability to register/login to an account
@@ -84,14 +84,14 @@ Provide a secure environment for organizations to deploy and host their applicat
 2. Select the repo where to fork app source code 
 3. Select the hosting provider
 4. Select one of the suggested resource tiers
- - Choose a plan (Basic, General Purpose, CPU-Optimized, Memory-Optimized)
- - Chose resource tier
- - Add block storage
- - Choose a data center
- - Add VPC Network
- - Configure authentication
- - How many VMs and create hostname
- - Add backup
+    - Choose a plan (Basic, General Purpose, CPU-Optimized, Memory-Optimized)
+    - Chose resource tier
+    - Add block storage
+    - Choose a data center
+    - Add VPC Network
+    - Configure authentication
+    - How many VMs and create hostname
+    - Add backup
 5. Provide an estimated cost and summary
 6. Deploy app
 7. Add app to monitoring module
