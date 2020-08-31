@@ -85,10 +85,10 @@ Here we present the **Dots** roadmap for the next 6-12 months. This includes hig
 
 #### Workspace settings
 * ✅Create workspace settings page.
-* ⚫️Ability to add a logo.
+* ✅Ability to add a logo.
 * ✅Ability to change workspace name and add other information.
 * 🌲⚫️Ability to rename key labels in the application.
-* 🌲⚫️Ability to manage users (invite, set user role, deactivate).
+* 🌲✅Ability to manage users (invite, set user role, deactivate).
 * ⚫️Ability to manager user roles.
 
 #### Maps
