@@ -31,7 +31,7 @@
 * [Integration Research](engineering/integration-research.md)
 * [Jupyter](engineering/jupyter.md)
 * [R Markdown](engineering/r-markdown.md)
-* [Supertset](engineering/supertset.md)
+* [Superset](engineering/superset.md)
 * [Technology Radar](engineering/technology-radar.md)
 
 ## Processes
