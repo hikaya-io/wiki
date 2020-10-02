@@ -25,10 +25,11 @@ Production
 To access our Kubernetes cluster you must use the token used to create. The databases can be access if you have DO admin access and can be retrieved over the console.
 
 ```
-doctl auth init -t "cd879e700e4ed28a9e728f00231c04670eaf4df0bf3dffd559fef1ea84840978"
-doctl -t cd879e700e4ed28a9e728f00231c04670eaf4df0bf3dffd559fef1ea84840978 
+doctl auth init -t <auth_token>
+doctl -t <auth_token> 
 kubernetes cluster kubeconfig save <name_of_cluster>
 ```
+
 - The first command lets the digital ocean cli tool authenticate and verify the token.
 - The second one sets the `kubectl` current context to the one of the cluster needed. Kubectl helps run interact with the K8s cluster, `kubectx` helps switch between contexts without re-authenticating if  you have done it before. 
 
