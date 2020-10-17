@@ -1,0 +1,27 @@
+
+|Feature|Personal|Pro|Enterprise|
+|--|--|--|--|
+|Import CSV|✅|✅|✅|
+|Import Kobo Toolbox|✅|✅|✅|
+|Enable auto-updates|✅|✅|✅|
+|Create point maps|✅|✅|✅|
+|Create choropleth maps|✅|✅|✅|
+|Create polygon maps|✅|✅|✅|
+|Create bubble maps|✅|✅|✅|
+|Create heat maps|✅|✅|✅|
+|Configure map settings|✅|✅|✅|
+|Create tables|Up to 5 tables|Unlimited|✅|
+|Create map layers|Up to 10 layers|Unlimited|✅|
+|Embed maps on your own website|-|✅|✅|
+|Invite collaborators|-|✅|✅|
+|Workspace access controls|-|✅|✅|
+|Personalized workspace branding|-|✅|✅|
+|Custom workspace domain|-|✅|✅|
+|Custom workspace configuration|-|✅|✅|
+|Priority support|-|✅|✅|
+|Self-hosted or cloud-hosted|-|-|✅|
+|99.95% uptime SLA|-|-|✅|
+|SAML single sign-on|-|-|✅|
+|Premium data imports|-|-|✅|
+|Audit logs|-|-|✅|
+|Live support support|-|-|✅|
