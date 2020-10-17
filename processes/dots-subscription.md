@@ -1,6 +1,8 @@
 
 |Feature|Personal|Pro|Enterprise|
 |--|--|--|--|
+|Create tables|Up to 5 tables|Unlimited|Unlimited|
+|Create map layers|Up to 10 layers|Unlimited|Unlimited|
 |Import CSV|✅|✅|✅|
 |Import Kobo Toolbox|✅|✅|✅|
 |Enable auto-updates|✅|✅|✅|
@@ -10,8 +12,6 @@
 |Create bubble maps|✅|✅|✅|
 |Create heat maps|✅|✅|✅|
 |Configure map settings|✅|✅|✅|
-|Create tables|Up to 5 tables|Unlimited|✅|
-|Create map layers|Up to 10 layers|Unlimited|✅|
 |Embed maps on your own website|-|✅|✅|
 |Invite collaborators|-|✅|✅|
 |Workspace access controls|-|✅|✅|
