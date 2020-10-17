@@ -1,4 +1,4 @@
-# Supertset
+# Superset
 
 ## Background
 
