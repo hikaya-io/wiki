@@ -16,7 +16,6 @@
 |Invite collaborators|-|✅|✅|
 |Workspace access controls|-|✅|✅|
 |Personalized workspace branding|-|✅|✅|
-|Custom workspace domain|-|✅|✅|
 |Custom workspace configuration|-|✅|✅|
 |Priority support|-|✅|✅|
 |Self-hosted or cloud-hosted|-|-|✅|
