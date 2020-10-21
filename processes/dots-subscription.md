@@ -12,7 +12,8 @@
 |Create bubble maps|✅|✅|✅|
 |Create heat maps|✅|✅|✅|
 |Configure map settings|✅|✅|✅|
-|Embed maps on your own website|-|✅|✅|
+|Embed maps on your own website*|-|✅|✅|
+|Share tables externally*|-|✅|✅|
 |Invite collaborators|-|✅|✅|
 |Workspace access controls|-|✅|✅|
 |Personalized workspace branding|-|✅|✅|
