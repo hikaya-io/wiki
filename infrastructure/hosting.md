@@ -7,8 +7,7 @@ Hikaya uses [DigitalOcean (DO)](https://cloud.digitalocean.com/) as the main hos
 DO is used to manage the following domains:
 - `hikaya.app`: This is used for all production-level applications
 - `hikaya.dev`: This is used for all development environments.
-
-*`hikaya.io`: This is used for client-specific applications. [Google Domains](https://domains.google.com/) is currently used to manage this domain.
+- `hikaya.io`: This is used for client-specific applications. [Google Domains](https://domains.google.com/) is currently used to manage this domain.
 
 #### Domains not currently used
 - `hikaya.co`
