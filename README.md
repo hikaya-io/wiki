@@ -35,6 +35,13 @@ Welcome to our Company Wiki! Here you can find out more about what we're working
 * [Circles PRD](ux/circles-product-plan.md)
 * [Dots PRD](ux/dots-product-plan.md)
 
+## Infrastructure 🏗
+
+* [CI/CD process](infrastructure/cicd.md)
+* [Hosting](infrastructure/hosting.md)
+* [Kubernetes](infrastructure/kubernetes.md)
+* [Access management](infrastructure/ssh-access.md)
+
 ### Team 🙌
 
 * [How we work](team/how-we-work.md)
