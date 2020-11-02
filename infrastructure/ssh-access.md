@@ -6,7 +6,7 @@ _Updated as of October 31, 2020_
 |-|-|-|
 |sftp-mssql-test|Need to add|Is this droplet required?|
 |dots-superset|Amos: amos njoroge@DESKTOP-DLTRSS2|Verified user|
-||Unknown: root@847d9a86f67c|Review and delete|
+||Amos: root@847d9a86f67c|Verified user|
 ||Jassem: windows@DESKTOP-DT09FKC|Verified user|
 ||Ninette: ninetteadhikari@Ninettes-MBP|Verified user|
 |hikaya-airflow|Need to add||
