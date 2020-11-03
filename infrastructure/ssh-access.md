@@ -1,10 +1,10 @@
 ## Access Management
 
 ### Droplet list on Digital Ocean
-_Updated as of October 31, 2020_
+_Updated as of November 03, 2020_
 | Droplets|SSH Key list|Primary User|Purpose|
 |-|-|-|-|
-|[**dots-superset**](https://cloud.digitalocean.com/droplets/182764775)|:white_check_mark: @sannleen: amos njoroge@DESKTOP-DLTRSS2<br><br>:white_check_mark: @sannleen -`docker`: root@05ce6d3d509e<br><br>:white_check_mark: @jassem123: windows@DESKTOP-DT09FKC<br><br>:white_check_mark: @ninetteadhikari: ninetteadhikari@Ninettes-MBP|Hikaya|In house test env; superset/mssql/druid|
+|[**dots-superset**](https://cloud.digitalocean.com/droplets/182764775)|:white_check_mark: @sannleen: amos njoroge@DESKTOP-DLTRSS2<br><br>:white_check_mark: @sannleen -`docker`: root@05ce6d3d509e<br><br>:white_check_mark: @jassem123: windows@DESKTOP-DT09FKC<br><br>:white_check_mark: @ninetteadhikari: ninetteadhikari@Ninettes-MBP|Hikaya|In house test env;<br> superset/mssql/druid|
 |[**hikaya-airflow**](https://cloud.digitalocean.com/droplets/164640880)|:white_check_mark: @sannleen: amos njoroge@DESKTOP-DLTRSS2<br><br>:white_check_mark: @ninetteadhikari: ninetteadhikari@Ninettes-MBP|client|Apache Airflow deployment|
 |[**ona-airflow-mongodb**](https://cloud.digitalocean.com/droplets/161249482)|:interrobang: No one has access|||
 |[**lwf-ftp**](https://cloud.digitalocean.com/droplets/158077278)|:white_check_mark: @sannleen: amos njoroge@DESKTOP-DLTRSS2<br><br>:white_check_mark: @sannleen -`docker`: root@05ce6d3d509e<br><br>:white_check_mark: @ninetteadhikari: ninetteadhikari@Ninettes-MBP<br><br>:white_check_mark: `hikaya-airflow`-`docker`: root@41e81a55b4d6|client|FTP/SQL Server deployment|
