@@ -2,17 +2,13 @@
 
 ### Droplet list on Digital Ocean
 _Updated as of October 31, 2020_
-| Droplets|SSH list|Comment|
-|-|-|-|
-|sftp-mssql-test|Need to add|Is this droplet required?|
-|dots-superset|Amos: amos njoroge@DESKTOP-DLTRSS2|Verified user|
-||Amos: root@847d9a86f67c|Verified user|
-||Jassem: windows@DESKTOP-DT09FKC|Verified user|
-||Ninette: ninetteadhikari@Ninettes-MBP|Verified user|
-|hikaya-airflow|Need to add||
-|ona-airflow-mongodb|Need to add||
-|lwf-ftp|Need to add||
-|hikaya-lwf|Need to add||
+| Droplets|SSH Key list|Primary User|Purpose|
+|-|-|-|-|
+|[**dots-superset**](https://cloud.digitalocean.com/droplets/182764775)|:white_check_mark: @sannleen: amos njoroge@DESKTOP-DLTRSS2<br><br>:white_check_mark: @sannleen -`docker`: root@05ce6d3d509e<br><br>:white_check_mark: @jassem123: windows@DESKTOP-DT09FKC<br><br>:white_check_mark: @ninetteadhikari: ninetteadhikari@Ninettes-MBP|Hikaya|In house test env; superset/mssql/druid|
+|[**hikaya-airflow**](https://cloud.digitalocean.com/droplets/164640880)|:white_check_mark: @sannleen: amos njoroge@DESKTOP-DLTRSS2<br><br>:white_check_mark: @ninetteadhikari: ninetteadhikari@Ninettes-MBP|client|Apache Airflow deployment|
+|[**ona-airflow-mongodb**](https://cloud.digitalocean.com/droplets/161249482)|:interrobang: No one has access|||
+|[**lwf-ftp**](https://cloud.digitalocean.com/droplets/158077278)|:white_check_mark: @sannleen: amos njoroge@DESKTOP-DLTRSS2<br><br>:white_check_mark: @sannleen -`docker`: root@05ce6d3d509e<br><br>:white_check_mark: @ninetteadhikari: ninetteadhikari@Ninettes-MBP<br><br>:white_check_mark: `hikaya-airflow`-`docker`: root@41e81a55b4d6|client|FTP/SQL Server deployment|
+|[**hikaya-lwf**](https://cloud.digitalocean.com/droplets/150447384/graphs?i=a59f89)|:white_check_mark: @sannleen: amos njoroge@DESKTOP-DLTRSS2<br><br>:white_check_mark: @andrewtpham : andrew.tc.pham@gmail.com<br><br>:white_check_mark: @ninetteadhikari: ninetteadhikari@Ninettes-MBP|client|Superset deployment|
 
 ### Updating existing droplets
 * As new members join or leave the team the `.ssh/authorized_keys` file need to updated to add/remove their SSH keys. The above table will also be updated with the new member list.
