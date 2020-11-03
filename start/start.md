@@ -18,7 +18,7 @@ Welcome to our Company Wiki! Here you can find out more about what we're working
   * [Grid Roadmap](roadmap/grid-roadmap.md)
   * [Tables Roadmap](https://github.com/hikaya/wiki/tree/ccc5bc2a36efd74ec633eff4a9812768a0f2950f/start/tables-roadmap.md)
   * [Enterprise Roadmap](https://github.com/hikaya/wiki/tree/ccc5bc2a36efd74ec633eff4a9812768a0f2950f/start/enterprise-roadmap.md)
-* [Development Process](development-process.md)
+* [Development Process](../start/development-process.md)
 
 ### Design 🎨
 
