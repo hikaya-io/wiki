@@ -19,6 +19,7 @@ DO is used to manage the following domains:
 - `hikaya-lwf`: This is the Superset instance used for LWF dashboards.
 - `ona-airflow-mongodb`: This is the MongoDB instance that stores the data that `hikaya-airflow` processes.
 - `lwf-ftp`: This is the FTP server used to store the exported Newdea DB. This is also where the Newdea DB is restored to MSSQL.
+- `lwf-ubuntu-development`: Ubuntu based droplet for LWF CO/VN for development purposes
 
 #### Hikaya-related
 - `dots-superset`
@@ -37,6 +38,7 @@ DO is used to manage the following domains:
 **Client-related**
 - `hikaya-postgres-db`
 - `lwf-uganda`
+- `lwf-vnco-db-mysql`: MySQL database for LWF CO/VN
 
 ### Object storage
 
