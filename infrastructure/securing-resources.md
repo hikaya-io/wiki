@@ -124,10 +124,21 @@ Once your user has SSH access (make sure to verify that in a separate session), 
 
 https://github.com/jtesta/ssh-audit/
 
+### References
+
+- https://github.com/imthenachoman/How-To-Secure-A-Linux-Server
+- [Awesome Security Hardening](https://github.com/decalage2/awesome-security-hardening)
 
 ## Kubernetes clusters
 
 > WIP How to secure K8s clusters
+
+
+### References
+
+- [Recommended Steps to Secure a DigitalOcean Kubernetes Cluster](https://www.digitalocean.com/community/tutorials/recommended-steps-to-secure-a-digitalocean-kubernetes-cluster)
+- [Official K8s documentation for securing a Cluster](https://kubernetes.io/docs/tasks/administer-cluster/securing-a-cluster/)
+- [Awesome Kubernetes Security](https://github.com/ksoclabs/awesome-kubernetes-security)
 
 ## Managed databases
 
