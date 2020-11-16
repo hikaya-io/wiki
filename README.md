@@ -41,6 +41,8 @@ Welcome to our Company Wiki! Here you can find out more about what we're working
 * [Hosting](infrastructure/hosting.md)
 * [Kubernetes](infrastructure/kubernetes.md)
 * [Access management](infrastructure/ssh-access.md)
+* [Creating resources](infrastructure/creating-resources.md)
+* [Securing resources](infrastructure/securing-resources.md)
 
 ### Team 🙌
 
