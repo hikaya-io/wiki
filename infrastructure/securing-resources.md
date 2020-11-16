@@ -1,27 +1,20 @@
 # Securing infrastructure
 
-> This is a guide on how to secure and maintain infrastructure.
+> Implement security policies/measures on infrastructure resources.
 
+Always keep in the back of your mind the following 3 questions:
 
-
-## Principles
-
-1. Why secure?
-
+1. Why are we securing the resource?
 2. How much security do we need?
-Relative to the threat level
-This is a development instance, so the security hardening will be kept minimal, until we better identify the use case(s),
-or move to a production environment
-
 3. How much convenience are we willing to sacrifice for security?
 
-Keep in-mind that security almost often comes at the cost of convenience, so make sure to follow security steps depending on the threat level and your use case.
-Securing a development environment for a Proof of Concept would be much different than securing a production environment for a third-party with sensitive data and a large user base.
+Security almost often comes at the cost of convenience, so make sure to follow security steps depending on the threat level and your use case: securing a development environment for a Proof of Concept would be much different than securing a production environment for a third-party with sensitive data and a large user base.
 
 ## Ubuntu droplets
 
 > Make sure to have multiple SSH sessions open, since you might accidentally lock yourself out during these steps.
 > Make sure to make backups/copies of sensitive configuration files before editing them
+
 
 ### Updates and upgrades
 
@@ -77,7 +70,6 @@ Options that you can control are:
 
 **Goal:** Secure the SSH access to the droplet
 
-> 
 #### Enforce SSH certificates usage
 
 > TODO
@@ -119,12 +111,16 @@ Once your user has SSH access (make sure to verify that in a separate session), 
 
 ### Other steps
 
+> WIP Additional steps still to explore depending on the needs
+
 - Iptables
 - Firewall
 - Root detecion
 - IPS and IDS
 
 ### Self auditing
+
+> WIP scripts/tools to have at-hand in the droplet for self-auditing
 
 https://github.com/jtesta/ssh-audit/
 
