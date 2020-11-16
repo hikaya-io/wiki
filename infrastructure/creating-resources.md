@@ -8,6 +8,7 @@ The content will be separated by resource type:
 1. Droplet
 2. Managed database
 3. Kubernetes cluster
+4. SSH Keys
 
 ## Requirements
 
@@ -40,3 +41,5 @@ For example, to create an Ubuntu droplet with ..... :
 ## Managed database
 
 ## K8s cluster
+
+## SSH keys
