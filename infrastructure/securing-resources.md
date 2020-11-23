@@ -83,8 +83,8 @@ SSH reads its configuration in the following precedence order:
 
 Most of the following configuration will be applied to `/etc/ssh/sshd_config`
 
-First, lets limite SSH usage to only a handful of users. To do so, create a users group called `sshers`: `sudo groupadd sshusers`
-We will configure SSH to only allow connections from the users the belong to the `sshusers` group. This way we can allow/deny a Ubuntu user SSH usage by simply adding/removing from this users group.
+First, lets limit SSH usage to only a handful of users. To do so, create a users group called `sshers`: `sudo groupadd sshusers`
+We will configure SSH to only allow connections from the users that belong to the `sshusers` group. This way we can allow/deny a Ubuntu user SSH usage by simply adding/removing from this users group.
 This can be done using the `AllowGroups` SSH option in the configuration file as such:
 ```
 AllowGroups sshusers
@@ -115,7 +115,7 @@ Once your user has SSH access (make sure to verify that in a separate session), 
 
 - Iptables
 - Firewall
-- Root detecion
+- Root detection
 - IPS and IDS
 
 ### Self auditing
