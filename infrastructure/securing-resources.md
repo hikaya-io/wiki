@@ -126,8 +126,90 @@ https://github.com/jtesta/ssh-audit/
 
 
 ## Kubernetes clusters
+### Roadmap: 
+We will address Kubernetes cluster security a layer at a time a.k.a *The 4C's of Cloud Native Security*; which are Cloud provider, Clusters, Containers, and Code . 
 
-> WIP How to secure K8s clusters
+#### Cloud Provider: 
+Follow recommendations  by [Digital Ocean](https://www.digitalocean.com/community/tutorials/recommended-steps-to-secure-a-digitalocean-kubernetes-cluster) to securely run a DOKS. 
+
+I. Enabling Remote User Authentication
+II. Authorizing Users Through Role Based Access Control (RBAC)
+III. Managing Application Permissions with Service Accounts
+IV. Setting Up Admission Controllers
+
+#### Clusters: 
+Access to the Kubernetes API should be [controlled](https://kubernetes.io/docs/tasks/administer-cluster/securing-a-cluster/#controlling-access-to-the-kubernetes-api)  by first authenticating and authorizing distant users (configured at step 1) and wiring them depending on their perspective service accounts .
+
+1. Prevent service account token automounting on pods:
+Not every pod needs the ability to utilize the API from within itself. so there is no need for the app to contact the API server, and therefore a mounted token is unnecessary.
+in order to add a service account run: 
+```yml
+kubectl create -f - <<EOF 
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+    name: sa1
+automountServiceAccountToken: false
+EOF
+```
+later the Pod is run with service account “sa1” assigned to it:
+```yml
+kubectl create -f - <<EOF 
+apiVersion: v1
+kind: Pod
+metadata:
+    name: sa1-pod
+spec:
+    serviceAccountName: sa1
+    containers:
+    - name: nginx
+       image: nginx: latest
+       ports:
+       - containerPort: 80
+EOF
+```
+Alternatively, disabling the account service mount can be done when creating the pod : 
+```yml
+kubectl create -f - <<EOF 
+apiVersion: v1
+kind: Pod
+metadata:
+    name: sa1-pod
+spec:
+    serviceAccountName: sa1
+    autmountServiceAccountoken:false
+    containers:
+    - name: nginx
+       image: nginx: latest
+       ports:
+       - containerPort: 80
+EOF
+```
+2. Grant specific users to RoleBindings\ClusterRoleBindings
+3.  Use Roles and RoleBindings instead of ClusterRoles and ClusterRoleBindings:
+As their name state, ClusterRoles and ClusterRoleBindings aplly to all the namespaces of the cluster. 
+While Roles and RoleBindings are assigned to a specific namespace.
+#### Containers: 
+Might be out of the scope of this ticket, but there's some recommendations to follow while building a container: 
+a. Container Vulnerability Scanning and OS Dependency Security.
+b. Disallow privileged users: work with users that have the least level of operating system privilege necessary in order to carry out the goal of the container.
+c. Preventing containers from loading unwanted kernel modules:
+On  Linux distributions, you can do that by creating a file  /etc/modprobe.d/kubernetes-blacklist.conf with contents like:
+``` # DCCP is unlikely to be needed, has had multiple serious
+# vulnerabilities, and is not well-maintained.
+blacklist dccp
+
+# SCTP is not used in most Kubernetes clusters, and has also had
+# vulnerabilities in the past.
+blacklist sctp 
+```
+Finally, signing containers and establishing a system of trust for deployed applications. 
+ 
+
+#### Code: 
+Access should to be enabled only over TLS 
+Reduce opened ports range..
+
 
 ## Managed databases
 
