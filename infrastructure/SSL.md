@@ -20,8 +20,15 @@ For a DO droplet hosting a web app, it is highly recommended to serve the web ap
 Currently, the entire process of obtaining, installing and renewing a certificate with Let's Encrypt is fully automated on both Apache and Nginx.
 
 
-Adding the domain name to Hikaya's DigitalOcean account in Networking --> Domains
-Update the domain registrar to point to DigitalOcean DNS servers
+To bind a droplet's public IP address to a domain name:
+
+- Update the domain registrar to point to DigitalOcean DNS servers (leave this step to last if the domain is already in use to avoid downtime)
+- Adding the domain name to Hikaya's DigitalOcean account in Networking --> Domains
+- Create a DNS record for the domain: for a droplet, an [A DNS record](https://www.cloudflare.com/learning/dns/dns-records/dns-a-record/) that links the domain/subdomain to the droplet's IP address must be created.
+
+After doing so, you can get a certificate by configuring your droplet depending on the web server you chose to use:
+- [How To Secure Nginx with Let's Encrypt on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-secure-nginx-with-let-s-encrypt-on-ubuntu-20-04)
+- [How To Secure Apache with Let's Encrypt on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-secure-apache-with-let-s-encrypt-on-ubuntu-20-04)
 
 
 ## SSL for K8s clusters
@@ -33,5 +40,3 @@ Update the domain registrar to point to DigitalOcean DNS servers
 - [How to enable the ssl certificate for my droplet IP address discussion on DO community](https://www.digitalocean.com/community/questions/how-to-enable-the-ssl-certificate-for-my-droplet-ip-address)
 - [SSL for IP Address discussion on DO community](https://www.digitalocean.com/community/questions/ssl-for-ip-address)
 
-- [How To Secure Nginx with Let's Encrypt on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-secure-nginx-with-let-s-encrypt-on-ubuntu-20-04)
-- [How To Secure Apache with Let's Encrypt on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-secure-apache-with-let-s-encrypt-on-ubuntu-20-04)
