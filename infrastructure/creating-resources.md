@@ -26,7 +26,7 @@ You can do so through DigitalOcean's UI and specifying the following parameters:
 - Datacenter region: pick depending on the use case and expected users locations
 - VPC network
 - IPv6 support: enabling IPv6 on a Droplet gives you access to its 16 additional IPv6 addresses. This can be enabled after the droplet's creation.
-- Monitoring
+- Monitoring: enables DO's free Metrics Agent that gathers metrics about the droplet's resources usage. For further details, see [Monitoring Quickstart](https://www.digitalocean.com/docs/monitoring/quickstart/)
 - Authentication: password authentication or SSH (strongly recomended)
 - Backups: comes at an additional cost of 20% of the droplet's cost
 
