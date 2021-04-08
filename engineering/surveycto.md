@@ -22,7 +22,7 @@ Basicauth header
 
 CSRF token and requests session?
 
-### API usage
+### General API usage
 
 [SurveyCTO API documentation](https://support.surveycto.com/hc/en-us/articles/360033156894?flash_digest=d76dde7c3ffc40f4a7f0ebd87596d32f3a52304f):
     - More like an article
@@ -35,6 +35,39 @@ CSRF token and requests session?
     - Rate limiting
     - Some sample codes
 
+### Listing all the forms
+
+You can list all forms of a SurveyCTO server using its API...
+
+Main attributes of a form:
+- `id`: Unique identifier. Is deduced from the title of the form.
+- `testForm`
+- `deployed`
+- totalSubmissions
+- version
+- ...
+
+When fetching list of forms, and since our goal is to provide analytics on the submissions, we filter the list of forms according to the following rules:
+1. Non test forms
+2. Deployed forms
+3. Has at least a single submission
+
+This also has the benefit of filtering out some `Form`s that SurveyCTO uses internally to manage drafts, and which raise internal server errors on the SurveyCTO side when trying to fetch their submissions.
+### Get details of a form
+
+Details of a form are important. It includes:
+- Fields, labels
+- Translations
+- Attachments?
+- ...
+
+
+You can list all forms of a SurveyCTO server using its API...
+
+> Please note that this endpoint is not part of the official SurveyCTO API. It is not documented anywhere and is not officially supported. It was deduced from analysing traffic inside the browser while visiting SUrveyCTO
+### Get submissions of a form
+
+<!-- TODO -->
 
 ## CSV import
 
