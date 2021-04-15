@@ -35,7 +35,72 @@ CSRF token and requests session?
     - Rate limiting
     - Some sample codes
 
+Get all form IDs:
+    - Is not using the official API
+    - Requires a CSRF token since it is normaly requested from the browser of an active login session
+    - endpoint: "https://{self.server_name}.surveycto.com/console/forms-groups-datasets/get"
+    - response: returns list of information about the SCTO server, including forms, groups, datasets...
+
+Here is a sample JSON response
+```json
+{
+    "canAddObjectsIntoRoot": true,
+    "groups": [
+        {
+           "id": 1,
+           "title":"Title of the group",
+           "parentGroupId":"ID of the parent group, if any",
+           "ordinal":0.0,
+           "teamGroup": false,
+           "teamId": "Id of the team"
+        },
+        ...
+    ],
+    "datasets": [],
+    "forms": [
+        {
+            "title":"Title Of The Form",
+            "id":"title_of_the_form",
+            "version":"version_of_the_form",
+            "creationDate": 1614863369000,
+            "createdUser": "ID of the user who created the form",
+            "completeSubmissionCount": 20,
+            "incompleteSubmissionCount":0,
+            "unreviewedSubmissionCount":0,
+            "approvedSubmissionCount":19,
+            "rejectedSubmissionCount":1,
+            "formFields":"None",
+            "testForm":false,
+            "encrypted":false,
+            "draftVersion":"version of the draft, if any",
+            "deployed":true,
+            "webDataCollectionAnonymousEnabled":false,
+            "webDataCollectionAutoDetectBrowserLanguage":true,
+            "datasetOptionsModel":{
+                ...
+            },
+            "attachedDatasetIds":[
+                ...
+            ],
+            "lastIncomingDataDate":1615995064000,
+            "groupId":98,
+            "reviewWorkflowEnabled":false,
+            "reviewWorkflowConfig":{
+                ...
+            },
+            "formFillingSettings":{
+                ...
+            },
+            "downloadable":true
+        }
+        ...
+    ],
+    ...
+}
+```
+
 ### Listing all the forms
+<!-- TODO provide sample results -->
 
 You can list all forms of a SurveyCTO server using its API...
 
