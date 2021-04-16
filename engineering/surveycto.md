@@ -105,25 +105,15 @@ Endpoint: https://{SERVER_NAME}.surveycto.com/console/forms-groups-datasets/get
 
 </details>
 
-### Listing all the forms
-<!-- TODO provide sample results -->
 
-You can list all forms of a SurveyCTO server using its API...
+When fetching list of forms, and since our goal is to provide analytics on the submissions, it is **strongly recommended** to filter the list of forms according to the following rules:
 
-Main attributes of a form:
-- `id`: Unique identifier. Is deduced from the title of the form.
-- `testForm`
-- `deployed`
-- totalSubmissions
-- version
-- ...
-
-When fetching list of forms, and since our goal is to provide analytics on the submissions, we filter the list of forms according to the following rules:
-1. Non test forms
+1. Non-test forms
 2. Deployed forms
 3. Has at least a single submission
 
-This also has the benefit of filtering out some `Form`s that SurveyCTO uses internally to manage drafts, and which raise internal server errors on the SurveyCTO side when trying to fetch their submissions.
+This has the benefit of filtering out some forms that SurveyCTO uses internally (to manage drafts for example), and which raise `500 Internal Server` errors on the SurveyCTO side when trying to fetch their submissions. Must also be noted that some of those form had prefixes/suffixes with special characters in them. It appears that it is SurveyCTO's way of naming them.
+
 ### Get details of a form
 
 Details of a form are important. It includes:
