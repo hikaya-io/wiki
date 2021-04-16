@@ -39,9 +39,10 @@ CSRF token and requests session?
 
 To get all form IDs, we are using a generic endpoint that returns a multitude of information about the SCTO server: its forms, groups, datasets...
 
-This endpoint is not officially supported by SurveyCTO and is supposed to be queried by SurveyCTO frontend. This is why it requires a CSRF token to be passed in the `X-csrf-token` HTTP header. 
 
-Endpoint: https://{SERVER_NAME}.surveycto.com/console/forms-groups-datasets/get
+Request: `GET https://{SERVER_NAME}.surveycto.com/console/forms-groups-datasets/get`
+
+> This endpoint is not officially supported by SurveyCTO and is supposed to be queried by SurveyCTO frontend. This is why it requires a CSRF token to be passed in the `X-csrf-token` HTTP header.
 
 <details>
   <summary>Sample JSON response :point_down:</summary>
@@ -105,7 +106,6 @@ Endpoint: https://{SERVER_NAME}.surveycto.com/console/forms-groups-datasets/get
 
 </details>
 
-
 When fetching list of forms, and since our goal is to provide analytics on the submissions, it is **strongly recommended** to filter the list of forms according to the following rules:
 
 1. Non-test forms
@@ -116,16 +116,89 @@ This has the benefit of filtering out some forms that SurveyCTO uses internally 
 
 ### Get details of a form
 
-Details of a form are important. It includes:
-- Fields, labels
-- Translations
-- Attachments?
-- ...
 
+Details of a form include:
+- Fields: names, captions in all supported languages, data types
+- SurveyCTO Quality Checks implemented on the form
+- Sbbmissions counters
+- Attached datasets
 
-You can list all forms of a SurveyCTO server using its API...
+Request: `GET https://{SERVER_NAME}.surveycto.com/forms/{FORM_ID}/workbook/export/load`
 
-> Please note that this endpoint is not part of the official SurveyCTO API. It is not documented anywhere and is not officially supported. It was deduced from analysing traffic inside the browser while visiting SUrveyCTO
+> This endpoint is not officially supported by SurveyCTO and is supposed to be queried by SurveyCTO frontend. This is why it requires a CSRF token to be passed in the `X-csrf-token` HTTP header.
+
+<details>
+    <summary>Sample JSON response :point_down:</summary>
+
+```json
+{
+    "formStructureModel":{
+        "title":"Title of the Form",
+        "latestVersion":"2103041459",
+        "encrypted":false,
+        "reviewWorkflowEnabled":false,
+        "defaultLanguage":"English",
+        "summaryElementsPerLanguage":{
+            "English":{
+                "name":"airflow_sample_form",
+                "caption":"None",
+                "dataType":"group",
+                "appearance":"None",
+                "children":[
+                   {
+                       "name":"name_of_the_field",
+                       "caption":"Long descriptive text displayed in the form to give details about the field",
+                       "dataType":"type_of_field",
+                       "appearance":"display_of_the_value",
+                       "publishable":false
+                   },
+                   ...
+                ],
+                "allFieldsCount":27,
+                "publishableFieldsCount":2,
+                "notesCount":1,
+                "empty":false
+            },
+            "Español":{
+                ...
+            },
+            "Français":{
+                ...
+            }
+        },
+        "languages":[
+            "English",
+            "Español",
+            "Français"
+        ]
+    },
+    "dataView":"None",
+    "qualityCheckModels":"None",
+    "uuids":[
+        ...
+    ],
+    "latestReviewDates":[
+        ...
+    ],
+    "latestReviewStatuses":[
+        ...
+    ],
+    "latestClassTags":[
+       "None",
+       "None"
+    ],
+    "qualityChecksWarnings":"None",
+    "lastQCRunDate":"None",
+    "submissionsCounters":{
+        ...
+    },
+    "totalUUIDsToFetch":0,
+    "attachedDatasets":"None"
+}
+```
+
+</details>
+
 ### Get submissions of a form
 
 <!-- TODO -->
