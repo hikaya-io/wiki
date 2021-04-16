@@ -35,13 +35,17 @@ CSRF token and requests session?
     - Rate limiting
     - Some sample codes
 
-Get all form IDs:
-    - Is not using the official API
-    - Requires a CSRF token since it is normaly requested from the browser of an active login session
-    - endpoint: "https://{self.server_name}.surveycto.com/console/forms-groups-datasets/get"
-    - response: returns list of information about the SCTO server, including forms, groups, datasets...
+### Get all form IDs
 
-Here is a sample JSON response
+To get all form IDs, we are using a generic endpoint that returns a multitude of information about the SCTO server: its forms, groups, datasets...
+
+This endpoint is not officially supported by SurveyCTO and is supposed to be queried by SurveyCTO frontend. This is why it requires a CSRF token to be passed in the `X-csrf-token` HTTP header. 
+
+Endpoint: https://{SERVER_NAME}.surveycto.com/console/forms-groups-datasets/get
+
+<details>
+  <summary>Sample JSON response :point_down:</summary>
+
 ```json
 {
     "canAddObjectsIntoRoot": true,
@@ -98,6 +102,8 @@ Here is a sample JSON response
     ...
 }
 ```
+
+</details>
 
 ### Listing all the forms
 <!-- TODO provide sample results -->
