@@ -25,22 +25,24 @@ CSRF token and requests session?
 ### General API usage
 
 [SurveyCTO API documentation](https://support.surveycto.com/hc/en-us/articles/360033156894?flash_digest=d76dde7c3ffc40f4a7f0ebd87596d32f3a52304f):
-    - More like an article
-    - Downloading wide data from API
-    - Downloading data in CSV format
-    - Linebreaks in CSV
-    - Segmentation based on review status
-    - Authentication
-    - Date formats
-    - Rate limiting
-    - Some sample codes
+- Fetching wide JSON data from API
+- Fetching data in CSV format
+- Fetching encrypted forms
+- Segmentation based on review status
+- Username/Password authentication to the SurveyCTO API
+- Date formats
+- Rate limiting
+- Some sample codes
+
+A package [IDinsightsurveycto-python](https://github.com/IDinsight/surveycto-python/blob/master/pysurveycto/pysurveycto.py) is available. The package is aknowledged by SurveyCTO in their blog post [Python & SurveyCTO: we bring you pysurveycto](https://www.surveycto.com/blog/idinsight-phython-surveycto/).
+
+You can find a minimalist class used in the SurveyCTO Airflow integration in [connectors/DAGs/helpers/surveycto.py](https://github.com/hikaya-io/connectors/blob/master/DAGs/helpers/surveycto.py).
 
 ### Get all form IDs
 
 To get all form IDs, we are using a generic endpoint that returns a multitude of information about the SCTO server: its forms, groups, datasets...
 
-
-Request: `GET https://{SERVER_NAME}.surveycto.com/console/forms-groups-datasets/get`
+**Request:** `GET https://{SERVER_NAME}.surveycto.com/console/forms-groups-datasets/get`
 
 > This endpoint is not officially supported by SurveyCTO and is supposed to be queried by SurveyCTO frontend. This is why it requires a CSRF token to be passed in the `X-csrf-token` HTTP header.
 
@@ -106,26 +108,27 @@ Request: `GET https://{SERVER_NAME}.surveycto.com/console/forms-groups-datasets/
 
 </details>
 
-When fetching list of forms, and since our goal is to provide analytics on the submissions, it is **strongly recommended** to filter the list of forms according to the following rules:
+When fetching list of forms, it is **strongly recommended** to filter the list of forms according to the following rules:
 
 1. Non-test forms
 2. Deployed forms
 3. Has at least a single submission
 
-This has the benefit of filtering out some forms that SurveyCTO uses internally (to manage drafts for example), and which raise `500 Internal Server` errors on the SurveyCTO side when trying to fetch their submissions. Must also be noted that some of those form had prefixes/suffixes with special characters in them. It appears that it is SurveyCTO's way of naming them.
+This has the benefit of filtering out some forms that SurveyCTO uses internally (to manage drafts for example), and which raise `500 Internal Server` errors on the SurveyCTO side when trying to fetch their submissions.
+
+Must also be noted that some of those forms had prefixes/suffixes with special characters in them. It appears that it is SurveyCTO's way of naming them.
 
 ### Get details of a form
 
-
-Details of a form include:
+Details of a form include, among others:
 - Fields: names, captions in all supported languages, data types
 - SurveyCTO Quality Checks implemented on the form
-- Sbbmissions counters
+- Submissions counters
 - Attached datasets
 
-Request: `GET https://{SERVER_NAME}.surveycto.com/forms/{FORM_ID}/workbook/export/load`
+**Request:** `GET https://{SERVER_NAME}.surveycto.com/forms/{FORM_ID}/workbook/export/load`
 
-> This endpoint is not officially supported by SurveyCTO and is supposed to be queried by SurveyCTO frontend. This is why it requires a CSRF token to be passed in the `X-csrf-token` HTTP header.
+> **Note:** This endpoint is not officially supported by SurveyCTO and is supposed to be queried by SurveyCTO frontend. This is why it requires a CSRF token to be passed in the `X-csrf-token` HTTP header.
 
 <details>
     <summary>Sample JSON response :point_down:</summary>
@@ -212,14 +215,20 @@ Request: `GET https://{SERVER_NAME}.surveycto.com/forms/{FORM_ID}/workbook/expor
 [Limitations of SurveyCTO](https://support.surveycto.com/hc/en-us/articles/360045646133-Limitations-of-SurveyCTO)
 
 They strongly recommend, for the fields names, to keep them as short as possible
-If too long, they can break integration with third-party integration or with SurveyCTO "Quality checks"
+If too long, they can break integration with third-party integration or with SurveyCTO "Quality checks".
 
-## Limitations when loading to SQL DBs
+## Limitations when loading to a PostgreSQL
 
-Special characters in names of tables and fields
-Length of the table names and fields names
+Some limitations of PostgreSQL can be hit when trying to load data from SurveyCTO.
+They can lead to conflicts in table/columns names:
 
+- Identifiers (table and column names for examples) that are not doube-quoted in SQL statements are transformed to lowercase.
+- Identifiers can not have special characters if they are not double-quoted.
+- An identifier's length should not exceed 63 characters. If it is the case, it is truncated.
 
+Partially because of these limitations, it is recommended to use [Pandas to-sql method](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.to_sql.html) to dump data into the DB.
+
+For other operations, use [SQLAlchemy](https://docs.sqlalchemy.org/) and [SQLALchemy Core](https://docs.sqlalchemy.org/en/14/core/)
 # Links
 
 [Overview of SurveyCTO types](https://docs.surveycto.com/02-designing-forms/01-core-concepts/03a.field-types-text.html)
