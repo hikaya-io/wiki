@@ -1,4 +1,28 @@
-_UPDATED: 20200706_
+_UPDATED: 20210113_
+
+# Dots 2021 (January 2021)
+
+**Annotation reference:**
+
+|Icon|Description| 
+|--|--|
+|⚫️|Work not started|
+|🏃|Working on|
+|✅|Work completed|
+|🚀|Stretch goal|
+|🌲|High priority|
+|🔵|More research required to remove uncertainty|
+|🔴|Blocked|
+
+## General App
+- 🏃 Billing and subscription management
+- ⚫️ Stripe integration for payments
+- ✅ Feature segregation between public and private repositories
+
+## Data
+- 
+
+## Maps
 
 # Dots MVP (June 2020)
 
@@ -42,18 +66,6 @@ _UPDATED: 20200706_
 **Dots** is a modern visualization and reporting tool to help nonprofits connect their data from various sources to visualize and make results reporting easier.
 
 Here we present the **Dots** roadmap for the next 6-12 months. This includes high level goals and features we would like to introduce during this period.
-
-**Annotation reference:**
-
-|Icon|Description| 
-|--|--|
-|⚫️|Work not started|
-|🏃|Working on|
-|✅|Work completed|
-|🚀|Stretch goal|
-|🌲|High priority|
-|🔵|More research required to remove uncertainty|
-|🔴|Blocked|
 
 #### Goals
 * ✅A single place to display an interactive map with multiple map layers.
