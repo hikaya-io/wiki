@@ -15,3 +15,15 @@ Use droplet snapshots
 6. Test access to the new droplet and make sure it works the same way as the old one
 
 [DigitalOcean Snapshots pricing](https://docs.digitalocean.com/products/images/snapshots/#plans-and-pricing)
+
+## Managed Databases
+
+> WIP
+
+Depends on the DB
+Migrate the data, users and permissions
+
+## Kubernetes clusters
+
+- FluxCD
+- Velero: for migration and disaster recovery
