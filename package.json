@@ -1,0 +1,24 @@
+{
+  "name": "wiki",
+  "version": "1.0.0",
+  "description": "![](.gitbook/assets/Hikaya_icon_color.png)",
+  "main": "README.md",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hikaya-io/wiki.git"
+  },
+  "keywords": [
+    "wiki",
+    "docs",
+    "documentation"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hikaya-io/wiki/issues"
+  },
+  "homepage": "https://github.com/hikaya-io/wiki#readme"
+}
