@@ -1,6 +1,6 @@
 # Introduction
 
-![](.gitbook/assets/Hikaya_icon_color.png)
+![](assets/Hikaya_icon_color.png)
 
 ## Getting Started 🏡
 
