@@ -207,10 +207,10 @@ We perform QA testing when features are merged from `develop` to `staging`. We u
 
 We use 3 main branches in all our repositories :
 
-`Dev` \(or `Develop`\) - All bug fixes, defects, and tasks.  
- `Feature branches` \(i.e. ACT-001\) - All feature branches must be named like: ACT-001 \(where ACT-001 is the issue number on GitHub\).  
- `Staging` - This is our QA testing environment  
- `Master` - Clean code in production environment  
+`dev` \(or `Develop`\): all bug fixes, defects, and tasks.  
+`Feature` or `preview` branches: 
+`staging`: QA testing environment  
+`main`: production environment  
 
 
 > **Note:**
