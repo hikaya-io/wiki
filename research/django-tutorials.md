@@ -8,11 +8,9 @@ Django template language: [https://docs.djangoproject.com/en/3.0/ref/templates/l
 
 Git commands: [https://dev.to/dhruv/essential-git-commands-every-developer-should-know-2fl](https://dev.to/dhruv/essential-git-commands-every-developer-should-know-2fl)
 
-python manage.py runserver
-
-python manage.py migrate
-
 ## List of updates for Django 2
+
+<!-- To be removed and deprecated, or change to Django 4 update check list -->
 
 1. The `base_name` argument is pending deprecation in favor of `basename` \(to be changed in urls\)
    * Done

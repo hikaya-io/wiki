@@ -32,7 +32,7 @@ You can do so through DigitalOcean's UI and specifying the following parameters:
 
 Name your droplet and tag it as you see appropriate.
 
-All the above options, and more, are accessible from the [doctl](aji) CLI.
+All the above options, and more, are accessible from the [doctl](https://docs.digitalocean.com/reference/doctl/) CLI.
 For example, to create a 64-bit Debian 8 Droplet named `my-droplet` with 1GB of memory, an SSH key, in NYC region and backups enabled:
 
 ```

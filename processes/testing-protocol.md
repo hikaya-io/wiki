@@ -6,6 +6,7 @@
 
 We aim to maintain a high level of test coverage for all our source code. Our standards are:
 
+<!-- Explain aimed percentage -->
 * Over 95% for all backend code
 * Over 90% for all frontend code
 
