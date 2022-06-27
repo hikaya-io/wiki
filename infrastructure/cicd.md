@@ -12,7 +12,7 @@ We have a CI/CD process set up for deployment to all our environments. On `devel
 2. For release notes ensure the `target` is set as `main` branch.
 3. Create PRs from develop to main branch for the repo.
 4. Ensure all tests have successfully passed for the PR.
-5. For products with the frontend and backend in separate repos, make sure to merge the backend PR first. 
+5. For products with the frontend and backend in separate repos, make sure to merge the backend PR first.
 6. Use the "Create a merge commit" option to merge the PR. Don't use squash and merge or rebase option.
 7. After the backend is merged, merge the frontend PR, using the "Create a merge commit" option again.
 8. Publish the release for the backend repo first.

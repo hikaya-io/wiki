@@ -54,4 +54,3 @@ a. Get information about the task
 ```text
 GET /api/experimental/dags/<DAG_ID>/tasks/<TASK_ID>
 ```
-

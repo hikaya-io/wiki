@@ -1,6 +1,6 @@
 # Hikaya CI/CD process
 
-We are currently using [Github Actions](https://docs.github.com/en/free-pro-team@latest/actions) for simple build checks and deployments to our environments. 
+We are currently using [Github Actions](https://docs.github.com/en/free-pro-team@latest/actions) for simple build checks and deployments to our environments.
 
 We use `CodeCov` to provide reports on test coverage for each Pull Request against the main branches. Over time, our aim is to increase test coverage including unit tests, integration tests, end-to-end tests, and automatic deployments to development process.
 

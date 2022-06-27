@@ -175,11 +175,13 @@ You have to modify the values of the variables POSTGRES\_USER, POSTGRES\_PASSWOR
 
 To change the color of a chart:
 
-`{    
-"label_colors": {    
-"Girls": "#FF69B4",    
-"Boys": "#ADD8E6"    
-}`
+```
+{
+    "label_colors": {
+    "Girls": "#FF69B4",
+    "Boys": "#ADD8E6"
+}
+```
 
 * After saving it you can edit it anytime in the Dashboards section.
 
@@ -201,13 +203,13 @@ To change the color of a chart:
 
 Example :
 
-`{    
-"filter_immune_slices": [324, 65, 92],    
-"expanded_slices": {},    
-"filter_immune_slice_fields": {    
-"177": ["country_name", "__from", "__to"],    
-"32": ["__from", "__to"]    
-},    
+`{
+"filter_immune_slices": [324, 65, 92],
+"expanded_slices": {},
+"filter_immune_slice_fields": {
+"177": ["country_name", "__from", "__to"],
+"32": ["__from", "__to"]
+},
 }`
 
 The slices 324, 65 and 92 are not affected by any filter.

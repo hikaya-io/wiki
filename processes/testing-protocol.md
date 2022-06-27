@@ -24,4 +24,3 @@ We perform end-to-end testing on all our applications. The E2E automated test ar
   * _NB: We use mailsurp to test mail notification. Update the `mailslurp_inbox` env variable with our inbox id_
 * Dots ATCs
 * Circles ATCs
-

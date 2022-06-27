@@ -46,4 +46,3 @@ Deploying to `Production` - 7:30 AM EAT every Wednesday
 
 * \(if you run migrations, from your personal branch, and the migration files are not on dev, remember to undo!!!\)
 * And yes, if your code has been merged to dev, you test it, and realize that you need to fix something, you'll have to make a new PR. Dev is protected against during push/force push. So the only way to get your code there is through a PR.
-

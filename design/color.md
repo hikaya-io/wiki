@@ -19,8 +19,6 @@ description: 'Last updated: 20200605'
 | ![\#333333](https://placehold.it/20/333333/000000?text=+) | $dark-body-grey | `#333333` | ![\#CCCCCC](https://placehold.it/20/CCCCCC/000000?text=+) | $light-body-grey  | `#CCCCCC` |
 | ![\#737581](https://placehold.it/20/737581/000000?text=+) | $info-color  | `#737581` |  |  |  |
 
-
-
 ## Secondary palette \(DEP\)
 
 |  | Color | Hex | Fill | Hex |

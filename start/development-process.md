@@ -55,7 +55,6 @@ We follow a typical checklist before we ship new features:
  ✅Release notes updated.  
  ✅Deploy to `production`.  
 
-
 ### Planning
 
 Before each Milestone, we will prioritize features to implement and bugs to fix in the upcoming iteration. `Bugs` and `Defects` are assigned to a sprint for the iteration and include steps to reproduce and `current and expected behaviors`. For new features, we create `Tasks` and include `Acceptance Criteria`.
@@ -69,10 +68,10 @@ We use the following definitions to track our issues:
 #### Bug Report
 
 > **Current behavior**  
->  _A clear and concise description of what the bug is._
+> _A clear and concise description of what the bug is._
 >
 > **Expected behavior**  
->  _A clear and concise description of what you expected to happen._
+> _A clear and concise description of what you expected to happen._
 >
 > **To Reproduce:**
 >
@@ -85,15 +84,15 @@ We use the following definitions to track our issues:
 > ```
 >
 > **Screenshots**  
->  _If applicable, add screenshots to help explain your problem._
+> _If applicable, add screenshots to help explain your problem._
 
 #### Feature Request
 
 > **Is your feature request related to a problem? Please describe.**  
->  _A clear and concise description of what the problem is._
+> _A clear and concise description of what the problem is._
 >
 > **Acceptance Criteria**  
->  _A clear and concise description of how to ensure the feature request is met._
+> _A clear and concise description of how to ensure the feature request is met._
 
 ```text
 GIVEN I am a logged in user
@@ -106,7 +105,7 @@ THEN I expect this to happen..
 ```
 
 > **Additional context**  
->  _Add any other context or screenshots about the feature requests._
+> _Add any other context or screenshots about the feature requests._
 
 #### Definition of Done
 
@@ -138,7 +137,7 @@ We use _\*Github Labels_ to describe the task card including its priority and co
 | `8` | Very complex task |
 
 > **Story point estimation**  
->  Story points are used to estimate the effort needed for each task. We try to avoid using time estimates and a more useful measurement for team capacity is the effort needed and then complexity of a task.
+> Story points are used to estimate the effort needed for each task. We try to avoid using time estimates and a more useful measurement for team capacity is the effort needed and then complexity of a task.
 
 | Story Point | Complexity reference |
 | :--- | :--- |
@@ -176,7 +175,7 @@ Before every sprint, we archived all issues in the `Done` columns and add issue 
 
 > **Note:**
 >
-> * At the beginning of every milestone, we include all items in the `To do` stage and move them over as we go. 
+> * At the beginning of every milestone, we include all items in the `To do` stage and move them over as we go.
 > * At the end of a milestone, any issues in `To do` or `In Progress` need to be moved over to the next sprint \(if still relevant\) or turned into new issues.
 
 #### Triage
@@ -208,10 +207,9 @@ We perform QA testing when features are merged from `develop` to `staging`. We u
 We use 3 main branches in all our repositories :
 
 `dev` \(or `Develop`\): all bug fixes, defects, and tasks.  
-`Feature` or `preview` branches: 
+`Feature` or `preview` branches:
 `staging`: QA testing environment  
 `main`: production environment  
-
 
 > **Note:**
 >
@@ -271,4 +269,3 @@ We'll continue updating this section as our product matures and more standards a
 
 * Code submitted in a PR should be free of linting issues and adhere to `PEP8` standards.
 * The project uses `Flake8` for python code linting.
-

@@ -125,11 +125,11 @@ Once your user has SSH access (make sure to verify that in a separate session), 
 
 > WIP scripts/tools to have at-hand in the droplet for self-auditing
 
-https://github.com/jtesta/ssh-audit/
+<https://github.com/jtesta/ssh-audit/>
 
 ### References
 
-- https://github.com/imthenachoman/How-To-Secure-A-Linux-Server
+- <https://github.com/imthenachoman/How-To-Secure-A-Linux-Server>
 - [Awesome Security Hardening](https://github.com/decalage2/awesome-security-hardening)
 
 ## Kubernetes clusters
@@ -141,7 +141,7 @@ After creating a DO K8s cluster, it comes with one K8s superuser that authentica
 1. Enable remote user authentication
 2. Authorizing using RBAC
 3. Manage permissions using SAs
-4. setup Admission Controllers: https://kubernetes.io/docs/reference/access-authn-authz/admission-controllers/
+4. setup Admission Controllers: <https://kubernetes.io/docs/reference/access-authn-authz/admission-controllers/>
 
 1. Control access to the K8s API
 2. Control access to the Kubelet

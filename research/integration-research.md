@@ -49,7 +49,7 @@ Identify necessary aspects to test and the scope of each, summarise into test ca
 
 Implement test cases using PyTest and [NiPy API](https://nipyapi.readthedocs.io/en/latest/readme.html) library.
 
-### Proposed Extension Milestones:
+### Proposed Extension Milestones
 
 ### Deploy NiFi Registry
 
@@ -79,7 +79,7 @@ Apache Nifi is a visual data pipeline tool where developers/ business analysts c
 
 On the other hand, Apache Airflow is a tool used to author, monitor, and schedule workflows. These workflows can be jobs that periodically run like an email responder or a data flow model etc. Airflow uses DAGs to connect different tasks together which when scheduled to run on intervals like 5min, daily or yearly, etc. Tasks can be authored as _**BashScripts**_\_ _or_ _\*\*\_PythonScripts_\*\*. These tasks can be joined to run serially, parallelly, or conditionally. There is also an option to set up retry or fail when the whole job when on task on the DAG fails. Airflow is designed to be authored by someone with programming knowledge and operated by anyone using the visual UI which comes out of the box with airflow.
 
-#### Task example:
+#### Task example
 
 ```text
 **get_projects_from_api_task = PythonOperator(**
@@ -141,6 +141,5 @@ The files are then inserted into the mongo DB using PutMongoRecord processor.
                                                                          | Apache provides basic [<u>documentation</u>](https://nifi.apache.org/docs.html) on the setup and usage of NiFi. But the best documentation comes from Hortonworks which has several [<u>articles</u>](https://hortonworks.com/apache/nifi/) on utilizing NiFi (since it is a key component of their offering). Additionally, since NiFi is an open source project, there are numerous [<u>threads</u>](https://stackoverflow.com/questions/tagged/apache-nifi) for different NiFi questions on Stack Overflow.                                                                                                                                     |
 ```
 
-\| **Monitoring** \| OIC has a built in dashboard to see Integration job health and monitoring. Additionally, email alerting can be set up as well. \| NiFi does not have a built in monitoring dashboard for scheduled jobs. Error handling and email alerting needs to be set up and configured manually.   
+\| **Monitoring** \| OIC has a built in dashboard to see Integration job health and monitoring. Additionally, email alerting can be set up as well. \| NiFi does not have a built in monitoring dashboard for scheduled jobs. Error handling and email alerting needs to be set up and configured manually.
  Additionally, separate monitoring should be set up on the server that NiFi is hosted on to detect if the NiFi process ever goes down or if memory on the server fills up. \| \| **Team Needs** \| Low level of technical skills required due to the different UIs that OIC provides to obfuscate the technical implementation. Additionally, there are multiple video walkthroughs that can be followed for different integrations. \| Low to mid level of technical skills required. In particular, NiFi installation and setup on a server requires technical skills. NiFi processor configuration can offer a large amount of options which can also be technically intimidating at first. However, having pre-existing examples can make this easier. \| \| **Price** \| $1,000+ / month \| NiFi is free and open source. Minimal costs to host a cloud server with basic NiFi use cases.
-

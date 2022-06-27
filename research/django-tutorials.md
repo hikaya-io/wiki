@@ -17,9 +17,9 @@ Git commands: [https://dev.to/dhruv/essential-git-commands-every-developer-shoul
 2. Add `on_delete` property to every model
    * Done for foreign-key attribute
 3. Conform the codebase to Pep8 standards 1. `Change 1. if conditions : if value == (!=) None to`if value is None\`\(is not\) 1. If conditions with brackets, clean True/verification 1. Reduce lines length 1. Change functions/variables names 1. Change dictionaries declaration
-   * Done 
+   * Done
 4. Add python interpreter and format tags in all scripts
-   * Done 
+   * Done
 5. Changes : 1. Simplify conditions 1. Indicators sql prob \(Cast value to decimal\) 1. Change **unicode** methods to **str** 1. Change tola\_user to activity\_user in views
    * Done
 
@@ -32,4 +32,3 @@ Change documentation \(tola to activity\)
 1. Identify and remove all unused methods, models, signals etc
    1. Deleted cosign app \(djangocosign\)
 2. Add unit tests and end to end tests
-

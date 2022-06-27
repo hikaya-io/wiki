@@ -25,6 +25,7 @@ CSRF token and requests session?
 ### General API usage
 
 [SurveyCTO API documentation](https://support.surveycto.com/hc/en-us/articles/360033156894?flash_digest=d76dde7c3ffc40f4a7f0ebd87596d32f3a52304f):
+
 - Fetching wide JSON data from API
 - Fetching data in CSV format
 - Fetching encrypted forms
@@ -121,6 +122,7 @@ Must also be noted that some of those forms had prefixes/suffixes with special c
 ### Get details of a form
 
 Details of a form include, among others:
+
 - Fields: names, captions in all supported languages, data types
 - SurveyCTO Quality Checks implemented on the form
 - Submissions counters
