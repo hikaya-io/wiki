@@ -22,4 +22,3 @@ Requirements:
   * ![&amp;lt;u&amp;gt;https://www.rostrum.blog/2018/06/26/mail-merge/&amp;lt;/u&amp;gt;](https://www.rostrum.blog/2018/06/26/mail-merge/)
   * ![&amp;lt;u&amp;gt;https://github.com/matt-dray/mail-merge-2018&amp;lt;/u&amp;gt;](https://github.com/matt-dray/mail-merge-2018)
   * ![&amp;lt;u&amp;gt;https://www.r-bloggers.com/mail-merge-with-rmarkdown/&amp;lt;/u&amp;gt;](https://www.r-bloggers.com/mail-merge-with-rmarkdown/)
-

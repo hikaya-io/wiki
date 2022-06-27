@@ -243,4 +243,3 @@ Superset has the following default roles:
 * **Gamma**: The gamma role is for users who need permissions to view and create charts and dashboards. These users will need customized roles that give them read permissions on data sources. Data source access only gives them view permissions on charts and dashboards, without any ability to alter them. But, they can create new charts for permitted data sources.
 * **sql\_lab**: The sql\_lab role grants access to SQL Lab. Note that while `Admin` users have access to all databases by default, both `Alpha` and `Gamma` users need to be given access on a per database basis.
 * **Public**: This role is used for unregistered users. By default, the public role has no permissions.
-

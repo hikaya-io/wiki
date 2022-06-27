@@ -1,4 +1,4 @@
-### Kubernetes
+# Kubernetes
 
 Hikaya uses [DigitalOcean Kubernetes (DOKS)](https://www.digitalocean.com/docs/kubernetes/), a managed Kubernetes service that lets you deploy Kubernetes clusters without the complexities of handling the control plane and containerized infrastructure. 
 
@@ -10,21 +10,24 @@ DigitalOcean Kubernetes provides administrator access to the cluster and full ac
 
 - Integration with `block storage` volumes is charged at the same rate as volumes.
 
-**Activity**
+## Activity
+
 - `activity-production`
 - `activity-dev`
 
-**Dots**
+## Dots
+
 Production
+
 - `dots-production`
 - `dots-mongo-production`
 - `dots-backend-dev`
 
-### Access
+## Access
 
 To access our Kubernetes cluster you must use the token used to create. The databases can be access if you have DO admin access and can be retrieved over the console.
 
-```
+```bash
 doctl auth init -t <auth_token>
 doctl -t <auth_token> 
 kubernetes cluster kubeconfig save <name_of_cluster>
@@ -32,4 +35,3 @@ kubernetes cluster kubeconfig save <name_of_cluster>
 
 - The first command lets the digital ocean cli tool authenticate and verify the token.
 - The second one sets the `kubectl` current context to the one of the cluster needed. Kubectl helps run interact with the K8s cluster, `kubectx` helps switch between contexts without re-authenticating if  you have done it before. 
-

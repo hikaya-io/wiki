@@ -16,7 +16,7 @@
 * Swagger
 * RabbitMQ
 
-## Standalone systems:
+## Standalone systems
 
 * DHIS2
 * Activity CE
@@ -24,7 +24,7 @@
 * OpenEMIS \(No code found\)
 * Kobo
 
-## Data Collection:
+## Data Collection
 
 * Kobo
 * ONA
@@ -33,7 +33,7 @@
 * Gather \(by Aether\)
 * RapidPro: ![&amp;lt;u&amp;gt;https://app.rapidpro.io/&amp;lt;/u&amp;gt;](https://app.rapidpro.io/)
 
-## mHealth:
+## mHealth
 
 * OpenSRP
 * OpenMRS
@@ -41,7 +41,7 @@
 * OpenCVRS
 * mSpray
 
-## Data streaming and preprocessing:
+## Data streaming and preprocessing
 
 * Apache Spark
 * Apache Kafka
@@ -49,7 +49,7 @@
 * Apache NIFI \(Data Ingestion\)
 * Apache Airflow
 
-## Visualisation:
+## Visualisation
 
 * Apache Superset
 * Metabase

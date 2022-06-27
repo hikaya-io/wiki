@@ -12,8 +12,10 @@ _Updated as of November 03, 2020_
 |[**lwf-ubuntu-development**](https://cloud.digitalocean.com/droplets/215625509/graphs?i=a59f89)|:interrobang: +TSJVm1qnoil5LC4FCyujJYfeB5CJ unknown<br><br>:interrobang: +YnhST unknown<br><br>:white_check_mark: @TAnas0: bob@bob<br><br>:white_check_mark: @ninetteadhikari: ninetteadhikari@Ninettes-MBP|client|Data collection tool hosting for Colombia|
 
 ### Updating existing droplets
+
 * As new members join or leave the team the `.ssh/authorized_keys` file need to updated to add/remove their SSH keys. The above table will also be updated with the new member list.
 * The `.ssh/authorized_keys` file can be accessed by one of the existing members.
+
 ``` bash
 ssh root@droplet-ip-address
 cd .ssh
@@ -28,7 +30,9 @@ exit
 ```
 
 ### New droplets
+
 * Add a new user with sudo
+
 ``` bash
 adduser jane
 id jane
@@ -39,6 +43,7 @@ id jane
 ```
 
 * Login with the new user and add ssh key of the user
+
 ``` bash
 ssh root@droplet-ip-address
 cd /home/jane
@@ -52,6 +57,7 @@ cat authorized_keys
 ```
 
 * Disable root password login
+
 ```
 # login with new user
 ssh jane@droplet-ip-address
@@ -65,6 +71,7 @@ PasswordAuthentication no
 ```
 
 * Reload sshd service
+
 ``` bash
 sudo systemctl reload sshd
 ```

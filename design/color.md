@@ -111,4 +111,3 @@ description: 'Last updated: 20200605'
 | ![\#FAD239](https://placehold.it/20/FAD239/000000?text=+) | $yellow-light | `#FAD239` |
 | ![\#FBDC65](https://placehold.it/20/FBDC65/000000?text=+) | $yellow-lighter | `#FBDC65` |
 | ![\#FCE691](https://placehold.it/20/FCE691/000000?text=+) | $yellow-very-light | `#FCE691` |
-

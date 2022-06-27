@@ -229,6 +229,7 @@ They can lead to conflicts in table/columns names:
 Partially because of these limitations, it is recommended to use [Pandas to-sql method](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.to_sql.html) to dump data into the DB.
 
 For other operations, use [SQLAlchemy](https://docs.sqlalchemy.org/) and [SQLALchemy Core](https://docs.sqlalchemy.org/en/14/core/)
-# Links
+
+## Links
 
 [Overview of SurveyCTO types](https://docs.surveycto.com/02-designing-forms/01-core-concepts/03a.field-types-text.html)

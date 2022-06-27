@@ -12,4 +12,3 @@
 | Alyle UI | ![https://alyle.io/](https://alyle.io/) | 25 | 2.07 | Will: Regular | Will: Good | 45 | 4 | 14 | 9 | 12 | 4 | 2 | MIT |
 | Atomize Design System | ![http://atomizedesign.com/](http://atomizedesign.com/) | 100+ | 12 |  |  |  |  |  |  |  |  |  |  |
 | Collection of Design Systems | ![https://designsystemsrepo.com/tools/](https://designsystemsrepo.com/tools/) |  |  |  |  |  |  |  |  |  |  |  |  |
-
