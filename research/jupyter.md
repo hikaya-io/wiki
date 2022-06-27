@@ -14,24 +14,24 @@ helper functions \(py file\): [https://drive.google.com/file/d/1cLKwvVMt6fuY3Zwf
    1. Pandas
       1. Very powerful library for creating and manipulating tables of data
       2. Can read/write data from many standard sources - CSV, Excel, JSON, SQL, etc.
-      3. API reference: ![&amp;lt;u&amp;gt;http://pandas.pydata.org/pandas-docs/stable/api.html&amp;lt;/u&amp;gt;](http://pandas.pydata.org/pandas-docs/stable/api.html)
+      3. API reference: ![&amp;lt;u&amp;gt;https://pandas.pydata.org/pandas-docs/stable/api.html&amp;lt;/u&amp;gt;](https://pandas.pydata.org/pandas-docs/stable/api.html)
    2. Numpy
       1. Library for array math and manipulation
       2. Many useful functions for performing operations on columns of Pandas dataframes
-      3. API reference: ![&amp;lt;u&amp;gt;http://docs.scipy.org/doc/numpy-1.10.0/reference/&amp;lt;/u&amp;gt;](http://docs.scipy.org/doc/numpy-1.10.0/reference/)
+      3. API reference: ![&amp;lt;u&amp;gt;https://docs.scipy.org/doc/numpy-1.10.0/reference/&amp;lt;/u&amp;gt;](https://docs.scipy.org/doc/numpy-1.10.0/reference/)
    3. Scikit-learn
       1. Library containing many machine learning algorithms
       2. May be useful down the line as we start working with bigger datasets and identify use cases for higher-level analysis and predictive modeling
-      3. API reference: ![&amp;lt;u&amp;gt;http://scikit-learn.org/stable/modules/classes.html&amp;lt;/u&amp;gt;](http://scikit-learn.org/stable/modules/classes.html)
+      3. API reference: ![&amp;lt;u&amp;gt;https://scikit-learn.org/stable/modules/classes.html&amp;lt;/u&amp;gt;](https://scikit-learn.org/stable/modules/classes.html)
    4. Requests
       1. Used for pulling data from Tola REST APIs or other REST APIs
-      2. API reference: [http://docs.python-requests.org/en/master/](http://docs.python-requests.org/en/master/)
+      2. API reference: [https://docs.python-requests.org/en/master/](https://docs.python-requests.org/en/master/)
 2. Visualization
    1. Bokeh
       1. Generates interactive HTML charts and graphs
       2. Large number of chart types supported by simple bokeh.charts API
       3. Like for the overall appearance of charts, zoom in/out/pan/resize capacity, and pop ups on hover over features
-      4. API reference: ![&amp;lt;u&amp;gt;http://bokeh.pydata.org/en/latest/docs/reference.html&amp;lt;/u&amp;gt;](http://bokeh.pydata.org/en/latest/docs/reference.html)
+      4. API reference: ![&amp;lt;u&amp;gt;https://bokeh.pydata.org/en/latest/docs/reference.html&amp;lt;/u&amp;gt;](https://bokeh.pydata.org/en/latest/docs/reference.html)
    2. Folium
       1. Mapping library build off of leaflet.js
       2. Creates nice interactive maps
@@ -44,9 +44,9 @@ helper functions \(py file\): [https://drive.google.com/file/d/1cLKwvVMt6fuY3Zwf
 1. Analysis
 2. Visualization
    1. Chart.js
-      1. API reference: ![&amp;lt;u&amp;gt;http://www.chartjs.org/docs/&amp;lt;/u&amp;gt;](http://www.chartjs.org/docs/)
+      1. API reference: ![&amp;lt;u&amp;gt;https://www.chartjs.org/docs/&amp;lt;/u&amp;gt;](https://www.chartjs.org/docs/)
    2. Leaflet.js
-      1. API reference: ![&amp;lt;u&amp;gt;http://leafletjs.com/reference.html&amp;lt;/u&amp;gt;](http://leafletjs.com/reference.html)
+      1. API reference: ![&amp;lt;u&amp;gt;https://leafletjs.com/reference.html&amp;lt;/u&amp;gt;](https://leafletjs.com/reference.html)
 
 ### R
 
