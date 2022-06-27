@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/hikaya-io/wiki#readme",
   "devDependencies": {
+    "v-dialogs": "^2.2.0",
     "vuepress": "^1.9.7"
   }
 }
