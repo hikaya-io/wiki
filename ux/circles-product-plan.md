@@ -168,7 +168,7 @@ There are two key approaches to developing APIs. These are Code First and Design
 
 With the deadline of 6th of September, below are some of the Endpoints and functionalities that should be ready and tested until then.
 
-#### Models:
+#### Models
 
 1. Auth User
 2. Hikaya User \(Core User\)
@@ -189,7 +189,7 @@ Bonus:
 2. _Indicator Library_
 3. _Objective_
 
-#### Functionalities:
+#### Functionalities
 
 1. _AuthUser \_creation,  \_CoreUser_  creation,  Authentication and Permission control for the registered user\(s\).
 2. All CRUD operations for the above models
@@ -256,7 +256,7 @@ Bonus:
 
 **Development Timelines & Deliverables**
 
-## MVP \(01/11/2019\):
+## MVP \(01/11/2019\)
 
 ### Deliverables
 
@@ -283,7 +283,7 @@ Bonus:
 6. Will Ceolin
 7. William Mulli
 
-### Agenda:
+### Agenda
 
 1. Feedback on UI library research - _Angular-Material_
 2. Decision on which Library to go for - _Collective agreement_
@@ -295,7 +295,7 @@ Bonus:
 1. Circles FE skeleton and set-up - _Peter and Will_
 2. UI/UX updates - Ninette - to set up Figma and invite Ivy
 
-### Meeting Notes:
+### Meeting Notes
 
 * Team decided on Angular Material for UI Library \(All\)
 * First epic: build reusable UI components; all tickets are added to Jira \(new project = Circles\) \(Andrew\)
@@ -351,4 +351,3 @@ Part 2 \(7.35p.m to end\)
 * Next Meeting and Agenda
   * Settle on a UI tool
   * Plan the app development
-

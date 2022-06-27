@@ -175,10 +175,10 @@ You have to modify the values of the variables POSTGRES\_USER, POSTGRES\_PASSWOR
 
 To change the color of a chart:
 
-`{    
-"label_colors": {    
-"Girls": "#FF69B4",    
-"Boys": "#ADD8E6"    
+`{
+"label_colors": {
+"Girls": "#FF69B4",
+"Boys": "#ADD8E6"
 }`
 
 * After saving it you can edit it anytime in the Dashboards section.
@@ -201,13 +201,13 @@ To change the color of a chart:
 
 Example :
 
-`{    
-"filter_immune_slices": [324, 65, 92],    
-"expanded_slices": {},    
-"filter_immune_slice_fields": {    
-"177": ["country_name", "__from", "__to"],    
-"32": ["__from", "__to"]    
-},    
+`{
+"filter_immune_slices": [324, 65, 92],
+"expanded_slices": {},
+"filter_immune_slice_fields": {
+"177": ["country_name", "__from", "__to"],
+"32": ["__from", "__to"]
+},
 }`
 
 The slices 324, 65 and 92 are not affected by any filter.
@@ -243,4 +243,3 @@ Superset has the following default roles:
 * **Gamma**: The gamma role is for users who need permissions to view and create charts and dashboards. These users will need customized roles that give them read permissions on data sources. Data source access only gives them view permissions on charts and dashboards, without any ability to alter them. But, they can create new charts for permitted data sources.
 * **sql\_lab**: The sql\_lab role grants access to SQL Lab. Note that while `Admin` users have access to all databases by default, both `Alpha` and `Gamma` users need to be given access on a per database basis.
 * **Public**: This role is used for unregistered users. By default, the public role has no permissions.
-

@@ -6,7 +6,7 @@ Here we present the **Connectors** roadmap for the next 6-12 months. This includ
 
 **Annotation reference:**
 
-|Icon|Description| 
+|Icon|Description|
 |--|--|
 |⚫️|Work not started|
 |🏃|Working on|
@@ -41,4 +41,3 @@ Here we present the **Connectors** roadmap for the next 6-12 months. This includ
 #### Accessibility
 
 #### Exporations
-

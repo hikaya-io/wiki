@@ -7,7 +7,7 @@ We want to help nonprofits tell their stories through data and the use of open s
 ## Our values
 
 * We’re inspired by the values of companies like Basecamp, Buffer, and GitLab.
-* We believe in cultivating a culture of curiosity and innovation at the workplace. 
+* We believe in cultivating a culture of curiosity and innovation at the workplace.
 * We empower our teams to follow their passion through ownership of work and responsibilities.
 * We value openness and honesty at the core of building strong relationships.
 * We strive for quality over perfection to deliver workable solutions.
@@ -22,4 +22,3 @@ We want to help nonprofits tell their stories through data and the use of open s
   * Build on open standards to enable collaboration and contribution
 
 ![](https://github.com/hikaya/wiki/tree/ccc5bc2a36efd74ec633eff4a9812768a0f2950f/assets/agile.jpg?raw=true) Source​: [Henrik Knilberg](https://blog.crisp.se/2016/01/25/henrikkniberg/making-sense-of-mvp)
-

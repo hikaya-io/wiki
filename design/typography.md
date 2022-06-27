@@ -172,4 +172,3 @@ $main-font-family: 'Lato', san-serif;
   }
 }
 ```
-

@@ -59,7 +59,6 @@ helper functions \(py file\): [https://drive.google.com/file/d/1cLKwvVMt6fuY3Zwf
    1. ggplot2
       1. Used for most data visualizations in R \(has a python equivalent: ![&amp;lt;u&amp;gt;https://github.com/yhat/ggplot&amp;lt;/u&amp;gt;](https://github.com/yhat/ggplot)\)
    2. Hh
-      1. Another common data viz package for more detailed chart types: ![&amp;lt;u&amp;gt;https://cran.r-project.org/web/packages/HH/index.html&amp;lt;/u&amp;gt;](https://cran.r-project.org/web/packages/HH/index.html) 
+      1. Another common data viz package for more detailed chart types: ![&amp;lt;u&amp;gt;https://cran.r-project.org/web/packages/HH/index.html&amp;lt;/u&amp;gt;](https://cran.r-project.org/web/packages/HH/index.html)
    3. Lattice
-      1. Focused on multivaries data viz: ![&amp;lt;u&amp;gt;https://cran.r-project.org/web/packages/lattice/index.html&amp;lt;/u&amp;gt;](https://cran.r-project.org/web/packages/lattice/index.html) 
-
+      1. Focused on multivaries data viz: ![&amp;lt;u&amp;gt;https://cran.r-project.org/web/packages/lattice/index.html&amp;lt;/u&amp;gt;](https://cran.r-project.org/web/packages/lattice/index.html)

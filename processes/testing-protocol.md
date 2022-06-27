@@ -6,6 +6,7 @@
 
 We aim to maintain a high level of test coverage for all our source code. Our standards are:
 
+<!-- Explain aimed percentage -->
 * Over 95% for all backend code
 * Over 90% for all frontend code
 
@@ -23,4 +24,3 @@ We perform end-to-end testing on all our applications. The E2E automated test ar
   * _NB: We use mailsurp to test mail notification. Update the `mailslurp_inbox` env variable with our inbox id_
 * Dots ATCs
 * Circles ATCs
-
