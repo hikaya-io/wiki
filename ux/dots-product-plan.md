@@ -66,9 +66,9 @@ We would like to develop a set of analytic tools that humanitarian organizations
 6. Connect the new database to the business intelligence tool
 7. Once connect, perform data cleaning procedures
    1. Check for duplicates, missing values, outliers
-8. Create new charts and tables that can visualize the data 
+8. Create new charts and tables that can visualize the data
 9. Add the charts and tables to a dashboard
-10. Publish the dashboard so it can be shared publicly 
+10. Publish the dashboard so it can be shared publicly
 
 ### **2\) Data Cleaning Requirements**
 
@@ -113,7 +113,7 @@ Requirements
 
 1. Pull data from CommCare and Excel and post data to PowerBI for joins and visualization \(Ninette's example\) documentation for CommCare API:![ ](https://confluence.dimagi.com/display/commcarepublic/CommCare+HQ+APIs)![&amp;lt;u&amp;gt;https://confluence.dimagi.com/display/commcarepublic/CommCare+HQ+APIs&amp;lt;/u&amp;gt;](https://confluence.dimagi.com/display/commcarepublic/CommCare+HQ+APIs)
 
-* Ask Ninette for her credentials to get access data:![ ](https://www.dimagi.com/commcare/)![&amp;lt;u&amp;gt;https://www.dimagi.com/commcare/&amp;lt;/u&amp;gt;](https://www.dimagi.com/commcare/) 
+* Ask Ninette for her credentials to get access data:![ ](https://www.dimagi.com/commcare/)![&amp;lt;u&amp;gt;https://www.dimagi.com/commcare/&amp;lt;/u&amp;gt;](https://www.dimagi.com/commcare/)
 * Third-party logins \(sensitive\): ![&amp;lt;u&amp;gt;https://docs.google.com/spreadsheets/d/18DxBb7nVbDng9hGAUfZbYjcuXkRquZzR8fAyUAK7WNk/edit\#gid=0&amp;lt;/u&amp;gt;](https://docs.google.com/spreadsheets/d/18DxBb7nVbDng9hGAUfZbYjcuXkRquZzR8fAyUAK7WNk/edit#gid=0)
 
 1. Pull data from CommCare, Excel, ![&amp;lt;u&amp;gt;Newdea&amp;lt;/u&amp;gt;](https://lutheranworld-my.sharepoint.com/personal/vibol_chan_lutheranworld_org/Documents/Forms/All.aspx?cid=76296ee3-a232-46c8-a676-c567a5460300&FolderCTID=0x0120004FB9D1F7BC6BA4408268ED88DD531D6E&id=%2Fpersonal%2Fvibol_chan_lutheranworld_org%2FDocuments%2FDataExport%2FSource%2FBkp) \(mysql database\), run joins and pivot table analysis. Show data in dashboard and also allow the export of data
@@ -193,4 +193,3 @@ FTP / SFTP Processors
 * ![&amp;lt;u&amp;gt;ListSFTP 1.9.2&amp;lt;/u&amp;gt;](https://nifi.apache.org/docs/nifi-docs/components/org.apache.nifi/nifi-standard-nar/1.9.2/org.apache.nifi.processors.standard.ListSFTP/index.html)
 * ![&amp;lt;u&amp;gt;PutFTP 1.9.2&amp;lt;/u&amp;gt;](https://nifi.apache.org/docs/nifi-docs/components/org.apache.nifi/nifi-standard-nar/1.9.2/org.apache.nifi.processors.standard.PutFTP/index.html)
 * ![&amp;lt;u&amp;gt;PutSFTP 1.9.2&amp;lt;/u&amp;gt;](https://nifi.apache.org/docs/nifi-docs/components/org.apache.nifi/nifi-standard-nar/1.9.2/org.apache.nifi.processors.standard.PutSFTP/index.html)
-

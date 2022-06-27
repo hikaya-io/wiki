@@ -4,7 +4,7 @@ Here we present the **Metrics** roadmap for the next 6-12 months. This includes 
 
 **Annotation reference:**
 
-|Icon|Description| 
+|Icon|Description|
 |--|--|
 |⚫️|Work not started|
 |🏃|Working on|
@@ -15,18 +15,15 @@ Here we present the **Metrics** roadmap for the next 6-12 months. This includes 
 |🔴|Blocked|
 
 ## Goals
+
 [goal statement]
 
 ## Fundamentals
 
-
 ## General app
-
 
 ## Feature #1
 
-
 ## Feature #2
-
 
 ## Feature #3

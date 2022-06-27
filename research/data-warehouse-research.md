@@ -23,7 +23,7 @@ Some of these sources include:
 2. Cost effective and quicker to set up and scale.
 3. Due to their adoption of massively parallel processing \(MPP\) and columnar storage, cloud-based data warehouse architectures can perform complex analytical queries much faster.
 
-## The Data warehouse has 3 basic functional units:
+## The Data warehouse has 3 basic functional units
 
 1. ETL \(Extraction, Transform, and Load\) Unit
 
@@ -87,7 +87,6 @@ Hikaya gives access to data following a Role-Based Access mechanism that is supp
 
 BigQuery provides predefined roles for controlling access to resources. You can also create custom Cloud IAM roles consisting of your defined set of permissions, and then assign those roles to users or groups. You can assign a role to a Google email address or to a G Suite Group.
 
-## References:
+## References
 
 [https://cloud.google.com/solutions/bigquery-data-warehouse](https://cloud.google.com/solutions/bigquery-data-warehouse)
-

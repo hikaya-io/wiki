@@ -60,4 +60,3 @@ Provide a free, hosted version of Activity that allows humanitarian organization
 **Activity API:**
 
 [https://drive.google.com/file/d/1sfLU-5yHjvOIPp1AN8\_\_aa7O6l8xWpyS/view?usp=sharing](https://drive.google.com/file/d/1sfLU-5yHjvOIPp1AN8__aa7O6l8xWpyS/view?usp=sharing)
-

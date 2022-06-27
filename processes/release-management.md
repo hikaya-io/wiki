@@ -7,7 +7,7 @@ Our typical release process looks like this:
 1. Update `dev` branch and deploy to `[application-name]-dev` after every Pull Request via CI/CD
 2. Update `staging` branch and deploy to `[application-name]-staging` on every Wednesday
 3. Unit tests and end-to-end testing on `[application-name]-staging` Thursday - Monday
-4. Update `master` branch and deploy to `production` at the end of every 2nd week \(the following Monday\)
+4. Update `main` branch and deploy to `production` at the end of every 2nd week \(the following Monday\)
 
 ![image.png](https://storage.googleapis.com/slite-api-files-production/files/17c024be-774a-4540-a33c-34fc3dc07ca3/image.png)
 
@@ -46,4 +46,3 @@ Deploying to `Production` - 7:30 AM EAT every Wednesday
 
 * \(if you run migrations, from your personal branch, and the migration files are not on dev, remember to undo!!!\)
 * And yes, if your code has been merged to dev, you test it, and realize that you need to fix something, you'll have to make a new PR. Dev is protected against during push/force push. So the only way to get your code there is through a PR.
-

@@ -4,7 +4,7 @@ Here we present the **Grid** roadmap for the next 6-12 months. This includes hig
 
 **Annotation reference:**
 
-|Icon|Description| 
+|Icon|Description|
 |--|--|
 |⚫️|Work not started|
 |🏃|Working on|
@@ -15,6 +15,7 @@ Here we present the **Grid** roadmap for the next 6-12 months. This includes hig
 |🔴|Blocked|
 
 ## Goals
+
 Provide a secure environment for organizations to deploy and host their applications on.
 
 - Ensure best practices in IT application security are being followed
@@ -23,15 +24,17 @@ Provide a secure environment for organizations to deploy and host their applicat
 - A library of pre-configured applications that can be deployed on to your own cloud hosted infrastructure.
 
 ## Fundamentals
+
 - Research all the steps needed to deploy a secure environment
 - Research which applications to pre-configure for hosting in an organization's environment
 - Research how closely can we integrate with various cloud providers (e.g. user account set up, billing, etc.)
-    - [DigitalOcean API](https://developers.digitalocean.com/documentation/v2/#introduction)
-    - [Azure](https://docs.microsoft.com/en-us/azure/cloud-services/)
-    - [AWS](https://docs.aws.amazon.com/)
-    - [GCP](https://cloud.google.com/docs)
+  - [DigitalOcean API](https://developers.digitalocean.com/documentation/v2/#introduction)
+  - [Azure](https://docs.microsoft.com/en-us/azure/cloud-services/)
+  - [AWS](https://docs.aws.amazon.com/)
+  - [GCP](https://cloud.google.com/docs)
 
 ## General app
+
 - 🏃Ability to register/login to an account
 - 🏃Ability to create a workspace
 - 🏃Ability to invite new users
@@ -39,36 +42,40 @@ Provide a secure environment for organizations to deploy and host their applicat
 - 🌲Ability to sign in to your cloud provider account (DO, Azure, AWS, GCP)
 
 ## Hosting management
+
 - 🌲Ability to view all resources currently used (broken down by VM/K8 clusters and databases)
 - 🌲Ability to view a summary of all costs for resources
 - 🔵🚀Ability to add a domain to be managed by your cloud provider
 
 ## Monitoring
+
 - 🌲Ability to view alerts / maintenance notifications
 - Ability to filter by alert metric
-    - CPU
-    - Bandwidth
-    - Disk
-    - Memory Utilization
-    - Disk Utilization
+  - CPU
+  - Bandwidth
+  - Disk
+  - Memory Utilization
+  - Disk Utilization
 - 🚀Ability to view logs from each app
 - Ability to set up email notifications based on alert
 - Ability to set up slack / MS Team notifications based on alert
 
 ## App library
+
 - Ability to search for a pre-configured app
 - 🌲Ability to filter by tags
 - 🌲Ability to create/view a description page for the app
-    - App icon
-    - Author
-    - Version
-    - Description
-    - Software included (Repo and license links)
-    - Getting started after deploy
-    - Support details (documentation links)
+  - App icon
+  - Author
+  - Version
+  - Description
+  - Software included (Repo and license links)
+  - Getting started after deploy
+  - Support details (documentation links)
 - 🌲Ability to create environment using a stepper
 
 ## POC (July-August 2020)
+
 - Set up a secure environment
 - Deploy 3 client apps on hosted environment
 - Add simple monitoring on environment
@@ -81,7 +88,7 @@ Provide a secure environment for organizations to deploy and host their applicat
 ### 1) What is the typical user flow to deploy an app from the App Library?
 
 1. Select the app (from app library)
-2. Select the repo where to fork app source code 
+2. Select the repo where to fork app source code
 3. Select the hosting provider
 4. Select one of the suggested resource tiers
     - Choose a plan (Basic, General Purpose, CPU-Optimized, Memory-Optimized)

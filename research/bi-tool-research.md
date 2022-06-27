@@ -25,7 +25,7 @@ Superset is our recommended tool for these reasons:
 
 ![https://storage.googleapis.com/slite-api-files-production/files/6e6fb91f-e0d7-450d-9a6f-b2d04667c6d9/null](https://storage.googleapis.com/slite-api-files-production/files/6e6fb91f-e0d7-450d-9a6f-b2d04667c6d9/null)
 
-**Key Features** 
+**Key Features**
 
 * An intuitive interface to explore and visualize datasets, and create interactive dashboards;
 * A wide array of beautiful visualizations to showcase your data \(30 types of visualizations\);
@@ -296,7 +296,7 @@ _Like Superset, no connectors to Google analytics and else._
 
 * No instant connector to Chargebee and Properwork
 
-## Grow:
+## Grow
 
 * 8x Faster Implementation
 * 150+ Instant Integrations \( Google Analytics,..\)
@@ -319,4 +319,3 @@ Cloud Data Platforms:
 ## Stitch
 
 ## Segment
-
