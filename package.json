@@ -1,7 +1,7 @@
 {
   "name": "wiki",
   "version": "1.0.0",
-  "description": "![](.gitbook/assets/Hikaya_icon_color.png)",
+  "description": "",
   "main": "README.md",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
