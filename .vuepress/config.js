@@ -1,5 +1,6 @@
 module.exports = {
-  head: [["link", { rel: "icon", href: "/logo.png" }]],
+  title: "Hikaya Wiki",
+  head: [["link", { rel: "icon", href: "/assets/logo.png" }]],
   port: 8888,
   themeConfig: {
     logo: "",
