@@ -1,9 +1,5 @@
 <template>
   <div class="login-form">
-    <div class="form-header">User Name</div>
-    <div>
-      <input type="text" class="form-control" v-model="username">
-    </div>
     <div class="form-header">Password</div>
     <div>
       <input type="password" class="form-control" v-model="password">
@@ -21,13 +17,12 @@
 export default {
   data () {
     return {
-      username: '',
       password: ''
     }
   },
   methods: {
     login () {
-      if (this.username && this.password) {
+      if (this.password) {
         const data = JSON.stringify({
           name: this.username,
           time: new Date().getTime()
@@ -37,14 +32,10 @@ export default {
           this.$emit('close', true)
         }
         else {
-          this.$dlg.alert('Wrong credentials', {
-            messageType: 'warning'
-          })
+          console.warn("Wrong credentials")
         }
       } else {
-        this.$dlg.alert('Please complete the content', {
-          messageType: 'warning'
-        })
+        console.warn("Please fill the form")
       }
     }
   }
