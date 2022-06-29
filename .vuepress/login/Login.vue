@@ -24,10 +24,9 @@ export default {
     login () {
       if (this.password) {
         const data = JSON.stringify({
-          name: this.username,
           time: new Date().getTime()
         })
-        if(this.password === "password") {
+        if(this.password === process.env.PASSWORD) {
           window.localStorage.setItem("auth", data)
           this.$emit('close', true)
         }
