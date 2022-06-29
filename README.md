@@ -1,5 +1,7 @@
 ---
-sidebar: auto
+home: true
+heroImage: https://s3.hikaya.io/hikaya/hikaya-wordmark-logo-banner.png
+heroText: Hikaya title
 ---
 # Introduction
 

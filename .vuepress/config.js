@@ -5,7 +5,7 @@ module.exports = {
   head: [["link", { rel: "icon", href: "/assets/logo.png" }]],
   port: 8888,
   themeConfig: {
-    logo: "",
+    logo: "https://s3.hikaya.io/hikaya/hikaya-logo.svg",
     nav: [
       { text: "Home", link: "/" },
       {
