@@ -1,3 +1,6 @@
+---
+sidebar: auto
+---
 # Introduction
 
 ![](assets/Hikaya_icon_color.png)
