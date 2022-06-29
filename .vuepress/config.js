@@ -1,3 +1,5 @@
+const webpack = require('webpack')
+
 module.exports = {
   title: "Hikaya Wiki",
   head: [["link", { rel: "icon", href: "/assets/logo.png" }]],
@@ -25,6 +27,9 @@ module.exports = {
       { text: "Team", link: "/team/who-are-we" },
     ],
   },
-  //   locales: [],
-  //   shouldPrefetch: []
+  configureWebpack: (config) => {
+    return { plugins: [
+      new webpack.EnvironmentPlugin({ ...process.env })
+    ]}
+  }
 };
