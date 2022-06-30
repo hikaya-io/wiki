@@ -1,6 +1,6 @@
-# Customer Support Handbook
+# User Support Handbook
 
-## **Customer support tools 🛠**
+## **Support tools 🛠**
 
 _The tools we use for customer support._
 

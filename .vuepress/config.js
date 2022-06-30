@@ -1,7 +1,7 @@
 const webpack = require('webpack')
 
 module.exports = {
-  title: "Hikaya Wiki",
+  title: "Wiki",
   head: [["link", { rel: "icon", href: "/assets/logo.png" }]],
   port: 8888,
   themeConfig: {
@@ -9,27 +9,47 @@ module.exports = {
     nav: [
       { text: "Home", link: "/" },
       {
-        text: "Our processes",
+        text: "Design",
         items: [
-          { text: "Customer Support", link: "/processes/customer-support-handbook" },
-          { text: "Dots Entreprise", link: "/processes/dots-entreprise-plan" },
-          { text: "Dots", link: "/processes/dots-subscription" },
-          { text: "Onboarding", link: "/processes/onboarding" },
-          { text: "Product Template", link: "/processes/product-template" },
-          { text: "Release Management", link: "/processes/release-management" },
-          { text: "Roadmap Template", link: "/processes/roadmap-template" },
-          { text: "Testing Protocol", link: "/processes/testing-protocol" },
+          { text: "Principles", link: "../design/principles.md" },
+          { text: "Typography", link: "../design/typography.md" },
+          { text: "Color", link: "../design/color.md" },
+          { text: "Wordmark", link: "../design/logo.md" },
         ],
       },
       {
-        text: "Roadmaps",
+        text: "Process",
         items: [
-          { text: "Activity", link: "/start/roadmap/activity-roadmap" },
-          { text: "Circles", link: "/start/roadmap/connectors-roadmap" },
-          { text: "Dots", link: "/start/roadmap/dots-roadmap" },
+          { text: "Development Process", link: "../process/development-process" },
+          { text: "Onboarding", link: "../process/onboarding" },
+          { text: "Release Management", link: "../process/release-management" },
+          { text: "Testing Protocol", link: "../process/testing-protocol" },
+          { text: "User Support", link: "../process/support-handbook" },
         ],
       },
-      { text: "Team", link: "/team/who-are-we" },
+      {
+        text: "Roadmap",
+        items: [
+          { text: "Activity", link: "../roadmap/activity-roadmap" },
+          { text: "Connectors", link: "../roadmap/connectors-roadmap" },
+          { text: "Dots", link: "../roadmap/dots-roadmap" },
+          { text: "Grid", link: "../roadmap/grid-roadmap" },
+        ],
+      },
+      {
+        text: "Product",
+        items: [
+          { text: "Dots Enterprise", link: "../product/dots-enterprise-plan" },
+          { text: "Dots", link: "../product/dots-subscription" },
+        ],
+      },
+      {
+        text: "About",
+        items: [
+          { text: "Team", link: "../team/who-are-we" },
+          { text: "How we work", link: "../team/how-we-work"},
+        ]
+      }
     ],
   },
   configureWebpack: (config) => {
