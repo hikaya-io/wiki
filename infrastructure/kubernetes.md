@@ -40,3 +40,13 @@ kubernetes cluster kubeconfig save <name_of_cluster>
 
 For the databases, their credentials can be inspected from the DigitalOcean website.
 
+## Organisation of clusters
+
+Hikaya's Kubernetes clusters are mainly organised into two clusters: `development` and `production` clusters.
+
+These clusters contain multiple deployments, which can be separated into:
+
+- Application deployments: Dots, Activity... and other Hikaya apps
+- System deployments: Nginx Ingress, Cert Manager, Sealed Secrets... and other configuration and system components
+
+For dettails informations about the system components, please check out
