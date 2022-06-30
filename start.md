@@ -1,6 +1,6 @@
 # Getting Started 🏡
 
-Welcome to our Company Wiki! Here you can find out more about what we're working on and how we like to work.
+Welcome to our Company Wiki! Here you can find out more about what we're working on and how we like to work. 
 
 * [Development Process](process/development-process.md)
 * [How our products fit together](roadmap/)
