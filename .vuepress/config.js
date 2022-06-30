@@ -1,5 +1,4 @@
 const webpack = require('webpack')
-require('dotenv').config()
 
 module.exports = {
   title: "Hikaya Wiki",
@@ -29,10 +28,8 @@ module.exports = {
     ],
   },
   configureWebpack: (config) => {
-    return {
-      plugins: [
-        new webpack.EnvironmentPlugin({ ...process.env })
-      ],
-    }
+    return { plugins: [
+      new webpack.EnvironmentPlugin({ ...process.env })
+    ]}
   }
 };
