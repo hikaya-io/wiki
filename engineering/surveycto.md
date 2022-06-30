@@ -17,10 +17,11 @@ TODO what this exactly means
 
 ### Authentication
 
-Using username and password
-Basicauth header
+Using SurveyCTO username and password. A Basicauth header? is built and attached to all requests.
 
-CSRF token and requests session?
+For the initial authentication, a CSRF token will be needed. This token is fetched from the login page and used to initiate a session.
+
+> In the SurveyCTO server, make sure that the user used has a role that enables `Allow server API access`.
 
 ### General API usage
 
