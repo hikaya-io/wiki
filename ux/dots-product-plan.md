@@ -109,7 +109,7 @@ Requirements
 
 1. Pull data from two Kobo forms and merge data together and post data as a merged table
 
-* Sign up for a kobo account \(![&amp;lt;u&amp;gt;https://kf.kobotoolbox.org&amp;lt;/u&amp;gt;](https://kf.kobotoolbox.org/)\) and I'll give you access to forms that have submitted data. Kobo API documentation:![ ](http://support.kobotoolbox.org/managing-your-project-s-data/api-and-rest-services)![&amp;lt;u&amp;gt;http://support.kobotoolbox.org/managing-your-project-s-data/api-and-rest-services&amp;lt;/u&amp;gt;](http://support.kobotoolbox.org/managing-your-project-s-data/api-and-rest-services)
+* Sign up for a kobo account \(![&amp;lt;u&amp;gt;https://kf.kobotoolbox.org&amp;lt;/u&amp;gt;](https://kf.kobotoolbox.org/)\) and I'll give you access to forms that have submitted data. Kobo API documentation:![ ](https://support.kobotoolbox.org/managing-your-project-s-data/api-and-rest-services)![&amp;lt;u&amp;gt;https://support.kobotoolbox.org/managing-your-project-s-data/api-and-rest-services&amp;lt;/u&amp;gt;](https://support.kobotoolbox.org/managing-your-project-s-data/api-and-rest-services)
 
 1. Pull data from CommCare and Excel and post data to PowerBI for joins and visualization \(Ninette's example\) documentation for CommCare API:![ ](https://confluence.dimagi.com/display/commcarepublic/CommCare+HQ+APIs)![&amp;lt;u&amp;gt;https://confluence.dimagi.com/display/commcarepublic/CommCare+HQ+APIs&amp;lt;/u&amp;gt;](https://confluence.dimagi.com/display/commcarepublic/CommCare+HQ+APIs)
 

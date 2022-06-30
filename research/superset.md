@@ -12,7 +12,7 @@ See what Superset can do for you and how to implement it.
 
 ## Example
 
-![](../.gitbook/assets/superset.png)
+![](../assets/superset.png)
 
 ## What is Superset?
 

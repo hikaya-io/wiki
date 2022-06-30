@@ -1,0 +1,30 @@
+{
+  "name": "wiki",
+  "version": "1.0.0",
+  "description": "",
+  "main": "README.md",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vuepress dev",
+    "build": "vuepress build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hikaya-io/wiki.git"
+  },
+  "keywords": [
+    "wiki",
+    "docs",
+    "documentation"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hikaya-io/wiki/issues"
+  },
+  "homepage": "https://github.com/hikaya-io/wiki#readme",
+  "devDependencies": {
+    "v-dialogs": "^2.2.0",
+    "vuepress": "^1.9.7"
+  }
+}
