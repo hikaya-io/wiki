@@ -9,11 +9,16 @@ module.exports = {
     nav: [
       { text: "Home", link: "/" },
       {
-        text: "Products",
+        text: "Our processes",
         items: [
-          { text: "Activity", link: "/products/activity-product-plan" },
-          { text: "Circles", link: "/products/circles-product-plan" },
-          { text: "Dots", link: "/products/dots-product-plan" },
+          { text: "Customer Support", link: "/processes/customer-support-handbook" },
+          { text: "Dots Entreprise", link: "/processes/dots-entreprise-plan" },
+          { text: "Dots", link: "/processes/dots-subscription" },
+          { text: "Onboarding", link: "/processes/onboarding" },
+          { text: "Product Template", link: "/processes/product-template" },
+          { text: "Release Management", link: "/processes/release-management" },
+          { text: "Roadmap Template", link: "/processes/roadmap-template" },
+          { text: "Testing Protocol", link: "/processes/testing-protocol" },
         ],
       },
       {
