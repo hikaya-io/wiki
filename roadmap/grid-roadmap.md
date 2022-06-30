@@ -81,7 +81,7 @@ Provide a secure environment for organizations to deploy and host their applicat
 - Add simple monitoring on environment
 - User portal with login and simple monitoring dashboard
 
-![](../../assets/20200723_grid_concept.png)
+![](../assets/20200723_grid_concept.png)
 
 ## Questions
 
