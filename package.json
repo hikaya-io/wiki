@@ -5,7 +5,7 @@
   "main": "README.md",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "vuepress dev",
+    "dev": "PASSWORD=password vuepress dev",
     "build": "vuepress build"
   },
   "repository": {
@@ -26,5 +26,8 @@
   "devDependencies": {
     "v-dialogs": "^2.2.0",
     "vuepress": "^1.9.7"
+  },
+  "dependencies": {
+    "@hikaya/hakawati": "^0.1.93"
   }
 }

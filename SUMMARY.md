@@ -4,15 +4,15 @@
 
 ## Start
 
-* [Getting Started](start/start.md)
-* [Roadmap](start/roadmap/README.md)
-  * [Activity Roadmap](start/roadmap/activity-roadmap.md)
-  * [Circles Roadmap](start/roadmap/circles-roadmap.md)
-  * [Dots Roadmap](start/roadmap/dots-roadmap.md)
-  * [Grid Roadmap](start/roadmap/grid-roadmap.md)
-  * [Tables Roadmap](start/roadmap/tables-roadmap.md)
-  * [Enterprise Roadmap](start/roadmap/enterprise-roadmap.md)
-* [Development Process](start/development-process.md)
+* [Getting Started](start.md)
+* [Roadmap](roadmap/README.md)
+  * [Activity Roadmap](roadmap/activity-roadmap.md)
+  * [Circles Roadmap](roadmap/circles-roadmap.md)
+  * [Dots Roadmap](roadmap/dots-roadmap.md)
+  * [Grid Roadmap](roadmap/grid-roadmap.md)
+  * [Tables Roadmap](roadmap/tables-roadmap.md)
+  * [Enterprise Roadmap](roadmap/enterprise-roadmap.md)
+* [Development Process](process/development-process.md)
 
 ## Design
 

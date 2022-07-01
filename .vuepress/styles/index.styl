@@ -1,0 +1,61 @@
+/**
+ * Custom Styles here.
+ *
+ * ref：https://v1.vuepress.vuejs.org/config/#index-styl
+ */
+
+//  @require "~@hikaya/hakawati/src/styles/theme.scss"
+
+// home page
+
+.home .hero img
+  max-width 100%!important
+  padding: 0
+
+.home .hero .action-button
+  background-color: #6633FF !important
+
+// global markdown theme
+
+.theme-default-content
+  padding-left: 5rem !important
+  padding-right: 5rem !important
+
+.theme-default-content a:hover
+  color: #6633FF;
+
+.theme-container.md-padding .page
+  padding: 10% 10% 10% 15%;
+
+.theme-container.md-padding .page .footer
+  margin-top: 20%;
+  position: relative;
+  width: 133%;
+  margin-left: -20%;
+
+// sidebar
+
+.theme-container.sidebar-class .page
+  padding-top: 5%;
+
+.theme-container.sidebar-class .page .theme-default-content
+  padding-left: 10% !important;
+  padding-right: 10% !important;
+
+.theme-container.sidebar-class h2
+  border-bottom: 3px solid #F4F5FC;
+  margin-bottom: 1rem;
+
+.theme-container.sidebar-class h3
+  margin-bottom: 1rem;
+
+.theme-container.sidebar-class a:hover
+  color: #6F65FA;
+  text-decoration: none !important
+
+// iPhone settings
+@media only screen and (max-width: 428px) {
+  .theme-container.md-padding .page {
+    padding: 20% 10% 10% 15%;
+  }
+}

@@ -52,7 +52,7 @@ export default {
   .btn
     padding 0.6rem 2rem
     outline none
-    background-color #60C084
+    background-color #6633FF
     color white
     border 0
   .form-header
