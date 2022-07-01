@@ -26,5 +26,8 @@
   "devDependencies": {
     "v-dialogs": "^2.2.0",
     "vuepress": "^1.9.7"
+  },
+  "dependencies": {
+    "@hikaya/hakawati": "^0.1.93"
   }
 }

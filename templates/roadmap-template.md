@@ -1,29 +1,45 @@
-# Product Roadmap 2020 🗺️
+# Roadmap Template
 
-Here we present the **app-name** roadmap for the next 6-12 months. This includes high level goals and features we would like to introduce during this period.
+_Roadmap Template - For use in roadmap planning_
+
+## Product Roadmap 2020 🗺️
+
+Here we present the **\[application\]** roadmap for the next 3-6 months. This includes goals and feature sets we would like to introduce during this period.
 
 **Annotation reference:**
 
-|Icon|Description|
-|--|--|
-|⚫️|Work not started|
-|🏃|Working on|
-|✅|Work completed|
-|🚀|Stretch goal|
-|🌲|High priority|
-|🔵|More research required to remove uncertainty|
-|🔴|Blocked|
+| Icon | Description |
+| :--- | :--- |
+| ⚫️ | Work not started |
+| 🏃 | Working on |
+| ✅ | Work completed |
+| 🚀 | Stretch goal |
+| 🌲 | High priority |
+| 🔵 | More research required to remove uncertainty |
+| 🔴 | Blocked |
 
-## Goals
+### Goals
 
-[goal statement]
+### Fundamentals
 
-## Fundamentals
+### \[Feature 1\]
 
-## General app
+### \[Feature 2\]
 
-## Feature #1
+### \[Feature 3\]
 
-## Feature #2
+### Deployment
 
-## Feature #3
+### Documentation
+
+### Testing
+
+### Engineering
+
+### Login/Sign Up
+
+### UX
+
+### Accessibility
+
+### Exporations

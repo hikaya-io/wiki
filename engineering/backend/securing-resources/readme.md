@@ -1,4 +1,4 @@
-# LWF CO/VN Droplet
+# Securing resources
 
 ## Principles
 
