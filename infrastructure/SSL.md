@@ -19,11 +19,13 @@ by a Certificate Authority that it recognizes. This option is only suitable for 
 For a DO droplet hosting a web app, it is highly recommended to serve the web app behind a proper web server, such as Nginx or Apache.
 Currently, the entire process of obtaining, installing and renewing a certificate with Let's Encrypt is fully automated on both Apache and Nginx.
 
-To bind a droplet's public IP address to a domain name:
+<!-- To bind a droplet's public IP address to a domain name:
 
 - Update the domain registrar to point to DigitalOcean DNS servers (leave this step to last if the domain is already in use to avoid downtime)
-- Adding the domain name to Hikaya's DigitalOcean account in Networking --> Domains
-- Create a DNS record for the domain: for a droplet, an [A DNS record](https://www.cloudflare.com/learning/dns/dns-records/dns-a-record/) that links the domain/subdomain to the droplet's IP address must be created.
+- Adding the domain name to Hikaya's DigitalOcean account in Networking 
+- Create a DNS record for the domain: for a droplet, an [A DNS record](https://www.cloudflare.com/learning/dns/dns-records/dns-a-record/) that links the domain/subdomain to the droplet's IP address must be created. -->
+
+Make sure to first bind the [droplet's public IP to a domain name](./DNS.md#droplet).
 
 After doing so, you can get a certificate by configuring your droplet depending on the web server you chose to use:
 
@@ -32,7 +34,7 @@ After doing so, you can get a certificate by configuring your droplet depending 
 
 ## SSL for K8s clusters
 
-> WIP
+Please see [kubernetes/system/cert-manager.md](./kubernetes/system/cert-manager.md)
 
 ## References
 
