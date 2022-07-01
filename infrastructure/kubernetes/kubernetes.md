@@ -44,9 +44,18 @@ For the databases, their credentials can be inspected from the DigitalOcean webs
 
 Hikaya's Kubernetes clusters are mainly organised into two clusters: `development` and `production` clusters.
 
-These clusters contain multiple deployments, which can be separated into:
+These clusters contain multiple deployments, which can be separated into `System` and `Application` components.
 
-- Application deployments: Dots, Activity... and other Hikaya apps
-- System deployments: Nginx Ingress, Cert Manager, Sealed Secrets... and other configuration and system components
+This separation also takes effect when organising the YAML specification files for these resources.
+It's a GitOps best practices to separate system and application components into different repos.
+
+### System components
+
+This is all the system tools and deployments, auxiliary to the Apps themselves, and ensure the cluster runs smoothly. With our APIs setup, we mainly need Nginx as an Ingress, and Cert Manager to manage certificates.
+
+For detailed informations about the system components, installation and configuration, please check out:
+
+- [Nginx Ingress](./system/nginx-ingress.md)
+- [Cert Manager](./system/cert-manager.md)
 
 For dettails informations about the system components, please check out
