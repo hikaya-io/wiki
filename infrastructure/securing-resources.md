@@ -38,6 +38,8 @@ For details on configuration: [Automatic Security Updates and Alerts](https://gi
 
 For `apt-listchanges`, you can configure it through its wizard: `sudo dpkg-reconfigure apt-listchanges`
 
+> Keep in mind that auto-upgrades can cause some of your services to break on the update. So be careful.
+
 #### User accounts
 
 **Goal:** separate concerns and have better logs by creating separate user accounts
@@ -88,7 +90,7 @@ First, lets limit SSH usage to only a handful of users. To do so, create a users
 We will configure SSH to only allow connections from the users that belong to the `sshusers` group. This way we can allow/deny a Ubuntu user SSH usage by simply adding/removing from this users group.
 This can be done using the `AllowGroups` SSH option in the configuration file as such:
 
-```
+```txt
 AllowGroups sshusers
 ```
 
@@ -134,23 +136,7 @@ Once your user has SSH access (make sure to verify that in a separate session), 
 
 ## Kubernetes clusters
 
-> WIP How to secure K8s clusters
-
-After creating a DO K8s cluster, it comes with one K8s superuser that authenticates through a predefined DO bearer token. This comes with security risks.
-
-1. Enable remote user authentication
-2. Authorizing using RBAC
-3. Manage permissions using SAs
-4. setup Admission Controllers: <https://kubernetes.io/docs/reference/access-authn-authz/admission-controllers/>
-
-1. Control access to the K8s API
-2. Control access to the Kubelet
-
-### References
-
-- [Recommended Steps to Secure a DigitalOcean Kubernetes Cluster](https://www.digitalocean.com/community/tutorials/recommended-steps-to-secure-a-digitalocean-kubernetes-cluster)
-- [Official K8s documentation for securing a Cluster](https://kubernetes.io/docs/tasks/administer-cluster/securing-a-cluster/)
-- [Awesome Kubernetes Security](https://github.com/ksoclabs/awesome-kubernetes-security)
+> Please see [kubernetes/security](./kubernetes/security.md)
 
 ## Managed databases
 
