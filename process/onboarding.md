@@ -1,4 +1,6 @@
-## General
+# General
+
+_UPDATED: 20200701_
 
 - Get preferred email and github username of each contributor
 - Invite to [Slack](https://hikaya-io.slack.com) (as _member_ role)

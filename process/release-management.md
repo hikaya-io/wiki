@@ -1,5 +1,7 @@
 # Release Management
 
+_UPDATED: 20200701_
+
 ## Process
 
 Our typical release process looks like this:

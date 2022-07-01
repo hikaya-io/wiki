@@ -1,5 +1,7 @@
 # User Support Handbook
 
+_UPDATED: 20200701_
+
 ## **Support tools 🛠**
 
 _The tools we use for customer support._

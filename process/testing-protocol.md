@@ -1,5 +1,7 @@
 # Testing Protocol
 
+_UPDATED: 20200701_
+
 ![image.png](https://storage.googleapis.com/slite-api-files-production/files/464978cc-fcfe-42a9-81c7-31f435bc8d4d/image.png)
 
 ## Test Coverage

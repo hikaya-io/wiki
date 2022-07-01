@@ -21,6 +21,7 @@ module.exports = {
         text: "Process",
         items: [
           { text: "Development Process", link: "../process/development-process" },
+          { text: "Domain Management", link: "../process/domain-management" },
           { text: "Onboarding", link: "../process/onboarding" },
           { text: "Release Management", link: "../process/release-management" },
           { text: "Testing Protocol", link: "../process/testing-protocol" },
