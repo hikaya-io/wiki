@@ -26,4 +26,5 @@ _Our workflow & process to handle bugs._
 
 _Our workflow & process to handle user feature requests._
 
-![](https://github.com/hikaya/wiki/tree/ccc5bc2a36efd74ec633eff4a9812768a0f2950f/assets/user_support_flow.png?raw=true)
+## Add user support workflow
+![]()

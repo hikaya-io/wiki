@@ -75,20 +75,20 @@ module.exports = {
             items: [
               { text: "PRD", link: "/product/dots/requirements/" },
               { text: "Roadmap", link: "/product/dots/roadmap/" },
-              { text: "Enterprise Support", link: "/product//dots/enterprise/" },
+              { text: "Enterprise Support", link: "/product/dots/enterprise/" },
               { text: "Plans", link: "/product/dots/plans/" },
             ]
           },
           { 
             text: "Grid",
             items: [
-              { text: "Roadmap", link: "/product/grid/roadmap" },
+              { text: "Roadmap", link: "/product/grid/roadmap/" },
             ]
           },
           { 
             text: "Metrics",
             items: [
-              { text: "Roadmap", link: "/product/metrics/roadmap" },
+              { text: "Roadmap", link: "/product/metrics/roadmap/" },
             ]
           },
         ],
@@ -110,7 +110,7 @@ module.exports = {
       {
         text: "About",
         items: [
-          { text: "Team", link: "/about/who-are-we/" },
+          { text: "Team", link: "/about/team/" },
           { text: "How we work", link: "/about/how-we-work/" },
           { text: "Housekeeping", link: "/about/housekeeping/" },
         ]

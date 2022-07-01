@@ -21,4 +21,6 @@ We want to help nonprofits tell their stories through data and the use of open s
   * Promote data literacy in the products we design
   * Build on open standards to enable collaboration and contribution
 
-![](https://github.com/hikaya/wiki/tree/ccc5bc2a36efd74ec633eff4a9812768a0f2950f/assets/agile.jpg?raw=true) Source​: [Henrik Knilberg](https://blog.crisp.se/2016/01/25/henrikkniberg/making-sense-of-mvp)
+![](https://s3.hikaya.io/blog/developing-in-iterations-and-feedback.svg) 
+
+Source​: [Henrik Knilberg](https://blog.crisp.se/2016/01/25/henrikkniberg/making-sense-of-mvp)

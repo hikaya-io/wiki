@@ -1,13 +1,12 @@
 ---
 title: Housekeeping
-description: page description
-lang: en-US
+description:
 canonicalUrl: 
 sidebar: 
 pageClass:
-next:
 prev:
+next:
 ---
-# Housekeeping readme
+# Housekeeping
 
-## description
+## House rules

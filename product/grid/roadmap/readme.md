@@ -16,6 +16,8 @@ Here we present the **Grid** roadmap for the next 6-12 months. This includes hig
 
 ## Goals
 
+![](/assets/20200723_grid_concept.png)
+
 Provide a secure environment for organizations to deploy and host their applications on.
 
 - Ensure best practices in IT application security are being followed
@@ -81,7 +83,6 @@ Provide a secure environment for organizations to deploy and host their applicat
 - Add simple monitoring on environment
 - User portal with login and simple monitoring dashboard
 
-![](../assets/20200723_grid_concept.png)
 
 ## Questions
 
