@@ -14,7 +14,7 @@ Nginx comes with several benefits:
 
 ## Installation
 
-For installing Nginx, check out this [detailed guide](https://kubernetes.github.io/ingress-nginx/deploy/). It covers everything from Helm installation, Kubectl installation to different cloud providers and bare-metal servers.
+For installing Nginx, check out this [detailed guide](https://kubernetes.github.io/ingress-nginx/deploy/). It covers the various ways to do so, from Helm installation, Kubectl installation to different cloud providers and bare-metal servers.
 
 ## Nginx in Kubernetes
 
@@ -35,3 +35,21 @@ Most of Nginx configuration is specified using a [Kubernetes ConfigMap object](h
 This includes, but is not limited to: logs formats and levels, timeouts, HTTP headers, SSL, compression...
 
 For an exhaustive list, check out the [Helm package configuration options](https://kubernetes.github.io/ingress-nginx/user-guide/nginx-configuration/configmap/#configuration-options).
+
+> TODO configuration of specific apps to be exposed (endpoints)
+
+### Nginx K8s resources
+
+Once installed, a Kubernetes service of type `LoadBalancer` will be created. This service exposes ports `80` and `443`. It also has an external IP address that will be used to configure your domains.
+
+A Kubernetes deployment called the controller will also be created, along with its pods.
+
+> Please note that all of the above is configurable during installation
+
+For each app that Nginx is serving, a Kubernetes `Endpoint` will be created to point to the internal host and port of the app.
+
+### Pitfalls
+
+When updating Nginx, the `LoadBalancer` service will be regenerated, and this means that a new public IP address will be assigned to it.
+
+<!-- TODO explain how to do it without downtime, or with the least downtime possible -->
