@@ -58,4 +58,7 @@ For detailed informations about the system components, installation and configur
 - [Nginx Ingress](./system/nginx-ingress.md)
 - [Cert Manager](./system/cert-manager.md)
 
-For dettails informations about the system components, please check out
+### Application components
+
+These are Hikaya developed apps. For frontend components, we always prefer using a dedicated service for hosting such as Netlify or Vercel.
+This means that in clusters, we'll often have APIs, databases (Postgres, Redis...), task queues (Celery).
