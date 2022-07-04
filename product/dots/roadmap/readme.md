@@ -54,7 +54,7 @@ _UPDATED: 20210113_
 - ✅Ability to invite user via email to join a workspace (with user invite email sent)
 - ✅Ability to reset your password (with reset password email sent)
 - ✅Ability to create a workspace
-- 🌲Ability to select your country(s) for map display to default on
+- ✅Ability to select your country(s) for map display to default on
 - ✅Ability to add admin details in your workspace settings
 - ✅Ability to add user details in your user profile settings
 - ✅Ability to be able to toggle between your workspaces you are part of
@@ -63,7 +63,7 @@ _UPDATED: 20210113_
 
 ---
 
-# Dots Product Roadmap 2020 🗺️
+# Dots Product Roadmap 2022 🗺️
 
 **Dots** is a modern visualization and reporting tool to help nonprofits connect their data from various sources to visualize and make results reporting easier.
 
@@ -173,7 +173,7 @@ Here we present the **Dots** roadmap for the next 6-12 months. This includes hig
 - ✅Setup internationalization.
 - 🏃Identify screens that need to be optimized for mobile.
 
-#### Exporations
+#### Explorations
 
 - 🏃Identify what endpoints we would like to turn into microservices.
 - ⚫️Explore what parts of the application should be able to cache offline.
