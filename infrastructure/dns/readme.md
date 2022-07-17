@@ -35,3 +35,7 @@ To bind a droplet's public IP address to a domain name:
 
 This configuration step comes after setting up the Nginx Ingress. Nginx will create a [Kubernetes Service](https://kubernetes.io/docs/concepts/services-networking/service/) with a public facing IP. The requests going to this address will be reverse proxied to your Kubernetes deployments.
 This IP address will need to be linked to a host, especially before setting SSL. Since Cert Manager uses Let's Encrypt, it does [not allow issuing certificate for IP adresses](https://community.letsencrypt.org/t/ssl-on-a-ip-instead-of-domain/90635).
+
+## DNS for DO Spaces
+
+Spaces do not require any specific DNS configuration. If you want to serve your assets from a different domain, see [How to Enable the Spaces CDN](https://docs.digitalocean.com/products/spaces/how-to/enable-cdn/).
