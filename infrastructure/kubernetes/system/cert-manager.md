@@ -5,7 +5,7 @@ It can issue certificates from [Let's Encrypt](https://letsencrypt.org/), and en
 
 ## Cert Manager in Kubernetes
 
-Our prefered installation method is [using the Helm package](https://cert-manager.io/docs/installation/helm/).
+Our preferred installation method is [using the Helm package](https://cert-manager.io/docs/installation/helm/).
 Please note that certain K8s Custom Resource Definitions are created during the installation, most notably `Issuer`, `ClusterIssuer`, `Certificate` and `CertificateRequest`.
 You can later inspect these K8s resources using the command:
 
