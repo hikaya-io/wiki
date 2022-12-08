@@ -43,13 +43,17 @@ Metrics is being built from the ground up focusing on bridging the gap between h
 ## Project + Portfolio
 
 - ✅ Ability to quick create `project(s)` and add additional project details at a later date
-- 🏃 Ability to view `Project Settings` where project owners/admins can `share project` with a (1) specific member or (2) all members in the workspace
+- 🏃 Ability to view `Project Settings` where project owners/admins can
+  - ✅ Edit project details
+  - 🏃 `share project` with a (1) specific member or (2) all members in the workspace
+  - 🏃 Ability to create `disaggregation` for the project
+  - 🏃🌲 Define a reporting frequency schedule and select indicators that should use the schedule (to create all the scheduled periods when data should be entered)
 - ⚫️ Ability for project members to leave a project
 - ⚫️ Ability to create a `portfolio` folder and move project(s) into them
 - ⚫️🚀 Ability to create a `portfolio indicator` to be used and tracked in every project within the portfolio
 - ⚫️🚀 Ability to create a `indicator library` to list and store commonly used indicators across projects This will support sector specific teams in defining standard indicators and retrieve data for reporting
 
-## Project Configurations
+## Configurations
 
 - ✅ Ability for workspace owners/admins to create/read/update/delete related data for indicators:
   - ✅ `Frequency`
@@ -68,8 +72,7 @@ Metrics is being built from the ground up focusing on bridging the gap between h
   - ⚫️🚀 `Activities` - Allow users to set specific activities that the project will carry out. Activities can have indicators to track their progress such as `output` indicators. The `activities` feature will allow users to set and manage the project's implementation schedule through breaking down their work into tasks.
   - ⚫️ `Indicator tracker`
   - ⚫️ `Activity tracker`
-- 🏃🌲🔵 Ability to create a set of `reporting periods` for each indicator (to create all the scheduled periods when data should be entered)
-- 🏃🌲🔵 Ability to create a set of `disaggregations` for each indicator (to further break down how the data should be entered)
+- 🏃🌲🔵 Ability to create `disaggregations` for each indicator (to further break down how the data should be entered)
 - ⚫️🚀 Ability to create a `calculation library` for common functions based on spreadsheet formulas so power users can create custom formulas for calculating results
 
 ## Bulk import / export
@@ -78,6 +81,7 @@ Metrics is being built from the ground up focusing on bridging the gap between h
 - ⚫️🚀🔵 Ability to import multiple `projects`, `objectives`, `indicators`, and `activities` (in the future all `configuration models`) from a spreadsheet
   - ⚫️🌲 During import, data validation is performed to ensure they match the Metric models
   - ⚫️🚀 During column mapping, with suggestion of what columns are possible to align with based on data type
+- ⚫️🚀🔵 Ability to export a spreadsheet template to help organize users existing data and prepare for migration to Metrics.
 - ⚫️🌲 Ability to link an imported data set (unstructured) to an indicator (indicator data table) as indicator results
   - ⚫️🌲🔵 Ability to keep the indicator results updated based on changes from an imported data set that received auto-updates (Kobo)
 - ⚫️🌲 Ability to make `indicator results` available as a data set to select in map layer creation for visualizing in the `Maps` module.
