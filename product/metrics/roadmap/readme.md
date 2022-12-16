@@ -18,7 +18,7 @@ Here we present the **Metrics** roadmap for the next 6-12 months. This includes 
 
 ## Goals
 
-**Metrics** is an indicator management tool that allows you to define project KPIs then seamlessly link real-time data sets to allow for easy rollup and reporting.
+**Metrics** is an indicator management tool that allows NGOs to manage and track their project KPIs with the ability to use real-time data sets to allow for easy rollup and reporting.
 
 Metrics is being built from the ground up focusing on bridging the gap between how M&E practitioners currently manage their indicator tracking and help them shift to a more digital tool while integrating with efforts being made on the digital data collection front.
 
