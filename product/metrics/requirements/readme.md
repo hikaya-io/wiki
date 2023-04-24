@@ -3,13 +3,13 @@
 | **Target release** | v1.0 |
 | :--- | :--- |
 | **Title** | Metrics |
-| **Last Updated** | 08-Dec-2022 |
+| **Last Updated** | 11-Dec-2022 |
 | **Document status** | Draft |
 | **Document owner** | @andrewtpham |
 
 ## **Goals**
 
-**Metrics** is an indicator management tool that allows you to define project KPIs then seamlessly link real-time data sets to allow for easy rollup and reporting.
+**Metrics** is an indicator management tool that allows NGOs to manage and track their project KPIs with the ability to use real-time data sets to allow for easy rollup and reporting.
 
 Metrics is being built from the ground up focusing on bridging the gap between how M&E practitioners currently manage their indicator tracking and help them shift to a more digital tool while integrating with efforts being made on the digital data collection front.
 
@@ -19,8 +19,14 @@ This is a list of all current needs identified during the user research and syst
 
 ### Configuration
 
-- **Unused configurations.** There are many unused modules that were configured or enabled by default when the system was initially set up and are not being used.
-- **Manual user provisioning.** User management manually managed by the  Admin Configurator and not integrated with any single sign-on tool. 
+#### General
+
+- **Duplicate user roles**. There are user roles that often duplicate access control and it requires clean up and updated procedures on which to use.
+- **Unused configurations**. There are many unused modules that were configured or enabled by default when the system was initially set up and are not being used.
+
+#### Managing users and billing
+
+- **Manual user provisioning.** User management manually managed by the  Admin Configurator and not integrated with any single sign-on tool.
 - **Manual checks to de-provision users.** Admin Configurator must perform periodic checks throughout the year to de-provision users who have not logged in/no longer with the organization. This is a procedure that the Country Program should notify the M&E team when a staff member leaves but this does not occur most of the time.
 - **User license reporting**. User license fees need to be grouped by Country Program so that they can be paid by the County Program. This requires CP approval and following organization procurement procedures.
 - **Internal chargeback procedures**. User license fees are paid as a lump sum to the vendor. This means the M&E team has to perform a check on user licenses by country or project and reconcile costs so that the licenses fees are charged back to the appropriate Country Program
@@ -29,26 +35,43 @@ Duplicate user roles. There are user roles that often duplicate access control a
 
 ### Data input
 
-- **Additional help text for input fields.** Short and concise help text should be added to each field so that users know better what they should enter.
+#### User experience
+
+- **User interface is complex and not intuitive.** A spreadsheet like look and feel will help users navigate through specific fields while supporting bulk creation and edits can create a familiar interface for viewing data.
+- **Limited data validation and creating related data can be unintuitive.** The system will enforce data validation through limiting actions based on data type and create a natural flow on how to create related data in an intuitive way.Additional help text for input fields. Short and concise help text should be added to each field so that users know better what they should enter.
+- **Excessive mandatory fields.** Review what fields should be mandatory for all projects to complete so that it better reflects the need of the project maintainer in updating the system.
+
+#### Data quality
+
 - **Data completeness varies across projects.** There are a number of unused fields that are not always filled out. A review is needed to see which fields remain relevant.
 - **Data quality varies across projects.** This can make it difficult and require additional cross checking to ensure the data is accurate before using.
 - **Manual data quality checks.** Based on demand from Project Approvers and when has time available.
-- **Excessive mandatory fields.** Review what fields should be mandatory for all projects to complete so that it better reflects the need of the project maintainer in updating the system.
+
+#### Bulk import / export
+
 - **Measurement data is managed inside and outside of the system.** Access to timely and up to date information is needed to inform donor reporting, future proposal development and organizational strategy.
+
+#### Calculations and disaggregations
+
 - **Aggregation reporting setup is complex.** This requires additional attention from Project Maintainers to set up reporting on measurement for the project and for cross project reporting.
 
 ### Document upload
 
+#### Creating minimum standards each project should have
+
 - **Mandatory documents uploaded vary across projects.** Documents uploaded by project can vary and there are not easy ways to perform checks on what documents uploaded.
 - **Difficult to tell if the right document is uploaded.** It is not always clear what the document status is for uploaded documents.
-- **Document collaboration and review process is not well supported.** The system is used to share documents for review but tracked changes are difficult to capture in the system.
 - **Saving project files varies across projects.** The quality of documents existing or not vary across projects and requires investigation and asking the project teams.
+
+#### Integration with live documents
+
+- **Document collaboration and review process is not well supported.** The system is used to share documents for review but tracked changes are difficult to capture in the system.
 
 ### Report generation
 
 - **There is no single source of truth for project data.** All projects are not managed in a single place and in a consistent manner.
 - **Project reporting and organizational strategy reporting are considered as two separate reporting channels.** This creates additional work for Project Maintainers to manage both external and internal needs.
-- **Project results and narrative summary are not captured in a single place.** Projects and Country Programs use personalized spreadsheet trackers and various word documents to manage their information.
+- **Project results and narrative summary are not captured in a single place.** Projects and Country Offices use personalized spreadsheet trackers and various word documents to manage their information.
 - **Not all donor reporting needs are supported.** The system supports one standard template and creating/updating templates has some technical challenges and limitations.
 - **Generating reports often faces technical challenges.** Report templates often have formatting issues that require users to spend a lot of time modifying and cleaning up the document format before it can be shared. This occurs any time measurement data is updated. Report generation can often crash the system and require additional time before it is generated and can be downloaded for viewing.
 
@@ -67,14 +90,16 @@ There are four (4) main user personas developed for the scope of Project Data Ma
 
 | Persona Name | Persona Role Description | Typical Staff Positions |
 |---|---|---|
-| Decision maker | Data viewer Staff who require project information and reports to inform business decisions Staff who need to search for information on an ad-hoc basis | Country Rep, Country Management (CMT), Geneva Management (EMT), Department Heads |
-| Project approver | Project reviewer Staff who review and provide feedback on project information Staff who perform quality checks to ensure project information is completed Staff who approve project reports before they are submitted externally | RPC, Program Manager |
+| Decision maker | Data viewer Staff who require project information and reports to inform business decisions Staff who need to search for information on an ad-hoc basis | Country Management, Head Office, Department Heads, Analyst Teams |
+| Project approver | Project reviewer Staff who review and provide feedback on project information Staff who perform quality checks to ensure project information is completed Staff who approve project reports before they are submitted externally | Regional Support staff, Project Manager, M&E Manager |
 | Project maintainer | Input project information, results frameworks, upload documents Staff who enter information on the project Staff who use standard report templates to report internally and externally | Project Officer, Program Coordinator, M&E Officer |
-| Admin configurator | Configure system-wide defaults, manage report templates, user provisioning Staff who review and provide feedback on project information Staff who perform quality checks to ensure project information is completed Staff who approve project reports before they are submitted externally | Regional M&E Advisor, Data Management Team, M&E Support Officer |
+| Admin configurator | Configure system-wide defaults, manage report templates, user provisioning Staff who review and provide feedback on project information Staff who perform quality checks to ensure project information is completed Staff who approve project reports before they are submitted externally | Regional M&E Advisor, Data Management Team, M&E Support Officer, Digital Support staff |
 
 ## User journey map
 
-The user journey map is a diagram used to breakdown the key steps within the Project Data Management solution. These are used to group the identified problems or needs of the users. Then each problem or need has a suggested action on how it can be addressed. Finally, user quotes for successes and opportunities are grouped by each step to provide contextual evidence for what works and what doesn’t in the current system.
+The user journey map is a diagram used to break down the key steps within a full Project Data Management solution with Metrics only focusing on: 1) Configuration, 2) Data Input, and 3) Report Generation. These are used to group the identified problems or needs of the users. Then each problem or need has a suggested action on how it can be addressed. Finally, user quotes for successes and opportunities are grouped by each step to provide contextual evidence for what works and what doesn’t in the current system.
+
+![](../../../assets/20221211_metrics_user_journey_map.png)
 
 ## **User Requirements**
 
@@ -88,38 +113,67 @@ This is an outline of what is captured for each user requirement. See [**User Re
 
 _List project goals and the metrics you'll use to judge its success._
 
+| Step | Goal | Metric |
+|---|---|---|
+| Configuration | All projects are managed in the system | All active project records can be found in the system |
+|  | Users are accessing the system on a frequent basis | Majority of (e.g. 70%) users have logged in in the past 30 days |
+|  | Finance Accounting system is integrated into the system | Finance related project fields such as project budget line items and actual spent is displayed in the system |
+|  | Portfolio indicators and disaggregations are available to projects | Users can add to their project and use for tracking results |
+| Data input | Project fields are relevant and understandable by users | Majority of (e.g. 70%) project fields are completed for active projects |
+|  | M&E plans are managed inside of the system | M&E plan spreadsheets are no longer being used |
+|  | Project Results Framework are aligned with the Portfolio Results Framework  | At least 1 Portfolio indicator is used for every thematic area the project works in |
+|  | Project management features to support data quality are enabled | System history is available for all system users to view |
+|  | Kobo Toolbox is integrated into the system | Standard activity monitoring forms are defined for each country |
+| Document upload | Document review process is integrated into the system | Documents are stored in single place and only a single version is available for editing and tracked changes |
+|  | Document management system is integrated into the system | Uploaded documents are added to SharePoint or SharePoint links are found in the project fields |
+| Report generation | There is a single source of truth for all project data | Project indicator and financial information can be seen in a single dashboard or report |
+|  | Donor report needs are met | X # of donors have report templates that can be generated from the system |
+
 ## Assumptions
 
 _List any assumptions you have about your users, technical constraints, or business goals._
+
+- **Donor report templates**: Donor report templates can either be customized for all major donors or the requirement to use the system to generate the report should be removed.
+- **M&E plan**: There is a desire to shift away from M&E plans managed in spreadsheets and the functionality brought into a digital system.
+- **Finance accounting integration**: Chart of accounts and project budgeting template are clearly defined and procedures to update are in place
+Document management integration: An agreed upon project filing tree is defined and procedures to update are in place.
 
 ## User interaction and design
 
 _Add mockups, diagrams, and screenshots related to the requirements._
 
+### High-level features
+
+![](../../../assets/20221211_metrics_high_level_features.png)
 ### Strategy planning
 
-This diagram should the organizational strategy planning process at key events and documents throughout the process
+This diagram should the organizational strategy planning process at key events and documents throughout the process.
+
+![](../../../assets/20221211_metrics_strategy_workflow.png)
 
 ### Project management
 
 This diagram shows the general project management lifecycle from proposal planning to project closure.
 
+![](../../../assets/20221211_metrics_project_workflow.png)
+
 ### Budgeting process
 
 This diagram shows the budgeting process that occurs at the Country Program and how it links with individual project budgets.
 
-### Existing system user process
-
-This diagram shows tasks completed inside of the existing system by the User Personas as well as User Support related tasks.
+![](../../../assets/20221211_metrics_annual_and_project_budgeting_process.png)
 
 ### Integration with a finance accounting system
 
 This diagram outlines the general process steps for integrating with a finance accounting system and how a “customized integration” with an Enterprise Resource Planning (ERP) system works.
 
+![](../../../assets/20221211_metrics_financial_integration_example.png)
+
 ### Integration with a document management system
 
 This diagram shows the process steps for integrating with a document management system and how an overall “out-of–the-box” integration works.
 
+![](../../../assets/20221211_metrics_document_management_example.png)
 ## Out of scope
 
 _List the features discussed which are out of scope or might be revisited in a later release._
