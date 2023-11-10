@@ -19,3 +19,7 @@ We have a CI/CD process set up for deployment to all our environments. On `devel
 9. Then publish the release for frontend.
 
 After the above steps are finished, deployment to Production should be triggered and completed.
+
+### Note
+
+If you have any new environment variables, please make sure to add them to secrets in GitHub Actions. If the variables are for frontend, you need to add them to Digital Ocean as well.
